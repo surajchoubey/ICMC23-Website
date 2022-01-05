@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Website is deployed here: [](https://surajchoubey.github.io/ICMC23-Website/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
