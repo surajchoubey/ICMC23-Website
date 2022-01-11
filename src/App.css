@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500,700,900');
+
 .App {
   text-align: center;
 }
@@ -49,3 +51,128 @@
   margin-top: 0;
 }
 
+.titleStyle1{
+  text-align:left;
+  height: 64px;
+  
+  font-family: Roboto,sans-serif;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  
+  color: #BDBDBD;
+  }
+  
+.titleStyle2{
+  text-align:left;
+  height: 64px;
+  top: 64px;
+  
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  color: #333333;
+  }
+
+.boxStyle{
+width: 222px;
+height: 71px;
+background: #333333;
+text-align: center;
+line-height: 71px;
+font-family: Roboto,sans-serif;
+font-weight: 300;
+color: #FFFFFF;
+margin-bottom: 30px;
+}
+
+.boxStyle:hover{
+  text-decoration: underline;
+  }
+
+.numStyle{
+width: 104px;
+height: 140.52px;
+position: relative;
+top: 0px;
+
+font-family: Roboto, sans-serif;
+font-weight: 900;
+font-size: 200px;
+line-height: 234px;
+align-items: center;
+color: #F2F2F2;
+}
+
+.textStyle{
+  margin-left: 40px;
+  text-align:left;
+  position: relative;
+  width: 1060px;
+  top: 35px;
+
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #333333;
+}
+
+.tracksTitle{
+position: relative;
+top: 60px;
+
+font-family: Roboto, sans-serif;
+font-weight: 900;
+font-size: 96px;
+line-height: 72px;
+
+display: flex;
+align-items: center;
+color: #F2F2F2;
+}
+
+.tracksStyle{
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start;*/
+  padding: 0 32px;
+  height: 71px;
+  font-family: Roboto,sans-serif;
+  font-weight: 300;
+  background: #FBFBFB;
+  text-align: center;
+  line-height: 71px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+.tracksStyle:hover{
+  background: #333333;
+  color: #FFFFFF;
+}
+
+.speakerName{
+  position: relative;
+  height: 47px;
+  top: 20px;
+  text-align: left;
+  
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 47px;
+  color: #BDBDBD;
+}
+
+.speakerText{
+  position: relative;
+  height: 40px;
+  text-align: left;
+
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #000000;
+}
