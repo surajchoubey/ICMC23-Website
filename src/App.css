@@ -154,9 +154,8 @@ color: #F2F2F2;
 }
 
 .speakerName{
-  position: relative;
   height: 47px;
-  top: 20px;
+  margin-top: 20px;
   text-align: left;
   
   font-family: Roboto, sans-serif;
@@ -167,7 +166,6 @@ color: #F2F2F2;
 }
 
 .speakerText{
-  position: relative;
   height: 40px;
   text-align: left;
 
