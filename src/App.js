@@ -24,10 +24,11 @@ import Contact from './pages/contact';
 import ErrorPage from './pages/errorpage';
 import { Routes, Route } from "react-router-dom";
 import MyNavBar from './layouts/navbar';
+import MyFooter from './layouts/footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{"display": "flex","min-height": "100vh", "flex-direction": "column", "justify-content": "flex-start"}}>
 		<MyNavBar />
 		<Routes>
 			<Route exact path='/ICMC23-Website/' element = {<Home />} />
@@ -53,6 +54,7 @@ function App() {
 			<Route exact path='/ICMC23-Website/contact' element = {<Contact />} />
 			<Route exact path='/ICMC23-Website/*' element = {<ErrorPage />} />
 		</Routes>
+		<MyFooter />
     </div>
   );
 }
