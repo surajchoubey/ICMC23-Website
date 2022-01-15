@@ -1,24 +1,32 @@
 import React from "react";
 
 function Contact() {
-    return(
-        <div class="container my-5">
-            <div class="row py-3">
-                <div class="col py-2">
-                    <h3>For any conference related details:</h3><br/>
-                    <a href="mailto:icef@bits-pilani.goa.ac.in" style={{"text-decoration":"none"}}>icef@bits-pilani.goa.ac.in</a><br/><br/>
-                    For logistic related queries, contact:<br/><br/>
-                    <h2>Mr. X Y Sharma</h2><br/>
-                    Public Relations Officer<br/>
-                    BITS-Pilani, KK Birla Goa Campus<br/><br/>
-                    Phone: <a href="tel:+911234567890" style={{"text-decoration":"none"}}>+91-1234567890</a><br/>
-                    Email: <a href="mailto:ic.pru@goa.bits-pilani.ac.in" style={{"text-decoration":"none"}}>ic.pru@goa.bits-pilani.ac.in</a><br/><br/>
-
-                    <a class="btn btn-primary btn-large" href="https://www.google.com/">Contact the Web Developer</a>
-                </div>
+    return (<div class="container my-5">
+        <div class="row py-3">
+            <div class="col py-2">
+                <section class="section-contact">
+                    <div class="contact-flxbx">
+                        <div class="contact-content">
+                            <h2 class="heading-tertiary">Contact</h2>
+                            <h1 class="heading-primary">Information</h1>
+                            <p class="address">
+                                <strong>Birla Institute of Technology &amp; Science</strong><br/>
+                                NH 17B, Bypass Road, Zuarinagar, Sancoale,<br/>Goa 403726
+                            </p>
+                            <div class="contact-flxbx-2">
+                                <p class="contact-number">0832 258 0101</p>
+                                <p class="contact-email">ssbaral@goa.bits-pilani.ac.in</p>
+                                <div class="black-button">CONTACT US</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="bits-goa-on-gmaps">
+                    </div>
+                </section>
             </div>
         </div>
+    </div>
     );
-}
-
-export default Contact;
+    }
+    
+    export default Contact;

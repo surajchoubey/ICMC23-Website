@@ -1,27 +1,26 @@
 import React from 'react';
-import NavLogo from '../images/bits-pilani.png';
+import NavLogo from '../images/bits-logo.png';
 import { Link } from 'react-router-dom';
 
 function MyNavbar() {
 
 	return (
     <div>
-		<nav class="navbar navbar-dark bg-dark px-3 py-1 navbar-expand-lg sticky-top">
+		<nav class="navbar navbar-light px-3 navbar-expand-lg sticky-top bg-white">
 			<div class="container-fluid">
-				<a class="navbar-brand text-white my-2" href="/ICMC23-Website/">
-				<img src={NavLogo} width="30" height="30" class="d-inline-block align-top p-1" alt="" />
-					<strong>ICMC 2023</strong>
+				<a class="navbar-brand my-2" href="/ICMC23-Website/">
+				<img src={NavLogo} height="80" class="d-inline-block align-top p-1" alt="" />
 				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class='collapse navbar-collapse justify-content-end' id="navbarSupportedContent">
-					<ul class="navbar-nav ml-auto">
+					<ul class="navbar-nav ml-auto main-nav-list container borderXwidth">
 						<li class="nav-item">
-							<Link className='nav-link text-white' data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/'>Home</Link>
+							<Link className='nav-link text-dark' data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/'>Home</Link>
 						</li>
-						<li class="nav-item dropdown bg-dark">
-							<a class="nav-link dropdown-toggle text-white" href='/ICMC23-Website/' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-dark" href='/ICMC23-Website/' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							About
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown" >
@@ -31,13 +30,13 @@ function MyNavbar() {
 							</div>
 						</li>
 						<li class="nav-item">
-							<Link className='nav-link text-white' data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/speakers'>Speakers</Link>
+							<Link className='nav-link text-dark' data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/speakers'>Speakers</Link>
 						</li>
 						<li class="nav-item">
-							<Link className='nav-link text-white' data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/timeline'>Timeline</Link>
+							<Link className='nav-link text-dark' data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/timeline'>Timeline</Link>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle text-white" href='/ICMC23-Website/' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<a class="nav-link dropdown-toggle text-dark" href='/ICMC23-Website/' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Committee
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -47,7 +46,7 @@ function MyNavbar() {
 							</div>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle text-white" href='/ICMC23-Website/' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<a class="nav-link dropdown-toggle text-dark" href='/ICMC23-Website/' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Call for Papers
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -58,7 +57,7 @@ function MyNavbar() {
 							</div>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle text-white" href='/ICMC23-Website/' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<a class="nav-link dropdown-toggle text-dark" href='/ICMC23-Website/' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Registration
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -67,10 +66,10 @@ function MyNavbar() {
 							</div>
 						</li>
 						<li class="nav-item">
-							<Link className='nav-link text-white' data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/pasteditions'>Past Editions</Link>
+							<Link className='nav-link text-dark' data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/pasteditions'>Past Editions</Link>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle text-white" href='/ICMC23-Website/' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<a class="nav-link dropdown-toggle text-dark" href='/ICMC23-Website/' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Venue
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -81,7 +80,7 @@ function MyNavbar() {
 							</div>
 						</li>
 						<li class="nav-item">
-							<Link className='nav-link text-white' data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/contact'>Contact Us</Link>
+							<Link className='nav-link text-dark' data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/contact'>Contact Us</Link>
 						</li>
 					</ul>
 				</div>
