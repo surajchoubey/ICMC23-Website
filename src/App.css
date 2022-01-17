@@ -70,17 +70,23 @@ body {
 /* NAVBAR */
 /* ************************************ */
 
-ul>li a {
+ul>li a,
+a.dropdown-item {
   color: #333;
   text-decoration: none;
   /* font-size: 0.5em; */
   /* letter-spacing: 0.2em; */
+  background-color: white;
   padding: 10px 10px;
   position: relative;
   z-index: 0;
   cursor: pointer;
   font-weight: 300;
   text-transform: uppercase;
+}
+
+a.dropdown-item:hover {
+  background-color: white;
 }
 
 /* Border X get width  */

@@ -25,7 +25,7 @@ function MyFooter() {
                         &nbsp; Dr. Jejati Keshari Sahoo<br/>
                         &nbsp;&nbsp;&nbsp; Organizing Chair<br/>
                         &nbsp;&nbsp;&nbsp; HOD Mathematics<br/>
-                        &nbsp;&nbsp;&nbsp; BITS Pilani KK Birla Goa Campus<br/>
+                        &nbsp;&nbsp;&nbsp; BITS Pilani Goa Campus<br/>
                         </a>
                         </p>
                         <p style={{textAlign: 'start'}}><a style={{textDecoration: 'none'}} href="tel:+919876543210" class="text-white">
