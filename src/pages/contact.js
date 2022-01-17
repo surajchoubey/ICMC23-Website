@@ -6,8 +6,8 @@ function Contact() {
             <div class="col py-2">
                 <section class="section-contact">
                     <div class="contact-flxbx">
-                        <div class="contact-content">
-                            <h2 class="heading-tertiary">Contact</h2>
+                        <div class="contact-content" style={{textAlign: 'start'}}>
+                            <h1 style={{fontWeight: 'lighter', color: 'gray'}}>Contact</h1>
                             <h1 class="heading-primary">Information</h1>
                             <p class="address">
                                 <strong>Birla Institute of Technology &amp; Science</strong><br/>

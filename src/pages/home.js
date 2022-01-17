@@ -69,16 +69,16 @@ function Home() {
                 <div class="container">
                 <h1 style={{textAlign: 'start', fontWeight: 'lighter', color: 'gray'}} class="mb-5">Author's Guidelines</h1>
                     <div class="row justify-content-between">
-                        <div class="col-lg-1 col-md-2 col-sm-3">
+                        <div class="col-lg-1 col-md-2 col-sm-6">
                             <div><h1 style={{fontSize: '600%', color:'gray'}}>1</h1></div>
                         </div>
-                        <div class="col-lg-5 col-md-4 col-sm-9">
+                        <div class="col-lg-5 col-md-4 col-sm-6">
                             <div style={{textAlign: 'start'}}>Each paper must be original and unpublished work, not submitted for publication elsewhere (copyright infringement issues will be the responsibility of the authors). Papers must be written in good English. Accepted submissions may not appear in any other conference or workshop with proceedings.</div>
                         </div>
-                        <div class="col-lg-1 col-md-2 col-sm-3 mt-md-0 mt-sm-4">
+                        <div class="col-lg-1 col-md-2 col-sm-6 mt-md-0 mt-sm-4">
                             <div><h1 style={{fontSize: '600%', color:'gray'}}>2</h1></div>
                         </div>
-                        <div class="col-lg-5 col-md-4 col-sm-9 mt-md-0 mt-sm-4">
+                        <div class="col-lg-5 col-md-4 col-sm-6 mt-md-0 mt-sm-4">
                             <div style={{textAlign: 'start'}}>The submissions must be anonymous, i.e. without author name(s), affiliation(s), acknowledgments, or obvious references. It should begin with a title, a short abstract, and a list of keywords and its introduction should summarize the contributions of the paper</div>
                         </div>
                     </div>

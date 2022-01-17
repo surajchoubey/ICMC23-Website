@@ -9,13 +9,13 @@ function MyNavbar() {
 		<nav class="navbar navbar-light px-3 navbar-expand-lg sticky-top bg-white">
 			<div class="container-fluid">
 				<a class="navbar-brand my-2" href="/ICMC23-Website/">
-				<img src={NavLogo} height="80" class="d-inline-block align-top p-1" alt="" />
+				<img src={NavLogo} height="70" class="d-inline-block align-top p-1" alt="" />
 				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class='collapse navbar-collapse justify-content-end' id="navbarSupportedContent">
-					<ul class="navbar-nav ml-auto main-nav-list container borderXwidth">
+					<ul class="navbar-nav ml-auto main-nav-list container b justify-content-end borderXwidth">
 						<li class="nav-item">
 							<Link className='nav-link text-dark' data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/'>Home</Link>
 						</li>
