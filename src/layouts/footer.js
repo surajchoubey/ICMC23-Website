@@ -10,29 +10,29 @@ function MyFooter() {
                     <div class="col-md-3 col-sm-12">
                         <h5 class="my-3 justify-content-center-md" style={{fontWeight: 'bold', textAlign: 'start'}}>ICMC 2023</h5>
                         <div class="">
-                            <Link style={{textAlign: 'start'}} className='d-sm-flex m-1 text-white' to='/ICMC23-Website/'>Home</Link>
-                            <Link style={{textAlign: 'start'}} className='d-sm-flex m-1 text-white' to='/ICMC23-Website/speakers'>Speakers</Link>
-                            <Link style={{textAlign: 'start'}} className='d-sm-flex m-1 text-white' to='/ICMC23-Website/timeline'>Timeline</Link>
-                            <Link style={{textAlign: 'start'}} className='d-sm-flex m-1 text-white' to='/ICMC23-Website/pasteditions'>Past Editions</Link>
-                            <Link style={{textAlign: 'start'}} className='d-sm-flex m-1 text-white' to='/ICMC23-Website/contact'>Contact Us</Link>
+                            <Link style={{textAlign: 'start', textDecoration: 'none'}} className='d-sm-flex m-2 text-white' to='/ICMC23-Website/'>Home</Link>
+                            <Link style={{textAlign: 'start', textDecoration: 'none'}} className='d-sm-flex m-2 text-white' to='/ICMC23-Website/speakers'>Speakers</Link>
+                            <Link style={{textAlign: 'start', textDecoration: 'none'}} className='d-sm-flex m-2 text-white' to='/ICMC23-Website/timeline'>Timeline</Link>
+                            <Link style={{textAlign: 'start', textDecoration: 'none'}} className='d-sm-flex m-2 text-white' to='/ICMC23-Website/pasteditions'>Past Editions</Link>
+                            <Link style={{textAlign: 'start', textDecoration: 'none'}} className='d-sm-flex m-2 text-white' to='/ICMC23-Website/contact'>Contact Us</Link>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <h5 class="my-3" style={{fontWeight: 'bold', textAlign: 'start'}}>Contact</h5>
                         <p style={{textAlign: 'start'}}>
-                        <a href="https://universe.bits-pilani.ac.in/goa/jksahoo/profile" class="text-white">
+                        <a style={{textDecoration: 'none'}} href="https://universe.bits-pilani.ac.in/goa/jksahoo/profile" class="text-white">
                         <i class="fa fa-map-marker text-white" aria-hidden="true"></i>
                         &nbsp; Dr. Jejati Keshari Sahoo<br/>
-                        &nbsp; Organizing Chair<br/>
-                        &nbsp; HOD Mathematics<br/>
-                        &nbsp; BITS Pilani KK Birla Goa Campus<br/>
+                        &nbsp;&nbsp;&nbsp; Organizing Chair<br/>
+                        &nbsp;&nbsp;&nbsp; HOD Mathematics<br/>
+                        &nbsp;&nbsp;&nbsp; BITS Pilani KK Birla Goa Campus<br/>
                         </a>
                         </p>
-                        <p style={{textAlign: 'start'}}><a href="tel:+919876543210" class="text-white">
+                        <p style={{textAlign: 'start'}}><a style={{textDecoration: 'none'}} href="tel:+919876543210" class="text-white">
                             <i class="fa fa-phone" aria-hidden="true"></i>
                             &nbsp; +91-9876543210</a>
                         </p>
-                        <p style={{textAlign: 'start'}}><a href="mailto:icmc@goa.bits-pilani.ac.in" class="text-white">
+                        <p style={{textAlign: 'start'}}><a style={{textDecoration: 'none'}} href="mailto:icmc@goa.bits-pilani.ac.in" class="text-white">
                             <i class="fa fa-envelope-o" aria-hidden="true"></i>
                             &nbsp; icmc@goa.bits-pilani.ac.in</a>
                         </p>                    
