@@ -4,6 +4,7 @@ import {Helmet} from "react-helmet";
 function ListAccepted() {
     return(
         <div>
+	    
             <Helmet>
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
                 <script>
