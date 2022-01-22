@@ -9,7 +9,7 @@ function TechProCommittee() {
                     <h2 align = "center">
                         Technical Program Committee
                     </h2>
-                    <div style="overflow-x: auto;" class="container aos-init aos-animate" >
+                    <div class="container aos-init aos-animate" >
                         <table class="table table-striped aos-init aos-animate table-bordered">
                             <thead>
                                 <tr>
