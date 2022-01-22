@@ -12,7 +12,7 @@ function SubmitPaper() {
             </div>
         
             <div class="col-lg- cta-btn-container text-center">
-              <p class="cta-text " align="center">Click on the Submit button for paper submission<br>
+              <p class="cta-text " align="center">Click on the Submit button for paper submission<br/>
                 <a class="cta-btn black-button" href=" https://easychair.org/conferences/?conf=icmc2022" target="_blank">Submit</a>
               </p>
             </div>
