@@ -9,9 +9,8 @@ function Tracks() {
         <div className="titleStyle2">
             Tracks
         </div>
-        <div className = "tracksTitle">
-            mathematics
-        </div>
+        <div class="divider" style={{marginBottom: '50px'}}></div>
+        <h2 class="heading-secondary">mathematics</h2>
         <div style={{display:'flex', flexWrap: 'wrap', justifyContent: "space-between", marginTop: "120px"}}>
             <div className="tracksStyle">
                 NUMERICAL ANALYSIS
@@ -59,9 +58,7 @@ function Tracks() {
                 INFORMATION THEORY
             </div>
         </div>
-        <div className = "tracksTitle">
-            computing
-        </div>
+        <h2 class="heading-secondary" style={{color: '#f2f2f2'}}>computing</h2>
         <div style={{display:'flex', flexWrap: 'wrap', justifyContent: "space-between", marginTop: "120px"}}>
             <div className="tracksStyle">
                 WIRELESS NETWORKS

@@ -253,9 +253,16 @@ a.dropdown-item:hover {
   color: #333;
 }
 
- @media screen and (max-width: 768px) {
+h2.heading-secondary {
+  font-weight: 900;
+  text-align: start;
+  font-size: 3.5rem;
+  color: #f2f2f2;
+}
+
+ @media screen and (min-width: 768px) {
   h2.heading-secondary {
-    font-size: 4.5rem;
+    font-size: 6.5rem;
     font-weight: 900;
     text-align: start;
     color: #f2f2f2;
@@ -273,7 +280,7 @@ a.dropdown-item:hover {
   left: 135px;
   top: 323px;
   background: #f2f2f2;
-  margin: 3.2rem 0;
+  margin: 10px 0;
 }
 
 .section-about {

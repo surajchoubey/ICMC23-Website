@@ -40,11 +40,11 @@ function MyFooter() {
                     <div class="col-md-4 col-sm-12 justify-content-center align-middle">
                     <h5 class="mb-3 mt-sm-4" style={{fontWeight: 'bold', textAlign: 'center'}}>Connect with Us</h5>
                     <p style={{textAlign: 'center'}}>
-                        <a href="https://www.facebook.com/bitsgoaofficial/" id="connect"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="https://twitter.com/bitspilanigoa" id="connect"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="https://www.instagram.com/bitspilaniofficial/" id="connect"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        <a href="https://www.youtube.com/user/BITSpilaniTechMedia/videos" id="connect"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                        <a href="https://www.linkedin.com/school/birla-institute-of-technology-and-science-pilani---goa-campus/?originalSubdomain=in" id="connect"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/bitsgoaofficial/" id="connect"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a target="_blank" href="https://twitter.com/bitspilanigoa" id="connect"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/bitspilaniofficial/" id="connect"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a target="_blank" href="https://www.youtube.com/user/BITSpilaniTechMedia/videos" id="connect"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/school/birla-institute-of-technology-and-science-pilani---goa-campus/?originalSubdomain=in" id="connect"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </p>
                     </div>
                 </div>

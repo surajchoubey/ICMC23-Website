@@ -4,7 +4,7 @@
   
   font-family: Roboto,sans-serif;
   font-weight: 300;
-  font-size: 64px;
+  font-size: 300%;
   line-height: 64px;
   
   color: #BDBDBD;
@@ -17,7 +17,7 @@
   
   font-family: Roboto, sans-serif;
   font-weight: 700;
-  font-size: 64px;
+  font-size: 300%;
   line-height: 64px;
   color: #333333;
   }
