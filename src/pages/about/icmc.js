@@ -8,7 +8,7 @@ function ICMC() {
             <div class="row">
               <div class="col-lg-5 col-md-6">
                 <div class="about-img aos-init aos-animate" data-aos="fade-right" data-aos-delay="100">
-                  <img src="icmc-2022-logo.png" alt="icmc logo">
+                  <img src="icmc-logo.png" alt="icmc logo" />
                 </div>
               </div>
     
@@ -18,7 +18,7 @@ function ICMC() {
                   <h3><b>ICMC 2022</b></h3>
                   <p align="justify">The conference started its journey from 2013 at Haldia Institute of Technology, India.
                     The flag of the conference was carried by different renowned institutes like IIT (BHU), KIIT,
-                    Bhubaneswar, Sikkim University, India etc.<br>
+                    Bhubaneswar, Sikkim University, India etc.<br />
                     ICMC 2022 aims to bring together both novice and experienced scientists with developers, to meet new
                     colleagues, collect new ideas and establish new cooperation between research groups and provide a
                     platform for researchers from academic and industry to present their original work and exchange ideas,
