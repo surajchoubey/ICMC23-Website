@@ -4,8 +4,12 @@ import '../timeline.css';
 function Timeline() {
     return(
         <section class="section-timeline">
-          <h1 class="heading-tertiary">Timeline</h1>
-          <h1 class="heading-primary">Of Events</h1>
+        <div className="titleStyle1">
+            Timeline
+        </div>
+        <div className="titleStyle2">
+            Of Events
+        </div>
           <div class="scale">
             <ul class="timeline">
               <li>

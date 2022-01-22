@@ -6,8 +6,12 @@ import aboutbottompng from '../../images/assets/about-bottom.png';
 function BPGC() {
     return(
         <section class="section-about">
-        <h2 class="heading-tertiary">About the Campus</h2>
-        <h1 class="heading-primary">Birla Institute of Technology and Science</h1>
+        <div className="titleStyle1">
+          About the Campus
+        </div>
+        <div className="titleStyle2">
+		Birla Institute of Technology and Science
+        </div>
         <div class="divider"></div>
         <div class="about-content">
           <img

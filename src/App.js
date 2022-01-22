@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './App2.css';
 import Home from './pages/home';
 import BPGC from './pages/about/bpgc';
 import BPGCMathDept from './pages/about/bpgcmathdept';

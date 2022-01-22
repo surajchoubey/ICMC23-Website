@@ -7,9 +7,13 @@ function Contact() {
                 <section class="section-contact">
                     <div class="contact-flxbx">
                         <div class="contact-content" style={{textAlign: 'start'}}>
-                            <h1 style={{fontWeight: 'lighter', color: 'gray'}}>Contact</h1>
-                            <h1 class="heading-primary">Information</h1>
-                            <p class="address">
+                            <div className="titleStyle1">
+                                Contact
+                            </div>
+                            <div className="titleStyle2">
+                                Information
+                            </div>
+                            <p class="address" style={{marginTop: '30px'}}>
                                 <strong>Birla Institute of Technology &amp; Science</strong><br/>
                                 NH 17B, Bypass Road, Zuarinagar, Sancoale,<br/>Goa 403726
                             </p>

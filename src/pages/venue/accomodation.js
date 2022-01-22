@@ -2,9 +2,11 @@ import React from "react";
 
 function Accomodation() {
     return(
-        <div>
-            This is the Venue/Accomodation Page.
-        </div>
+        <section className="container">
+            <div className="titleStyle1">
+                Accomodation
+            </div>
+        </section>
     );
 }
 
