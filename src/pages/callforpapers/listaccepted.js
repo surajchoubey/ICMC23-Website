@@ -18,7 +18,7 @@ function ListAccepted() {
 )
 
 return(
-    <div class="Container">
+    <div class="container">
         <table className="table table-striped">
             <thead>
                 <tr>
