@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function MyFooter() {
 
     return (
-        <div class="footer text-white py-3 px-2" style={{"margin-top":"auto"}}>
+        <div class="footer text-white py-3 px-2" style={{marginTop: "auto"}}>
             <div class="container">
                 <div class="row my-3 justify-content-around">
                     <div class="col-md-3 col-sm-12">
