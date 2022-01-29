@@ -1,52 +1,61 @@
 import React from "react";
 
+class Patron {
+  constructor(patronType, name, description) {
+    this.patronType = patronType;
+    this.name = name;
+    this.description = description;
+  }
+
+  static getCards(patronList) {
+    return patronList.map(function (p, _) {
+      return (
+        <div class="btn-raise raise">
+          <p class="card-name">{p.name}</p>
+          <p class="card-description">{p.description}</p>
+        </div>
+      );
+    });
+  }
+}
+const ChiefPatrons = [
+  new Patron(
+    "General Co-Chairs",
+    "Dr. Sheela A",
+    "Associate Dean, School of Advanced Sciences, VIT, Vellore"
+  ),
+];
+const GeneralCoChairs = [
+  new Patron("Chief Patron", "Dr. G. Viswanathan", "Chancellor, VIT, Vellore"),
+  new Patron(
+    "General Co-Chairs",
+    "K. Karthikeyan",
+    "OD(Mathematics), School of Advanced Sciences, VIT, Vellore"
+  ),
+  new Patron(
+    "General Co-Chairs",
+    "Ramesh Babu K",
+    "Dean, (CSE), School of Advanced Sciences, VIT, Velloree"
+  ),
+  new Patron(
+    "General Co-Chairs",
+    "Ch. Aswani Kumar",
+    "Information Technology and Engineering, VIT, Vellore"
+  ),
+];
+
 function Patrons() {
-    return(
-        <section class="section-comittee container">
-        <h1 style={{color: 'gray', textAlign: 'start', fontWeight: '300', fontSize: '4rem'}}>Our</h1>
-        <h1 class="heading-primary" style={{textAlign: 'start', fontSize: '4rem'}}>Committee</h1>
-        <div class="divider"></div>
-        <h2 class="heading-secondary">Chief Patron</h2>
-        <div class="committee-flxbx">
-          <div class="block btn-raise raise">
-            <p class="block-name">Dr. G. Viswanathan</p>
-            <p class="block-description">Chancellor, VIT, Vellore</p>
-          </div>
-        </div>
-        <h2 class="heading-secondary">General Co-Chairs</h2>
-        <div class="committee-flxbx">
-          <div class="block btn-raise raise">
-            <p class="block-name">Dr. Sheela A</p>
-            <p class="block-description">
-              Associate Dean,<br />
-              School of Advanced Sciences, VIT, Vellore
-            </p>
-          </div>
-          <div class="block btn-raise raise">
-            <p class="block-name">K. Karthikeyan</p>
-            <p class="block-description">
-              HOD(Mathematics),
-              <br />
-              School of Advanced Sciences, VIT, Vellore
-            </p>
-          </div>
-          <div class="block btn-raise raise">
-            <p class="block-name">Ramesh Babu K</p>
-            <p class="block-description">
-              Dean, (CSE),<br />
-              School of Advanced Sciences, VIT, Vellore
-            </p>
-          </div>
-          <div class="block btn-raise raise">
-            <p class="block-name">Ch. Aswani Kumar</p>
-            <p class="block-description">
-              Information Technology and Engineering,<br />
-              VIT, Vellore
-            </p>
-          </div>
-        </div>
-      </section>
-    );
+  return (
+    <section class="section-comittee">
+      <div class="titleStyle1">Our</div>
+      <div class="titleStyle2">Committee</div>
+      <div class="divider"></div>
+      <h2 class="heading-secondary">Chief Patron</h2>
+      <div class="committee-flxbx">{Patron.getCards(ChiefPatrons)}</div>
+      <h2 class="heading-secondary">General Co-Chairs</h2>
+      <div class="committee-flxbx">{Patron.getCards(GeneralCoChairs)}</div>
+    </section>
+  );
 }
 
 export default Patrons;
