@@ -9,7 +9,7 @@ function PastEditions() {
             <div className = 'titleStyle2'>
             Conferences
             </div>
-            <div style={{display:'flex', flexWrap: 'wrap', justifyContent: 'space-evenly', marginLeft: '60px', marginRight: '120px', marginTop: "60px"}}>
+            <div style={{display:'flex', flexWrap: 'wrap', justifyContent: 'space-evenly', /*marginLeft: '60px', marginRight: '120px',*/ marginTop: "60px"}}>
                 <div className='boxStyle'>
                     <a>2013</a>
                 </div>
@@ -23,7 +23,7 @@ function PastEditions() {
                     <a href='https://old.iitbhu.ac.in/icmc2018/apm/index.html' style={{all: 'unset', cursor: 'pointer'}} target="_blank">2018</a>
                 </div>
             </div>
-            <div style={{display:'flex', flexWrap: 'wrap', justifyContent: 'space-evenly', marginLeft: '60px', marginRight: '120px'}}>
+            <div style={{display:'flex', flexWrap: 'wrap', justifyContent: 'space-evenly', /*marginLeft: '60px', marginRight: '120px'*/}}>
                 <div className='boxStyle'>
                     <a href='https://event.kiit.ac.in/icmc2019/' style={{all: 'unset', cursor: 'pointer'}} target="_blank">2019</a>
                 </div>
