@@ -24,7 +24,7 @@ function Speakers() {
                 Univ. of Illinois at Urbana-Champaign
                 </div>
                 <div className="boxStyle" style={{backgroundColor:"white", marginTop: "40px"}}>
-                    <a href='https://google.com/' style={{color:"black", textDecoration:'none'}} target="_blank">VIEW MORE &#160; &#x2192;</a>
+                    <a href='https://google.com/' style={{all: 'unset', cursor: 'pointer'}} target="_blank">VIEW MORE &#160; &#x2192;</a>
                 </div>
             </div>
             <div style={{marginRight: "40px", width: "400px"}}>
@@ -56,8 +56,8 @@ function Speakers() {
                 University of Insubria <br/>
                 Department of Theoretical and Applied Science
                 </div>
-                <div className="boxStyle" style={{backgroundColor:"white", color:"black", marginTop: "125px"}}>
-                    <a href='https://google.com/' style={{color:"black", textDecoration:'none'}} target="_blank">VIEW MORE &#160; &#x2192;</a>
+                <div className="boxStyle" style={{backgroundColor:"white", marginTop: "125px"}}>
+                    <a href='https://google.com/' style={{all: 'unset', cursor: 'pointer'}} target="_blank">VIEW MORE &#160; &#x2192;</a>
                 </div>
             </div>
             <div style={{marginRight: "40px", width: "400px"}}>

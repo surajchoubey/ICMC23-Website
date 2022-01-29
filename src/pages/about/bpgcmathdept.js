@@ -6,7 +6,7 @@ function BPGCMathDept() {
             <div className="titleStyle1">
             About
             </div>
-            <div className="titleStyle1">
+            <div className="titleStyle2">
             Department of Mathematics
             </div>
         </div>

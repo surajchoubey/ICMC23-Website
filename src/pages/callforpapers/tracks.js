@@ -11,7 +11,7 @@ function Tracks() {
         </div>
         <div class="divider" style={{marginBottom: '50px'}}></div>
         <h2 class="heading-secondary">mathematics</h2>
-        <div style={{display:'flex', flexWrap: 'wrap', justifyContent: "space-between", marginTop: "120px"}}>
+        <div style={{display:'flex', flexWrap: 'wrap', justifyContent: "space-between", marginTop: "50px"}}>
             <div className="tracksStyle">
                 NUMERICAL ANALYSIS
             </div>
@@ -40,6 +40,9 @@ function Tracks() {
                 MATHEMATICAL MODELING AND SIMULATION
             </div>
             <div className="tracksStyle">
+                INFORMATION THEORY
+            </div>
+            <div className="tracksStyle">
                 GEOMETRY (DISCRETE, ALGEBRAIC, FINITE)
             </div>
             <div className="tracksStyle">
@@ -54,12 +57,9 @@ function Tracks() {
             <div className="tracksStyle">
                 COMPUTATIONAL FLUID MECHANICS
             </div>
-            <div className="tracksStyle">
-                INFORMATION THEORY
-            </div>
         </div>
         <h2 class="heading-secondary" style={{color: '#f2f2f2'}}>computing</h2>
-        <div style={{display:'flex', flexWrap: 'wrap', justifyContent: "space-between", marginTop: "120px"}}>
+        <div style={{display:'flex', flexWrap: 'wrap', justifyContent: "space-between", marginTop: "50px"}}>
             <div className="tracksStyle">
                 WIRELESS NETWORKS
             </div>
@@ -74,9 +74,6 @@ function Tracks() {
             </div>
             <div className="tracksStyle">
                 CRYPTOLOGY AND CYBER SECURITY
-            </div>
-            <div className="tracksStyle">
-                MOBILE, DISTRIBUTED, AND PARALLEL COMPUTING
             </div>
             <div className="tracksStyle">
                 MACHINE AND DEEP LEARNING
@@ -104,6 +101,9 @@ function Tracks() {
             </div>
             <div className="tracksStyle">
                 DEW COMPUTING
+            </div>
+            <div className="tracksStyle">
+                MOBILE, DISTRIBUTED, AND PARALLEL COMPUTING
             </div>
         </div>
         </div>
