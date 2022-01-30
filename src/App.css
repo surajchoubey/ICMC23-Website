@@ -152,18 +152,17 @@ a.dropdown-item:hover {
   text-transform: uppercase;
 }
 
-/* black-button */
-
 .black-button {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
   align-items: center;
+  text-align: center;
   justify-content: center;
   border: 1.5px solid #333;
-  padding: 1.6rem 3.5rem;
+  padding: 1.3em 3em;
   font-size: 1.2rem;
-  line-height: 1.2rem;
+  line-height: 1.5rem;
   letter-spacing: 0.2em;
   background-size: 300%;
   transition: all 0.5s;

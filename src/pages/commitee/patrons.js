@@ -8,11 +8,11 @@ class Patron {
   }
 
   static getCards(patronList) {
-    return patronList.map(function (p, _) {
+    return patronList.map(function (patron, _) {
       return (
         <div class="btn-raise raise">
-          <p class="card-name">{p.name}</p>
-          <p class="card-description">{p.description}</p>
+          <p class="card-name">{patron.name}</p>
+          <p class="card-description">{patron.description}</p>
         </div>
       );
     });
