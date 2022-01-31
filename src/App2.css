@@ -1,60 +1,62 @@
-.titleStyle1{
-  text-align:left;
+.titleStyle1 {
+  text-align: left;
   height: 64px;
-  
-  font-family: Roboto,sans-serif;
+
+  font-family: Roboto, sans-serif;
   font-weight: 300;
   font-size: 300%;
   line-height: 64px;
-  
-  color: #BDBDBD;
-  }
-  
-.titleStyle2{
-  text-align:left;
+
+  color: #bdbdbd;
+  text-transform: uppercase;
+}
+
+.titleStyle2 {
+  text-align: left;
   height: 64px;
   top: 64px;
-  
+
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 300%;
   line-height: 64px;
   color: #333333;
-  }
-
-.boxStyle{
-width: 222px;
-height: 71px;
-background: #333333;
-text-align: center;
-line-height: 71px;
-font-family: Roboto,sans-serif;
-font-weight: 300;
-color: #FFFFFF;
-margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
-.boxStyle:hover{
+.boxStyle {
+  width: 222px;
+  height: 71px;
+  background: #333333;
+  text-align: center;
+  line-height: 71px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.boxStyle:hover {
   text-decoration: underline;
-  }
-
-.numStyle{
-width: 104px;
-height: 140.52px;
-position: relative;
-top: 0px;
-
-font-family: Roboto, sans-serif;
-font-weight: 900;
-font-size: 200px;
-line-height: 234px;
-align-items: center;
-color: #F2F2F2;
 }
 
-.textStyle{
+.numStyle {
+  width: 104px;
+  height: 140.52px;
+  position: relative;
+  top: 0px;
+
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 234px;
+  align-items: center;
+  color: #f2f2f2;
+}
+
+.textStyle {
   margin-left: 40px;
-  text-align:left;
+  text-align: left;
   position: relative;
   width: 1060px;
   top: 35px;
@@ -66,53 +68,98 @@ color: #F2F2F2;
   color: #333333;
 }
 
-.tracksTitle{
-position: relative;
-top: 60px;
+.tracksTitle {
+  position: relative;
+  top: 60px;
 
-font-family: Roboto, sans-serif;
-font-weight: 900;
-font-size: 96px;
-line-height: 72px;
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 72px;
 
-display: flex;
-align-items: center;
-color: #F2F2F2;
+  display: flex;
+  align-items: center;
+  color: #f2f2f2;
 }
 
-.tracksStyle{
+/* depriciated in favour of track-card */
+.tracksStyle {
   /* display: flex;
   flex-direction: column;
   align-items: flex-start;*/
   padding: 0 32px;
   height: 71px;
-  font-family: Roboto,sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 300;
-  background: #FBFBFB;
+  background: #fbfbfb;
   text-align: center;
   line-height: 71px;
   color: #333333;
   margin-bottom: 30px;
 }
 
-.tracksStyle:hover{
+.tracksStyle:hover {
   background: #333333;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.speakerName{
+/* track-card */
+.track-card {
+  padding: 0 1.4em;
+  height: 70px;
+  font-family: Roboto, sans-serif;
+  font-size: 0.85rem;
+  background-color: #fbfbfb;
+  text-align: center;
+  line-height: 71px;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  color: #333333;
+  letter-spacing: 0.2em;
+}
+.track-card:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  direction: rtl;
+  z-index: -1;
+  box-shadow: -7px -7px 8px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 8px 0px #0002, 4px 4px 5px 0px #0001;
+  transition: all 0.5s ease;
+}
+.track-card:hover {
+  background: transparent;
+  color: #fff;
+}
+.track-card:hover:after {
+  left: auto;
+  right: 0;
+  border-radius: 3px;
+  width: 100%;
+  background: black;
+  color: white;
+}
+
+.speakerName {
   height: 47px;
   margin-top: 20px;
   text-align: left;
-  
+
   font-family: Roboto, sans-serif;
   font-weight: 300;
   font-size: 32px;
   line-height: 47px;
-  color: #BDBDBD;
+  color: #bdbdbd;
 }
 
-.speakerText{
+.speakerText {
   height: 40px;
   text-align: left;
 
