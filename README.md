@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+## INTERNATIONAL CONFERENCE FOR MATHEMATICS AND COMPUTING
 
 Website is deployed here: https://surajchoubey.github.io/ICMC23-Website/
 
