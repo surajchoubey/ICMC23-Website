@@ -1,7 +1,7 @@
 import React from "react";
 import JsonData from "./techcomm.json";
 import "bootstrap/dist/css/bootstrap.min.css";
-import BTable from "react-bootstrap/Table";
+// import BTable from "react-bootstrap/Table";
 
 function TechProCommittee() {
   const DisplayData = JsonData.map((info) => {
@@ -17,7 +17,7 @@ function TechProCommittee() {
     <div class="section-header">
       <h2 align="center">Technical Program Committee</h2>
       <div class="container">
-        <BTable striped bordered hover responsive>
+        {/* <BTable striped bordered hover responsive>
           <thead>
             <tr>
               <th>Name</th>
@@ -25,7 +25,7 @@ function TechProCommittee() {
             </tr>
           </thead>
           <tbody>{DisplayData}</tbody>
-        </BTable>
+        </BTable> */}
       </div>
     </div>
   );
