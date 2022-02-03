@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import BITSDome from '../images/bits-dome.png';
 import BITSDClassroom from '../images/bits-d-classroom.jpg';
 import BITSAudi from '../images/bits-audi.jpeg';
@@ -14,7 +15,7 @@ function Home() {
             <div class="container">
                 <div class="row align-items-around">
                     <div class="col-sm-12 col-md-6">
-                        <div class="p-4" style={{minHeight: '500px', display: 'flex', flexDirection:'column', justifyContent: 'space-around', alignSelf: 'center'}}>
+                        <div class="p-4" style={{minHeight: '550px', display: 'flex', flexDirection:'column', justifyContent: 'space-around', alignSelf: 'center'}}>
                             <div class="d-flex">
                                 <h1 style={{textAlign: 'start', fontWeight:'lighter', color: 'grey'}}>
                                     9th International Conference on Mathematics and Computing
@@ -26,15 +27,15 @@ function Home() {
                                 </h1>
                             </div>
                             <div class="d-flex" style={{textAlign: 'start'}}>
-                                <button class="black-button">Registration</button>
+                                <a class="black-button">Registration</a>
                             </div>                                           
                             <div class="d-flex" style={{textAlign: 'start'}}>
                                 <h3 style={{fontWeight: 'lighter'}}>JANUARY 6-8 | 2023</h3>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6">
-                        <div class="p-3 justify-self-center" style={{minHeight: '500px', display: 'flex', flexDirection:'column', alignItems: 'center'}}>
+                    <div class="col-sm-12 col-md-6 d-flex justify-content-center">
+                        <div class="d-flex align-items-center p-3" style={{display: 'flex', flexDirection:'row', alignSelf: 'center'}}>
                             <img src={BITSDome} alt="" class="img-fluid"/>
                         </div>
                     </div>
