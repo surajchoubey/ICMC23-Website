@@ -2,6 +2,33 @@ import React from 'react';
 import NavLogo from '../images/bits-logo.png';
 import { Link } from 'react-router-dom';
 
+let NavWithDropDown = (props) => {
+	return (
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle text-dark" href='/ICMC23-Website/' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			{props.name} &nbsp;<i class="fa fa-angle-down" style={{color: 'black'}}></i>
+			</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown" >
+				{props.children}
+			</div>
+		</li>
+	)
+}
+
+let NavWithoutDropDown = ({link, showname}) => {
+	return (
+		<li class="nav-item">
+			<Link className='nav-link text-dark' data-toggle="collapse" data-target=".navbar-collapse.show" to={link}>{showname}</Link>
+		</li>
+	)
+}
+
+let DropDownItem = ({link, showname}) => {
+	return (
+		<Link class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" to={link}>{showname}</Link>
+	)
+}
+
 function MyNavbar() {
 
 	return (
@@ -19,72 +46,46 @@ function MyNavbar() {
 
 				<div class='collapse navbar-collapse justify-content-end' id="navbarSupportedContent">
 					<ul class="navbar-nav main-nav-list justify-content-end borderXwidth">
-						<li class="nav-item">
-							<Link className='nav-link text-dark' data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/'>Home</Link>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle text-dark" href='/ICMC23-Website/' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							About &nbsp;<i class="fa fa-angle-down" style={{color: 'black'}}></i>
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown" >
-								<Link class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/about/bpgc'>BPGC</Link>
-								<Link class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/about/bpgcmathdept'>BPGC Math Dept</Link>
-								<Link class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/about/icmc'>ICMC</Link>
-							</div>
-						</li>
-						<li class="nav-item">
-							<Link className='nav-link text-dark' data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/speakers'>Speakers</Link>
-						</li>
-						<li class="nav-item">
-							<Link className='nav-link text-dark' data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/timeline'>Timeline</Link>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle text-dark" href='/ICMC23-Website/' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Committee &nbsp;<i class="fa fa-angle-down" style={{color: 'black'}}></i>
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<Link class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/committee/patrons/'>Patrons</Link>
-								<Link class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/committee/orgcommittee/'>Organizing Committee</Link>
-								<Link class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/committee/techprocommittee/'>Technical Program Committee</Link>
-							</div>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle text-dark" href='/ICMC23-Website/' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Call for Papers &nbsp;<i class="fa fa-angle-down" style={{color: 'black'}}></i>
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<Link class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/callforpapers/tracks/'>Contribution Tracks</Link>
-								<Link class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/callforpapers/guidelines/'>Paper Guidelines</Link>
-								<Link class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/callforpapers/submitpaper/'>Submit your Paper</Link>
-								<Link class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/callforpapers/listaccepted/'>Accepted Papers</Link>
-							</div>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle text-dark" href='/ICMC23-Website/' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Registration &nbsp;<i class="fa fa-angle-down" style={{color: 'black'}}></i>
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<Link class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/registration/confregfee/'>Conference Registration Fee</Link>
-							<Link class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/registration/payregfee/'>Pay Registration Fee</Link>
-							</div>
-						</li>
-						<li class="nav-item">
-							<Link className='nav-link text-dark' data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/pasteditions'>Past Editions</Link>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle text-dark" href='/ICMC23-Website/' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Venue &nbsp;<i class="fa fa-angle-down" style={{color: 'black'}}></i>
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<Link class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/venue/bgpc-goa'>BITS Goa</Link>
-							<Link class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/venue/howtoreach'>How to reach?</Link>
-							<Link class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/venue/accomodation'>Accomodation</Link>
-							<Link class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/venue/visa'>VISA Information</Link>
-							</div>
-						</li>
-						<li class="nav-item">
-							<Link className='nav-link text-dark' data-toggle="collapse" data-target=".navbar-collapse.show" to='/ICMC23-Website/contact'>Contact Us</Link>
-						</li>
+						<NavWithoutDropDown link={"/ICMC23-Website/"} showname={"Home"} />
+
+						<NavWithDropDown name="About">
+								<DropDownItem link={"/ICMC23-Website/about/bpgc"} showname={"BPGC"} />
+								<DropDownItem link={"/ICMC23-Website/about/bpgcmathdept"} showname={"BPGC Math Dept"} />
+								<DropDownItem link={"/ICMC23-Website/about/icmc"} showname={"ICMC"} />
+						</NavWithDropDown>
+
+						<NavWithoutDropDown link={"/ICMC23-Website/speakers"} showname={"Speakers"} />
+
+						<NavWithoutDropDown link={"/ICMC23-Website/timeline"} showname={"Timeline"} />
+
+						<NavWithDropDown name="Committee">
+								<DropDownItem link={"/ICMC23-Website/committee/patrons/"} showname={"Patrons"} />
+								<DropDownItem link={"/ICMC23-Website/committee/orgcommittee/"} showname={"Organizing Committee"} />
+								<DropDownItem link={"/ICMC23-Website/committee/techprocommittee/"} showname={"Technical Program Committee"} />
+						</NavWithDropDown>
+
+						<NavWithDropDown name="Call for Papers">
+								<DropDownItem link={"/ICMC23-Website/callforpapers/tracks/"} showname={"Contribution Tracks"} />
+								<DropDownItem link={"/ICMC23-Website/callforpapers/guidelines/"} showname={"Paper Guidelines"} />
+								<DropDownItem link={"/ICMC23-Website/callforpapers/submitpaper/"} showname={"Submit your Paper"} />
+								<DropDownItem link={"/ICMC23-Website/callforpapers/listaccepted/"} showname={"Accepted Papers"} />
+						</NavWithDropDown>
+
+						<NavWithDropDown name="Registration">
+								<DropDownItem link={"/ICMC23-Website/registration/confregfee/"} showname={"Conference Registration Fee"} />
+								<DropDownItem link={"/ICMC23-Website/registration/payregfee/"} showname={"Pay Registration Fee"} />
+						</NavWithDropDown>
+
+						<NavWithoutDropDown link={"/ICMC23-Website/pasteditions"} showname={"Past Editions"} />
+
+						<NavWithDropDown name="Venue">
+								<DropDownItem link={"/ICMC23-Website/venue/bgpc-goa"} showname={"BITS Goa"} />
+								<DropDownItem link={"/ICMC23-Website/venue/howtoreach"} showname={"How to reach?"} />
+								<DropDownItem link={"/ICMC23-Website/venue/accomodation"} showname={"Accomodation"} />
+								<DropDownItem link={"/ICMC23-Website/venue/visa"} showname={"VISA Information"} />
+						</NavWithDropDown>						
+
+						<NavWithoutDropDown link={"/ICMC23-Website/contact"} showname={"Contact Us"} />
 					</ul>
 				</div>
 			</div>
