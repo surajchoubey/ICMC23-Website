@@ -27,7 +27,7 @@ function Home() {
                                 </h1>
                             </div>
                             <div class="d-flex" style={{textAlign: 'start'}}>
-                                <a class="black-button">Registration</a>
+                                <Link to="/ICMC23-Website/registration/payregfee/" class="black-button" >Registration</Link>
                             </div>                                           
                             <div class="d-flex" style={{textAlign: 'start'}}>
                                 <h3 style={{fontWeight: 'lighter'}}>JANUARY 6-8 | 2023</h3>
@@ -35,7 +35,7 @@ function Home() {
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 d-flex justify-content-center">
-                        <div class="d-flex align-items-center p-3" style={{display: 'flex', flexDirection:'row', alignSelf: 'center'}}>
+                        <div class="d-flex align-items-center" style={{margin: '30px' , display: 'flex', flexDirection:'row', alignSelf: 'center'}}>
                             <img src={BITSDome} alt="" class="img-fluid"/>
                         </div>
                     </div>
@@ -98,7 +98,7 @@ function Home() {
                     <div class="col-3"><img src={whitenigga} alt="" class="img-fluid"/></div>
                 </div>
                 <div class="mt-5 d-flex flex-row-reverse">
-                    <a class="black-button">All Speakers</a>
+                    <Link to="/ICMC23-Website/speakers" class="black-button">All Speakers</Link>
                 </div>
             </div>
 

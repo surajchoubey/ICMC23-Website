@@ -67,9 +67,9 @@ const Timer = () => {
                 <div className="container mb-5">
                     <div className="row justify-content-center px-2">
                         <TimerCard count={days} word="DAYS" />
-                        <TimerCard count={hours} word="HOURS" />
-                        <TimerCard count={minutes} word="MINUTES" />
-                        <TimerCard count={seconds} word="SECONDS" />
+                        <TimerCard count={hours} word="HRS" />
+                        <TimerCard count={minutes} word="MINS" />
+                        <TimerCard count={seconds} word="SECS" />
                     </div>
                 </div>
             </div>

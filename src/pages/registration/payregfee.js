@@ -62,7 +62,7 @@ function PayRegFee() {
         
                     </div><br />
                     <center>
-                      <a href="https://events.vit.ac.in/events/ICMC/" target="_blank"><button class="button button2 black-button">Registration Link</button></a>
+                      <a href="https://events.vit.ac.in/events/ICMC/" target="_blank" rel="noopener noreferrer"><button class="button button2 black-button">Registration Link</button></a>
                       <br />
                 </center></center></div>
         

@@ -14,7 +14,7 @@ function Speakers() {
         <div className="divider"></div>
         <div style={{height: "350px", marginTop: "40px", 
                     background: "#FBFBFB", display: "flex", flexDirection:"row", justifyContent: 'space-between'}}>
-            <img src={speaker1} style={{height: "350px", marginRight: "20px"}}/>
+            <img src={speaker1} style={{height: "350px", marginRight: "20px"}} alt="speaker1"/>
             <div style={{height: "350px", marginRight: "0px", width: "260px"}}>
                 <div className="speakerName">
                 Jiawei Han
@@ -24,7 +24,7 @@ function Speakers() {
                 Univ. of Illinois at Urbana-Champaign
                 </div>
                 <div className="boxStyle" style={{backgroundColor:"white", marginTop: "40px"}}>
-                    <a href='https://google.com/' style={{color:"black", textDecoration:'none'}} target="_blank">VIEW MORE &#160; &#x2192;</a>
+                    <a href='https://google.com/' style={{color:"black", textDecoration:'none'}} target="_blank" rel="noopener noreferrer">VIEW MORE &#160; &#x2192;</a>
                 </div>
             </div>
             <div style={{marginRight: "40px", width: "400px"}}>
@@ -44,7 +44,7 @@ function Speakers() {
         </div>
         <div style={{height: "350px", marginTop: "40px", 
                     background: "#FBFBFB", display: "flex", flexDirection:"row", justifyContent: 'space-between'}}>
-            <img src={speaker2} style={{height: "350px", marginRight: "20px"}}/>
+            <img src={speaker2} style={{height: "350px", marginRight: "20px"}} alt="speaker2"/>
             <div style={{marginRight: "0px", width: "260px"}}>
                 <div className="speakerName">
                 Ellena Ferrari
@@ -57,7 +57,7 @@ function Speakers() {
                 Department of Theoretical and Applied Science
                 </div>
                 <div className="boxStyle" style={{backgroundColor:"white", color:"black", marginTop: "125px"}}>
-                    <a href='https://google.com/' style={{color:"black", textDecoration:'none'}} target="_blank">VIEW MORE &#160; &#x2192;</a>
+                    <a href='https://google.com/' style={{color:"black", textDecoration:'none'}} target="_blank" rel="noopener noreferrer">VIEW MORE &#160; &#x2192;</a>
                 </div>
             </div>
             <div style={{marginRight: "40px", width: "400px"}}>

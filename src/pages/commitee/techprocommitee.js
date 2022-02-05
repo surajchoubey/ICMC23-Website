@@ -1,6 +1,5 @@
 import React from "react";
 import JsonData from "./techcomm.json";
-import "bootstrap/dist/css/bootstrap.min.css";
 // import BTable from "react-bootstrap/Table";
 
 function TechProCommittee() {
