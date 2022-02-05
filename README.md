@@ -4,7 +4,12 @@ The Website is in development phase at the moment.<br>
 For testing purposes it has been deployed here: https://surajchoubey.github.io/ICMC23-Website/
 
 ## To deploy it at your own preffered URL
-Changing ```PUBLIC_URL``` from ```.env``` file in the base directory.
+Change `PUBLIC_URL` from `.env` file in the base directory.
+Please do not perform any changes in the `package.json` file.
+For example: 
+```ruby
+PUBLIC_URL = "https://example.com/ICMC23-Website/"
+```
 
 ## Available Scripts
 
