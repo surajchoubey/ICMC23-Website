@@ -9,6 +9,7 @@ function Guidelines() {
             <div className = 'titleStyle2'>
             Guidelines
             </div>
+            <div class="divider"></div>
             <div style={{display:'flex', flexDirection: 'row'}}>
                 <div className="numStyle">
                     1

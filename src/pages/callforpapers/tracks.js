@@ -37,6 +37,12 @@ function Tracks() {
                 PROBABILITY AND STATISTICS
             </div>
             <div className="tracksStyle">
+                DISCRETE MATHEMATICS
+            </div>
+            <div className="tracksStyle">
+                GAME THEORY
+            </div>
+            <div className="tracksStyle">
                 MATHEMATICAL MODELING AND SIMULATION
             </div>
             <div className="tracksStyle">
@@ -47,12 +53,6 @@ function Tracks() {
             </div>
             <div className="tracksStyle">
                 APPLICATIONS OF FUZZY SET THEORY
-            </div>
-            <div className="tracksStyle">
-                DISCRETE MATHEMATICS
-            </div>
-            <div className="tracksStyle">
-                GAME THEORY
             </div>
             <div className="tracksStyle">
                 COMPUTATIONAL FLUID MECHANICS
@@ -73,34 +73,34 @@ function Tracks() {
                 DIGITAL WATERMARKING
             </div>
             <div className="tracksStyle">
-                CRYPTOLOGY AND CYBER SECURITY
-            </div>
-            <div className="tracksStyle">
-                MACHINE AND DEEP LEARNING
-            </div>
-            <div className="tracksStyle">
                 GREEN COMPUTING
-            </div>
-            <div className="tracksStyle">
-                BIG DATA
-            </div>
-            <div className="tracksStyle">
-                CLOUD, FOG, AND EDGE COMPUTING
-            </div>
-            <div className="tracksStyle">
-                BIOINFORMATICS
-            </div>
-            <div className="tracksStyle">
-                QUANTUM COMPUTING
-            </div>
-            <div className="tracksStyle">
-                INTERNET OF THINGS
             </div>
             <div className="tracksStyle">
                 BLOCKCHAIN
             </div>
             <div className="tracksStyle">
                 DEW COMPUTING
+            </div>
+            <div className="tracksStyle">
+                BIG DATA
+            </div>
+            <div className="tracksStyle">
+                BIOINFORMATICS
+            </div>
+            <div className="tracksStyle">
+                CRYPTOLOGY AND CYBER SECURITY
+            </div>
+            <div className="tracksStyle">
+                CLOUD, FOG, AND EDGE COMPUTING
+            </div>
+            <div className="tracksStyle">
+                MACHINE AND DEEP LEARNING
+            </div>
+            <div className="tracksStyle">
+                QUANTUM COMPUTING
+            </div>
+            <div className="tracksStyle">
+                INTERNET OF THINGS
             </div>
             <div className="tracksStyle">
                 MOBILE, DISTRIBUTED, AND PARALLEL COMPUTING

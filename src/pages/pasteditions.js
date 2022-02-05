@@ -1,41 +1,36 @@
 import React from 'react';
 
+function PastEditionElement({link, yearname}) {
+    return (
+        <a href={link} target="_blank" rel="nopener noreferrer" style={{all: 'unset', cursor: 'pointer'}}>
+            <div className='boxStyle'>
+                {yearname}
+            </div>
+        </a>
+    )
+}
+
 function PastEditions() {
     return(
         <div className="container" style={{/* marginLeft:"60px", marginTop: "40px" */}}>
             <div className = 'titleStyle1'>
-            Previous
+                Previous
             </div>
             <div className = 'titleStyle2'>
-            Conferences
+                Conferences
             </div>
+            <div class="divider"></div>
             <div style={{display:'flex', flexWrap: 'wrap', justifyContent: 'space-evenly', /*marginLeft: '60px', marginRight: '120px',*/ marginTop: "60px"}}>
-                <div className='boxStyle'>
-                    <a>2013</a>
-                </div>
-                <div className='boxStyle'>
-                    <a href='http://hithaldia.co.in/icmc2015/' style={{all: 'unset', cursor: 'pointer'}} target="_blank">2015</a>
-                </div>
-                <div className='boxStyle'>
-                    <a href='http://hithaldia.co.in/icmc2017/' style={{all: 'unset', cursor: 'pointer'}} target="_blank">2017</a>
-                </div>
-                <div className='boxStyle'>
-                    <a href='https://old.iitbhu.ac.in/icmc2018/apm/index.html' style={{all: 'unset', cursor: 'pointer'}} target="_blank">2018</a>
-                </div>
+                <PastEditionElement link="https://www.google.com" yearname="2013" />
+                <PastEditionElement link="http://hithaldia.co.in/icmc2015/" yearname="2015" />
+                <PastEditionElement link="http://hithaldia.co.in/icmc2017/" yearname="2017" />
+                <PastEditionElement link="https://old.iitbhu.ac.in/icmc2018/apm/index.html" yearname="2018" />
             </div>
             <div style={{display:'flex', flexWrap: 'wrap', justifyContent: 'space-evenly', /*marginLeft: '60px', marginRight: '120px'*/}}>
-                <div className='boxStyle'>
-                    <a href='https://event.kiit.ac.in/icmc2019/' style={{all: 'unset', cursor: 'pointer'}} target="_blank">2019</a>
-                </div>
-                <div className='boxStyle'>
-                    <a>2020</a>
-                </div>
-                <div className='boxStyle'>
-                    <a href='https://icmc2021.in/' style={{all: 'unset', cursor: 'pointer'}} target="_blank">2021</a>
-                </div>
-                <div className='boxStyle'>
-                    <a href='https://vit.ac.in/icmc2022/' style={{all: 'unset', cursor: 'pointer'}} target="_blank">2022</a>
-                </div>
+                <PastEditionElement link="https://event.kiit.ac.in/icmc2019/" yearname="2019" />
+                <PastEditionElement link="https://www.google.com" yearname="2020" />
+                <PastEditionElement link="https://icmc2021.in/" yearname="2021" />
+                <PastEditionElement link="https://vit.ac.in/icmc2022/" yearname="2022" />
             </div>
         </div>
     )
