@@ -8,34 +8,34 @@ const aboutText =
 
 function BPGC() {
   return (
-    <section class="section-about">
-      <div className="titleStyle1">About the Campus</div>
+    <div className="container" style={{marginBottom: "45px" /* marginLeft:"60px", marginTop: "40px" */}}>
+    <div className="titleStyle1">About the Campus</div>
       <div className="titleStyle2">
         Birla Institute of Technology and Science
       </div>
-      <div class="divider"></div>
-      <div class="about-content">
+      <div className="divider"></div>
+      <div className="about-content">
         <img
           src={abouttoppng}
           alt="Professors and Students attending a conference"
-          class="about-img-top"
+          className="about-img-top"
         />
         <div className="about-mid-grid">
           <img
             src={aboutcontentpng}
             alt="Speaker at a conference"
-            class="about-img-cnt"
+            className="about-img-cnt"
           />
-          <p class="about-txt-cnt">{aboutText}</p>
+          <p className="about-txt-cnt">{aboutText}</p>
         </div>
         <img
           src={aboutbottompng}
           alt="Scenic Campus View"
-          class="about-img-btm"
+          className="about-img-btm"
         />
       </div>
-    </section>
-  );
+    </div>
+    );
 }
 
 export default BPGC;

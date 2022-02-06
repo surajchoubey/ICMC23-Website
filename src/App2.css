@@ -81,6 +81,7 @@
   font-size: 18px;
   line-height: 30px;
   color: #333333;
+  word-wrap: break-word;
 }
 
 .tracksTitle {
@@ -191,10 +192,19 @@
   color: #000000;
 }
 
-/* .speaker{
+.speakerImg{
   height: "350px";
   margin-right: "20px";
-} */
+}
+
+.speakerDiv{
+  height: "350px";
+  margin-top: "40px";
+  background: "#FBFBFB";
+  display: "flex";
+  flex-direction:"row";
+  justify-content: 'space-between';
+}
 
 @media screen and (max-width: 900px) {
   .textStyle {
@@ -209,13 +219,21 @@
     margin-left: 7vw;
   }
 
-  /* .picName {
-    display: flex;
-    flex-direction: column;
+  .titleStyle1{
+    font-size: 180%;
+    height: 32px;
+    line-height: 32px;
+  }
+  .titleStyle2{
+    font-size: 150%;
+    height: 32px;
+    line-height: 32px;
   }
 
-  .speaker {
-    height: 20vh;
-    width: 30vw;
-  } */
+  .speakerDiv {
+    flex-direction: column;
+    overflow: auto;
+    justify-content: left;
+    position: relative;
+  }
 }
