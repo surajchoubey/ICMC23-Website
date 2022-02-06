@@ -1,20 +1,41 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+const links = {
+    "facebook": "https://www.facebook.com/bitsgoaofficial/",
+    "twitter": "https://twitter.com/bitspilanigoa",
+    "instagram": "https://www.instagram.com/bitspilaniofficial/",
+    "youtube": "https://www.youtube.com/user/BITSpilaniTechMedia/videos",
+    "linkedin": "https://www.linkedin.com/school/birla-institute-of-technology-and-science-pilani---goa-campus/?originalSubdomain=in"
+}
+
+let SocialLinks = ({fontawesomename, link}) => {
+    return (
+        <a href={link} target="_blank" rel="nopener noreferrer" id="connect">
+            <i className={fontawesomename} aria-hidden="true"></i> </a>
+    )
+}
+
+let FooterNav = ({navigateTo, name}) => {
+    return (
+        <Link style={{textAlign: 'start', textDecoration: 'none'}} className='d-sm-flex m-2 text-white' to={navigateTo}>{name}</Link>
+    )
+}
+
 function MyFooter() {
 
     return (
-        <div class="footer text-white py-3 px-2" style={{marginTop: "auto"}}>
+        <div class="footer text-white py-3 px-2 container-fluid" style={{marginTop: "auto"}}>
             <div class="container">
                 <div class="row my-3 justify-content-around">
                     <div class="col-md-3 col-sm-12">
                         <h5 class="my-3 justify-content-center-md" style={{fontWeight: 'bold', textAlign: 'start'}}>ICMC 2023</h5>
                         <div class="">
-                            <Link style={{textAlign: 'start', textDecoration: 'none'}} className='d-sm-flex m-2 text-white' to='/ICMC23-Website/'>Home</Link>
-                            <Link style={{textAlign: 'start', textDecoration: 'none'}} className='d-sm-flex m-2 text-white' to='/ICMC23-Website/speakers'>Speakers</Link>
-                            <Link style={{textAlign: 'start', textDecoration: 'none'}} className='d-sm-flex m-2 text-white' to='/ICMC23-Website/timeline'>Timeline</Link>
-                            <Link style={{textAlign: 'start', textDecoration: 'none'}} className='d-sm-flex m-2 text-white' to='/ICMC23-Website/pasteditions'>Past Editions</Link>
-                            <Link style={{textAlign: 'start', textDecoration: 'none'}} className='d-sm-flex m-2 text-white' to='/ICMC23-Website/contact'>Contact Us</Link>
+                            <FooterNav navigateTo={"/ICMC23-Website/"} name="Home" />
+                            <FooterNav navigateTo={"/ICMC23-Website/speakers"} name="Speakers" />
+                            <FooterNav navigateTo={"/ICMC23-Website/timeline"} name="Timeline" />
+                            <FooterNav navigateTo={"/ICMC23-Website/pasteditions"} name="Past Editions" />
+                            <FooterNav navigateTo={"/ICMC23-Website/contact"} name="Contact Us" />
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12">
@@ -40,11 +61,11 @@ function MyFooter() {
                     <div class="col-md-4 col-sm-12 justify-content-center align-middle">
                     <h5 class="mb-3 mt-sm-4" style={{fontWeight: 'bold', textAlign: 'center'}}>Connect with Us</h5>
                     <p style={{textAlign: 'center'}}>
-                        <a target="_blank" href="https://www.facebook.com/bitsgoaofficial/" id="connect"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a target="_blank" href="https://twitter.com/bitspilanigoa" id="connect"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a target="_blank" href="https://www.instagram.com/bitspilaniofficial/" id="connect"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        <a target="_blank" href="https://www.youtube.com/user/BITSpilaniTechMedia/videos" id="connect"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                        <a target="_blank" href="https://www.linkedin.com/school/birla-institute-of-technology-and-science-pilani---goa-campus/?originalSubdomain=in" id="connect"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <SocialLinks link={links["facebook"]} fontawesomename="fa fa-facebook" />
+                        <SocialLinks link={links["twitter"]} fontawesomename="fa fa-twitter" />
+                        <SocialLinks link={links["instagram"]} fontawesomename="fa fa-instagram" />
+                        <SocialLinks link={links["youtube"]} fontawesomename="fa fa-youtube" />
+                        <SocialLinks link={links["linkedin"]} fontawesomename="fa fa-linkedin" />
                     </p>
                     </div>
                 </div>

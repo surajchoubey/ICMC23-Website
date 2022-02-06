@@ -1,5 +1,6 @@
 import React from "react";
-import BITSDome from '../images/bits-dome.png';
+import { Link } from 'react-router-dom';
+import BITSDome from '../images/bits-dome-whitebg.png';
 import BITSDClassroom from '../images/bits-d-classroom.jpg';
 import BITSAudi from '../images/bits-audi.jpeg';
 import Timer from '../layouts/timer';
@@ -26,15 +27,15 @@ function Home() {
                                 </h1>
                             </div>
                             <div class="d-flex" style={{textAlign: 'start'}}>
-                                <button class="black-button">Registration</button>
+                                <Link to="/ICMC23-Website/registration/payregfee/" class="black-button" >Registration</Link>
                             </div>                                           
                             <div class="d-flex" style={{textAlign: 'start'}}>
                                 <h3 style={{fontWeight: 'lighter'}}>JANUARY 6-8 | 2023</h3>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6">
-                        <div class="p-3 justify-self-center" style={{minHeight: '500px', display: 'flex', flexDirection:'column', alignItems: 'center'}}>
+                    <div class="col-sm-12 col-md-6 d-flex justify-content-center">
+                        <div class="d-flex align-items-center" style={{display: 'flex', flexDirection:'row', alignSelf: 'center'}}>
                             <img src={BITSDome} alt="" class="img-fluid"/>
                         </div>
                     </div>
@@ -97,7 +98,7 @@ function Home() {
                     <div class="col-3"><img src={whitenigga} alt="" class="img-fluid"/></div>
                 </div>
                 <div class="mt-5 d-flex flex-row-reverse">
-                    <a class="black-button">All Speakers</a>
+                    <Link to="/ICMC23-Website/speakers" class="black-button">All Speakers</Link>
                 </div>
             </div>
 

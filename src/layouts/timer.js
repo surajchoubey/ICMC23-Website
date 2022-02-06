@@ -1,7 +1,7 @@
 import React from 'react'
 import {useState, useEffect} from 'react';
 
-// Change date from here and NOT from function
+// Change date from here and NOT from Timer function
 const date = new Date("01/05/2023 09:00:00");
 
 const Timer = () => {
@@ -49,36 +49,27 @@ const Timer = () => {
         };
     });
 
+    let TimerCard = ({count,word}) => {
+        return (
+            <div className="card col-lg-2 col-md-3 col-sm-3 px-0 py-lg-5 col" >
+                <div className="card-body">
+                    <h1 className='timer'>{count}<br/></h1>
+                    <p className="card-text">{word}</p>
+                </div>
+            </div>
+        )
+    }
+
     return (
         <div className="timer-container my-5">
             <div className="timer">
                 <h2 className="my-3">CONFERENCE BEGINS IN</h2>
                 <div className="container mb-5">
                     <div className="row justify-content-center px-2">
-                        <div className="card col-lg-2 col-md-3 col-sm-3 px-0 py-lg-5 col" >
-                            <div className="card-body">
-                                <h1 className='timer'>{days}<br/></h1>
-                                <p className="card-text">DAYS</p>
-                            </div>
-                        </div>
-                        <div className="card col-lg-2 col-md-3 col-sm-3 px-0 py-lg-5 col">
-                            <div className="card-body">
-                                <h1 className='timer'>{hours}<br/></h1>
-                                <p className="card-text">HRS</p>
-                            </div>
-                        </div>
-                        <div className="card col-lg-2 col-md-3 col-sm-3 px-0 py-lg-5 col">
-                            <div className="card-body">
-                                <h1 className='timer'>{minutes}<br/></h1>
-                                <p className="card-text">MINS</p>
-                            </div>
-                        </div>
-                        <div className="card col-lg-2 col-md-3 col-sm-3 px-0 py-lg-5 col">
-                            <div className="card-body">
-                                <h1 className='timer'>{seconds}<br/></h1>
-                                <p className="card-text">SECS</p>
-                            </div>
-                        </div>
+                        <TimerCard count={days} word="DAYS" />
+                        <TimerCard count={hours} word="HRS" />
+                        <TimerCard count={minutes} word="MINS" />
+                        <TimerCard count={seconds} word="SECS" />
                     </div>
                 </div>
             </div>

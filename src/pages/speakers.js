@@ -25,7 +25,7 @@ function Speakers() {
         <div className="divider"></div>
         <div style={{height: "350px", marginTop: "40px", 
                     background: "#FBFBFB", display: "flex", flexDirection:"row", justifyContent: 'space-between'}}>
-            <img src={speaker1} style={{height: "350px", marginRight: "20px"}}/>
+            <img src={speaker1} style={{height: "350px", marginRight: "20px"}} alt="speaker1"/>
             <div style={{height: "350px", marginRight: "0px", width: "260px"}}>
                 <div className="speakerName">
                 Jiawei Han
@@ -55,7 +55,7 @@ function Speakers() {
         </div>
         <div style={{height: "350px", marginTop: "40px", 
                     background: "#FBFBFB", display: "flex", flexDirection:"row", justifyContent: 'space-between'}}>
-            <img src={speaker2} style={{height: "350px", marginRight: "20px"}}/>
+            <img src={speaker2} style={{height: "350px", marginRight: "20px"}} alt="speaker2"/>
             <div style={{marginRight: "0px", width: "260px"}}>
                 <div className="speakerName">
                 Ellena Ferrari
