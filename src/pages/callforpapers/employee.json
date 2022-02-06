@@ -1,19 +1,19 @@
 [
     {
-        "Sl":"1",
-        "Id":"32",
+        "S_NO":"1",
+        "ID":"32",
         "Title":"Gait Analysis",
         "Authors":"Yash",
-        "Affiliation":"Bits Pilani",
+        "Affiliation":"BITS Pilani",
         "Country":"India"
     },
     {
         
-        "Sl":"2",
-        "Id":"45",
+        "S_NO":"2",
+        "ID":"45",
         "Title":"Gait Analysis",
         "Authors":"Harsh",
-        "Affiliation":"Bits Pilani",
+        "Affiliation":"BITS Pilani",
         "Country":"India"
     }
 ]

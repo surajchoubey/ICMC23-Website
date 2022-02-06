@@ -6,14 +6,13 @@ function PayRegFee() {
             <section id = "registeration" class="team section-bg">
             <div class="container aos-init aos-animate">
                 <div class="section-header">
-                  <h3 align = "center">Registration </h3>
-        
+                  <div className="titleStyle1"> Pay Registration </div>
+                  <div className="titleStyle2"> Fees </div>
                 </div>
         
                 <div class="section-header">
                   <center>
                     <h4>Conference Participation Fees </h4>
-        
                     <div >
                       <table class="table table-striped table-bordered">
                         <thead>

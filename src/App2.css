@@ -18,7 +18,8 @@
   font-size: 300%;
   line-height: 64px;
   color: #333333;
-  }
+  text-transform: uppercase;
+}
 
 .boxStyle{
   width: 222px;

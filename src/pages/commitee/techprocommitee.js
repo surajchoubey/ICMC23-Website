@@ -14,8 +14,9 @@ function TechProCommittee() {
 
   return (
     <div class="section-header">
-      <h2 align="center">Technical Program Committee</h2>
       <div class="container">
+      <div className="titleStyle1"> Technical Program </div>
+      <div className="titleStyle2"> Committee </div>
         <BTable striped bordered hover responsive>
           <thead>
             <tr>

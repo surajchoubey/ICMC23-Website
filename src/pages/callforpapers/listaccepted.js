@@ -19,11 +19,13 @@ function ListAccepted() {
 
 return(
     <div class="container">
+        <div className="titleStyle1"> List Of </div>
+        <div className="titleStyle2"> Accepted Papers </div>
         <table className="table table-striped">
             <thead>
                 <tr>
-                <th>Sl</th>
-                <th>Id</th>
+                <th>S No.</th>
+                <th>ID</th>
                 <th>Title</th>
                 <th>Authors</th>
                 <th>Affiliation</th>
