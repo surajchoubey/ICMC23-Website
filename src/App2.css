@@ -105,20 +105,19 @@
 
 /* track-card */
 .track-card {
-  padding: 0 1.4em;
-  height: 70px;
+  padding: 2em 1.4em;
   font-family: Roboto, sans-serif;
   font-size: 0.85rem;
   background-color: #fbfbfb;
   text-align: center;
-  line-height: 71px;
+  /* line-height: 71px; */
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
   outline: none;
   border: none;
   border-radius: 3px;
-  color: #333333;
+  color: #333;
   letter-spacing: 0.2em;
 }
 .track-card:after {
@@ -143,7 +142,7 @@
   right: 0;
   border-radius: 3px;
   width: 100%;
-  background: black;
+  background: #444;
   color: white;
 }
 
