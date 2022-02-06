@@ -2,6 +2,17 @@ import React from "react";
 import speaker1 from '../images/speaker1.jpg';
 import speaker2 from '../images/speaker2.jpg';
 
+function SpeakerLink({link}) {
+    return (
+        <a href={link} target="_blank" rel="nopener noreferrer" style={{all: 'unset', cursor: 'pointer'}}>
+            <div className='boxStyle'>
+                VIEW MORE &#160; &#x2192;
+            </div>
+        </a>
+    )
+}
+
+
 function Speakers() {
     return(
         <div className="container" style={{marginBottom: '50px' /* marginLeft:"60px", marginTop: "40px", marginRight:"60px" */}}>
@@ -23,8 +34,8 @@ function Speakers() {
                 Department of Computer Science <br/>
                 Univ. of Illinois at Urbana-Champaign
                 </div>
-                <div className="boxStyle" style={{backgroundColor:"white", marginTop: "40px"}}>
-                    <a href='https://google.com/' style={{color:"black", textDecoration:'none'}} target="_blank" rel="noopener noreferrer">VIEW MORE &#160; &#x2192;</a>
+                <div style={{marginTop: "40px"}}>
+                <SpeakerLink link="https://www.google.com"/>
                 </div>
             </div>
             <div style={{marginRight: "40px", width: "400px"}}>
@@ -56,8 +67,8 @@ function Speakers() {
                 University of Insubria <br/>
                 Department of Theoretical and Applied Science
                 </div>
-                <div className="boxStyle" style={{backgroundColor:"white", color:"black", marginTop: "125px"}}>
-                    <a href='https://google.com/' style={{color:"black", textDecoration:'none'}} target="_blank" rel="noopener noreferrer">VIEW MORE &#160; &#x2192;</a>
+                <div style={{marginTop: "125px"}}>
+                <SpeakerLink link="https://www.google.com"/>
                 </div>
             </div>
             <div style={{marginRight: "40px", width: "400px"}}>

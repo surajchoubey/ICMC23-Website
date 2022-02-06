@@ -1,12 +1,10 @@
 .titleStyle1 {
   text-align: left;
   height: 64px;
-
   font-family: Roboto, sans-serif;
   font-weight: 300;
   font-size: 300%;
   line-height: 64px;
-
   color: #bdbdbd;
   text-transform: uppercase;
 }
@@ -15,29 +13,47 @@
   text-align: left;
   height: 64px;
   top: 64px;
-
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 300%;
   line-height: 64px;
   color: #333333;
-  text-transform: uppercase;
-}
+  }
 
-.boxStyle {
+.boxStyle{
   width: 222px;
   height: 71px;
   background: #333333;
   text-align: center;
   line-height: 71px;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto,sans-serif;
   font-weight: 300;
-  color: #ffffff;
+  color: #FFFFFF;
   margin-bottom: 30px;
+  background-size: 300%;
+  border: 1.5px solid #333333;
+  transition: all 0.5s;
+  background-image: linear-gradient(90deg, #333333 50%, #FFFFFF 50%);
 }
 
-.boxStyle:hover {
-  text-decoration: underline;
+.boxStyle:hover{
+  background: #FFFFFF;
+  color: #333333;
+  background-position: 100%;
+  transform: translateX(0.5rem);
+  }
+
+.numStyle{
+  width: 104px;
+  height: 140.52px;
+  position: relative;
+  top: 0px;
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 234px;
+  align-items: center;
+  color: #F2F2F2;
 }
 
 .numStyle {
@@ -45,7 +61,6 @@
   height: 140.52px;
   position: relative;
   top: 0px;
-
   font-family: Roboto, sans-serif;
   font-weight: 900;
   font-size: 200px;
@@ -60,7 +75,6 @@
   position: relative;
   width: 1060px;
   top: 35px;
-
   font-family: Roboto, sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -71,12 +85,10 @@
 .tracksTitle {
   position: relative;
   top: 60px;
-
   font-family: Roboto, sans-serif;
   font-weight: 900;
   font-size: 96px;
   line-height: 72px;
-
   display: flex;
   align-items: center;
   color: #f2f2f2;
@@ -86,7 +98,7 @@
 .tracksStyle {
   /* display: flex;
   flex-direction: column;
-  align-items: flex-start;*/
+  align-items: flex-start; */
   padding: 0 32px;
   height: 71px;
   font-family: Roboto, sans-serif;
@@ -96,10 +108,21 @@
   line-height: 71px;
   color: #333333;
   margin-bottom: 30px;
+  background-size: 300%;
+  /* border: 1.5px solid #FBFBFB; */
+  transition: all 0.5s;
+  background-image: linear-gradient(90deg, #FBFBFB 50%, #333333 50%);
+  display: inline-block;
+  height: auto;
 }
 
 .tracksStyle:hover {
   background: #333333;
+  color: #FFFFFF;
+  background-position: 100%;
+  transform: translateX(0.5rem);
+  box-shadow: -7px -7px 8px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 8px 0px #0002, 4px 4px 5px 0px #0001;
   color: #ffffff;
 }
 
@@ -137,6 +160,7 @@
   background: transparent;
   color: #fff;
 }
+
 .track-card:hover:after {
   left: auto;
   right: 0;
@@ -150,7 +174,6 @@
   height: 47px;
   margin-top: 20px;
   text-align: left;
-
   font-family: Roboto, sans-serif;
   font-weight: 300;
   font-size: 32px;
@@ -161,9 +184,37 @@
 .speakerText {
   height: 40px;
   text-align: left;
-
   font-family: Roboto, sans-serif;
   font-weight: 300;
   font-size: 14px;
   color: #000000;
+}
+
+/* .speaker{
+  height: "350px";
+  margin-right: "20px";
+} */
+
+@media screen and (max-width: 900px) {
+  .textStyle {
+    word-wrap: break-word;
+    height: 80vh;
+    flex-direction: column;
+    width: 50vw;
+    overflow: scroll;
+  }
+  .tracksStyle {
+    width: 80vw;
+    margin-left: 7vw;
+  }
+
+  /* .picName {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .speaker {
+    height: 20vh;
+    width: 30vw;
+  } */
 }
