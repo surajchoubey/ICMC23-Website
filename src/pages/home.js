@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import BITSDome from '../images/bits-dome.png';
+import BITSDome from '../images/bits-dome-whitebg.png';
 import BITSDClassroom from '../images/bits-d-classroom.jpg';
 import BITSAudi from '../images/bits-audi.jpeg';
 import Timer from '../layouts/timer';
@@ -15,7 +15,7 @@ function Home() {
             <div class="container">
                 <div class="row align-items-around">
                     <div class="col-sm-12 col-md-6">
-                        <div class="p-4" style={{minHeight: '550px', display: 'flex', flexDirection:'column', justifyContent: 'space-around', alignSelf: 'center'}}>
+                        <div class="p-4" style={{minHeight: '500px', display: 'flex', flexDirection:'column', justifyContent: 'space-around', alignSelf: 'center'}}>
                             <div class="d-flex">
                                 <h1 style={{textAlign: 'start', fontWeight:'lighter', color: 'grey'}}>
                                     9th International Conference on Mathematics and Computing
@@ -35,7 +35,7 @@ function Home() {
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 d-flex justify-content-center">
-                        <div class="d-flex align-items-center" style={{margin: '30px' , display: 'flex', flexDirection:'row', alignSelf: 'center'}}>
+                        <div class="d-flex align-items-center" style={{display: 'flex', flexDirection:'row', alignSelf: 'center'}}>
                             <img src={BITSDome} alt="" class="img-fluid"/>
                         </div>
                     </div>
