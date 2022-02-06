@@ -248,28 +248,20 @@ a.dropdown-item:hover {
 h2.heading-secondary {
   font-weight: 900;
   text-align: start;
-  font-size: 3.5rem;
+  font-size: 6.5rem;
   color: #f2f2f2;
-}
-
-@media screen and (min-width: 768px) {
-  h2.heading-secondary {
-    font-size: 6.5rem;
-    font-weight: 900;
-    text-align: start;
-    color: #f2f2f2;
-  }
 }
 
 @media (max-width: 900px) {
   h2.heading-secondary {
-    font-size: 3rem;
+    font-size: max(12vw, 3rem);
   }
   .card-name {
-    font-size: 1.6rem;
+    font-size: max(3.5vw, 1.6rem);
+    line-height: normal;
   }
   .card-description {
-    font-size: 1.1rem;
+    font-size: max(2.1vw, 1.1rem);
   }
   .committee-flxbx {
     row-gap: 0.7rem;
