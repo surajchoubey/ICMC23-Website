@@ -6,8 +6,8 @@ function ListAccepted() {
     (info)=>{
         return(
             <tr>
-                <td>{info.Sl}</td>
-                <td>{info.Id}</td>
+                <td>{info.S_No}</td>
+                <td>{info.ID}</td>
                 <td>{info.Title}</td>
                 <td>{info.Authors}</td>
                 <td>{info.Affiliation}</td>
