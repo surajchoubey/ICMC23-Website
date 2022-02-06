@@ -1,8 +1,8 @@
 import React from "react";
-import JsonData from './employee.json'
+import JSONdata from './employee.json'
 
 function ListAccepted() {
-  const DisplayData=JsonData.map(
+  const DisplayData=JSONdata.map(
     (info)=>{
         return(
             <tr>
@@ -31,14 +31,9 @@ return(
                 </tr>
             </thead>
             <tbody>
-             
-
-                
                 {DisplayData}
-                
             </tbody>
         </table>
-         
     </div>
 )
   
