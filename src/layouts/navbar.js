@@ -72,8 +72,8 @@ function MyNavbar() {
 						</NavWithDropDown>
 
 						<NavWithDropDown name="Registration">
-								<DropDownItem link={"/ICMC23-Website/registration/confregfee/"} showname={"Conference Registration Fee"} />
-								<DropDownItem link={"/ICMC23-Website/registration/payregfee/"} showname={"Pay Registration Fee"} />
+								<DropDownItem link={"/ICMC23-Website/registration/confregfee/"} showname={"Conference Fees"} />
+								<DropDownItem link={"/ICMC23-Website/registration/payregfee/"} showname={"Payment"} />
 						</NavWithDropDown>
 
 						<NavWithoutDropDown link={"/ICMC23-Website/pasteditions"} showname={"Past Editions"} />
