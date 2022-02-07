@@ -14,7 +14,7 @@ import Tracks from './pages/callforpapers/tracks';
 import Guidelines from './pages/callforpapers/guidelines';
 import SubmitPaper from './pages/callforpapers/submitpaper';
 import ListAccepted from './pages/callforpapers/listaccepted';
-import ConfRegFee from './pages/registration/confregfree';
+import ConfRegFee from './pages/registration/confregfee';
 import PayRegFee from './pages/registration/payregfee';
 import PastEditions from './pages/pasteditions';
 import BPGCGoa from './pages/venue/bpgcgoa';

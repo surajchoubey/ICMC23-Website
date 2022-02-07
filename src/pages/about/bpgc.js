@@ -13,7 +13,7 @@ function BPGC() {
       <div className="titleStyle2">
         Birla Institute of Technology and Science
       </div>
-      <div class="divider"></div>
+      <div class="divider" style={{marginBottom: '50px'}}></div>
       <div class="about-content">
         <img
           src={abouttoppng}

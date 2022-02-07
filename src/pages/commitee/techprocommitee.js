@@ -17,6 +17,7 @@ function TechProCommittee() {
       <div class="container">
       <div className="titleStyle1"> Technical Program </div>
       <div className="titleStyle2"> Committee </div>
+      <div class="divider" style={{marginBottom: '50px'}}></div>
         <BTable striped bordered hover responsive>
           <thead>
             <tr>

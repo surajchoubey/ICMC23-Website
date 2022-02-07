@@ -9,7 +9,7 @@ function BPGCMathDept() {
             <div className="titleStyle2">
             Department of Mathematics
             </div>
-            <div class="divider"></div>
+            <div class="divider" style={{marginBottom: '50px'}}></div>
         </div>
     );
 }

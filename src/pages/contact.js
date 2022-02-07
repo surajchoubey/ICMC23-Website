@@ -9,7 +9,7 @@ function Contact() {
                     <div class="contact-content" style={{textAlign: 'start'}}>
                         <div className="titleStyle1"> Contact </div>
                         <div className="titleStyle2"> Information </div>
-
+                        <div class="divider" style={{marginBottom: '50px'}}></div>
                         <p class="address" style={{marginTop: '30px'}}>
                             <strong>Birla Institute of Technology &amp; Science</strong><br/>
                             NH 17B, Bypass Road, Zuarinagar, Sancoale,<br/>Goa 403726
