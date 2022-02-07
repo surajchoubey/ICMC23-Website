@@ -5,7 +5,7 @@ import speaker2 from '../images/speaker2.jpg';
 function SpeakerLink({link}) {
     return (
         <a href={link} target="_blank" rel="nopener noreferrer" style={{all: 'unset', cursor: 'pointer'}}>
-            <div className='boxStyle'>
+            <div className='boxStyleView'>
                 VIEW MORE &#160; &#x2192;
             </div>
         </a>
@@ -23,10 +23,10 @@ function Speakers() {
             Speakers
         </div>
         <div className="divider"></div>
-        <div style={{height: "350px", marginTop: "40px", 
-                    background: "#FBFBFB", display: "flex", flexDirection:"row", justifyContent: 'space-between'}}>
-            <img src={speaker1} style={{height: "350px", marginRight: "20px"}} alt="speaker1"/>
-            <div style={{height: "350px", marginRight: "0px", width: "260px"}}>
+        <div className="speakerDiv" /*style={{height: "350px", marginTop: "40px", 
+                    background: "#FBFBFB", display: "flex", flexDirection:"row", justifyContent: 'space-between'}}*/>
+            <img className="speakerImg" src={speaker1} /*style={{height: "350px", marginRight: "20px"}}*/ alt="speaker1"/>
+            <div className="upperDiv" /*style={{height: "350px", width: "260px"}}*/>
                 <div className="speakerName">
                 Jiawei Han
                 </div>
