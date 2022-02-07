@@ -54,7 +54,7 @@ function App() {
 			<Route exact path='/ICMC23-Website/venue/accomodation' element = {<Accomodation />} />
 			<Route exact path='/ICMC23-Website/venue/visa' element = {<VISA />} />
 			<Route exact path='/ICMC23-Website/contact' element = {<Contact />} />
-			<Route exact path='/ICMC23-Website/*' element = {<ErrorPage />} />
+			<Route exact path='/*' element = {<ErrorPage />} />
 		</Routes>
 		<MyFooter />
     </div>

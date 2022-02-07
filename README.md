@@ -8,7 +8,7 @@ Change `PUBLIC_URL` from `.env` file in the base directory.
 Please do not perform any changes in the `package.json` file.
 For example: 
 ```ruby
-PUBLIC_URL = "https://example.com/ICMC23-Website/"
+PUBLIC_URL = "https://www.example.com/"
 ```
 <br>
 <br>
