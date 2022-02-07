@@ -1,7 +1,7 @@
 ## INTERNATIONAL CONFERENCE FOR MATHEMATICS AND COMPUTING 2023
 
 The Website is in development phase at the moment.<br>
-For testing purposes it has been deployed here: https://surajchoubey.github.io/ICMC23-Website/
+For testing purposes it has been deployed here: https://icmc23.netlify.app/
 
 ## To deploy it at your own preferred URL
 Change `PUBLIC_URL` from `.env` file in the base directory.
