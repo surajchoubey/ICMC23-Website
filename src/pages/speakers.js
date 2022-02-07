@@ -38,12 +38,12 @@ function Speakers() {
                 <SpeakerLink link="https://www.google.com"/>
                 </div>
             </div>
-            <div style={{marginRight: "40px", width: "400px"}}>
-                <div style={{position: "relative", height: "28px", marginTop: "32px", fontFamily: "Roboto",
+            <div className="lowerDiv">
+                <div style={{height: "28px", marginTop: "32px", fontFamily: "Roboto",
                             fontWeight: "300", fontSize: "21px",lineHeight: "28px",color: "#BDBDBD", textAlign:"left"}}>
                     Current Research
                 </div>
-                <div className="speakerText" style={{marginTop: "15px", flexWrap: "wrap"}}>
+                <div className="speakerText" style={{marginTop: "15px", flexWrap: "wrap", textAlign: "justify"}}>
                 §  StructNet: Constructing and Mining Structure-Rich Information Networks for Scientific Research (NSF/IIS) <br/>
                 §  Taming Big Networks via Embedding (NSF/IIS-BIGDATA) <br/>
                 §  Mining and Leveraging Knowledge Hypercubes for Complex Applications (NSF-IIS) <br/>
@@ -53,10 +53,10 @@ function Speakers() {
                 </div>
             </div>
         </div>
-        <div style={{height: "350px", marginTop: "40px", 
-                    background: "#FBFBFB", display: "flex", flexDirection:"row", justifyContent: 'space-between'}}>
-            <img src={speaker2} style={{height: "350px", marginRight: "20px"}} alt="speaker2"/>
-            <div style={{marginRight: "0px", width: "260px"}}>
+        <div className="speakerDiv" /*style={{height: "350px", marginTop: "40px", 
+                    background: "#FBFBFB", display: "flex", flexDirection:"row", justifyContent: 'space-between'}}*/>
+            <img className="speakerImg" src={speaker2} /*style={{height: "350px", marginRight: "20px"}}*/ alt="speaker2"/>
+            <div className="upperDiv" /*style={{marginRight: "0px", width: "260px"}}*/>
                 <div className="speakerName">
                 Ellena Ferrari
                 </div>
@@ -71,12 +71,12 @@ function Speakers() {
                 <SpeakerLink link="https://www.google.com"/>
                 </div>
             </div>
-            <div style={{marginRight: "40px", width: "400px"}}>
-                <div style={{position: "relative", height: "28px", marginTop: "32px", fontFamily: "Roboto",
+            <div className="lowerDiv" /*style={{marginRight: "40px", width: "400px"}}*/>
+                <div style={{height: "28px", marginTop: "32px", fontFamily: "Roboto",
                             fontWeight: "300", fontSize: "21px",lineHeight: "28px",color: "#BDBDBD", textAlign:"left"}}>
                     Recent Publications
                 </div>
-                <div className="speakerText" style={{marginTop: "15px", flexWrap: "wrap"}}>
+                <div className="speakerText" style={{marginTop: "15px", flexWrap: "wrap", textAlign: "justify"}}>
                 L. Giaretta, A. Lekssays, B. Carminati, E. Ferrari, S. Girdzijauskas. LiMNet: Early-Stage Detection of IoT Botnets with Lightweight Memory Networks. ESORICS 2021: 605-625 <br/>
                 <br/>
                 Ha Xuan Son, Barbara Carminati, E. Ferrari. A Risk Assessment Mechanism for Android Apps. SmartIoT 2021: 237-244 <br/>

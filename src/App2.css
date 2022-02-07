@@ -198,7 +198,6 @@
 }
 
 .speakerDiv{
-  height: 350px;
   margin-top: 40px;
   background: #FBFBFB;
   display: flex;
@@ -206,8 +205,12 @@
   justify-content: space-between;
 }
 .upperDiv{
-  height: 350px;
   width: 260px;
+}
+
+.lowerDiv{
+  margin-right: 40px;
+  width: 400px;
 }
 
 
@@ -244,19 +247,30 @@
   }
 
   .upperDiv{
-    height: 30vh;
-  width: auto;
+    height: auto;
+  align-items: center;
+  overflow:visible;
+  }
+
+  .lowerDiv{
+    align-items: center;
+    width: 50vw;
+    margin-top: 80px;
+    display: none;
   }
 
   .boxStyleView{
     width: 50vw;
     height: auto;
     max-width: 222px;
+    
   }
 
-  /* .speakerDiv {
+  .speakerDiv {
     flex-direction: column;
+    background: white;
+    align-items: center;
     overflow: auto;
     justify-content: left;
-  } */
+  }
 }
