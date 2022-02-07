@@ -1,11 +1,22 @@
 import React from "react";
+import "../loading.css";
 
 function ErrorPage() {
-    return(
-        <div className="align-self-center mt-5">
-            <h1>Page Not Found</h1>
-        </div>
-    )
+  return (
+    <div class="section-loading">
+      <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <p>
+        Sorry, we're currently working on this page <br /> Thank you for your
+        patience, any inconvenience caused is regretted.
+      </p>
+    </div>
+  );
 }
 
 export default ErrorPage;
