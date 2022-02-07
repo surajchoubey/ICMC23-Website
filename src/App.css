@@ -296,33 +296,40 @@ h2.heading-secondary {
 
 .about-img-top,
 .about-img-btm {
-  max-width: 100%;
-  margin-bottom: 50px;
+  width: 100%;
+  margin-bottom: 5px;
 }
 
 .about-txt-cnt {
   font-weight: 300;
   color: #000;
+  align-content: center;
+  text-align: justify;
 }
 
 .about-img-cnt {
   max-width: 100%;
   float: left;
   align-self: center;
-  margin: 0rem 1rem 0.2rem 0;
+  margin: 1rem 2rem 1rem 0;
 }
 .about-mid-grid {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  margin-top: 25px;
 }
 @media (max-width: 700px) {
-  .about-img-cnt {
-    float: none;
-    align-items: center;
-  }
   .about-mid-grid {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;    
     align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .about-img-cnt{
+    height: 40vh;
+    align-self:flex-start;
+  }
+  .about-txt-cnt{
+    text-align: left;
   }
 }
 /* ************************************ */
@@ -331,4 +338,4 @@ h2.heading-secondary {
 .titleStyle2,
 .titleStyle1 {
   height: auto !important;
-}
+} 

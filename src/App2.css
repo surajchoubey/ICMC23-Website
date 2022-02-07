@@ -21,7 +21,7 @@
   text-transform: uppercase;
 }
 
-.boxStyle{
+.boxStyle,.boxStyleView{
   width: 222px;
   height: 71px;
   background: #333333;
@@ -37,7 +37,7 @@
   background-image: linear-gradient(90deg, #333333 50%, #FFFFFF 50%);
 }
 
-.boxStyle:hover{
+.boxStyle:hover,.boxStyleView:hover{
   background: #FFFFFF;
   color: #333333;
   background-position: 100%;
@@ -81,6 +81,7 @@
   font-size: 18px;
   line-height: 30px;
   color: #333333;
+  word-wrap: break-word;
 }
 
 .tracksTitle {
@@ -191,12 +192,26 @@
   color: #000000;
 }
 
-/* .speaker{
-  height: "350px";
-  margin-right: "20px";
-} */
+.speakerImg{
+  height: 350px;
+  margin-right: 20px;
+}
 
-@media screen and (max-width: 900px) {
+.speakerDiv{
+  height: 350px;
+  margin-top: 40px;
+  background: #FBFBFB;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.upperDiv{
+  height: 350px;
+  width: 260px;
+}
+
+
+@media screen and (max-width: 1000px) {
   .textStyle {
     word-wrap: break-word;
     height: 80vh;
@@ -209,13 +224,39 @@
     margin-left: 7vw;
   }
 
-  /* .picName {
-    display: flex;
-    flex-direction: column;
+  .titleStyle1{
+    font-size: 180%;
+    height: 32px;
+    line-height: 32px;
+  }
+  .titleStyle2{
+    font-size: 150%;
+    height: 32px;
+    line-height: 32px;
+  }
+  .boxStyle{
+    width: 50vw;
+    height: auto;
+  }
+  .speakerImg{
+    height: 30vh;
+    width: auto;
   }
 
-  .speaker {
-    height: 20vh;
-    width: 30vw;
+  .upperDiv{
+    height: 30vh;
+  width: auto;
+  }
+
+  .boxStyleView{
+    width: 50vw;
+    height: auto;
+    max-width: 222px;
+  }
+
+  /* .speakerDiv {
+    flex-direction: column;
+    overflow: auto;
+    justify-content: left;
   } */
 }
