@@ -49,7 +49,7 @@ function Home() {
                     <div class="col-lg-6 col-md-12 p-3" style={{minHeight:'350px'}}>
                         <div>
                             <h1 class="" style={{textAlign: 'start', fontWeight: 'lighter'}}>About<br/></h1>
-                            <p class="" style={{textAlign: 'start'}}> Vellore Institute of Technology (VIT) was founded in 1984 as Vellore Engineering College by the Chancellor Dr. G. Viswanathan. VIT attracts students from all the 29 states of India and more than 41 different countries because of its academic excellence. The Government of India recognizes VIT as an Institution of Eminence (IoE). The credentials of VIT in academics and research have ranked VIT in 1st position among private institutions.</p>
+                            <p class="" style={{textAlign: 'justify'}}> Vellore Institute of Technology (VIT) was founded in 1984 as Vellore Engineering College by the Chancellor Dr. G. Viswanathan. VIT attracts students from all the 29 states of India and more than 41 different countries because of its academic excellence. The Government of India recognizes VIT as an Institution of Eminence (IoE). The credentials of VIT in academics and research have ranked VIT in 1st position among private institutions.</p>
                             <div class="d-flex" style={{textAlign: 'start'}}>
                                 <a class="btn text-secondary btn-light" type="button" href="www.google.com">
                                     READ MORE
@@ -74,13 +74,13 @@ function Home() {
                             <div><h1 style={{fontSize: '500%', color:'gray', fontWeight: 'bold'}}>1</h1></div>
                         </div>
                         <div class="col-lg-5 col-md-4 col-sm-9">
-                            <div style={{textAlign: 'start'}}>Each paper must be original and unpublished work, not submitted for publication elsewhere (copyright infringement issues will be the responsibility of the authors). Papers must be written in good English. Accepted submissions may not appear in any other conference or workshop with proceedings.</div>
+                            <div style={{textAlign: 'justify'}}>Each paper must be original and unpublished work, not submitted for publication elsewhere (copyright infringement issues will be the responsibility of the authors). Papers must be written in good English. Accepted submissions may not appear in any other conference or workshop with proceedings.</div>
                         </div>
                         <div class="col-lg-1 col-md-2 col-sm-3 mt-md-0 mt-sm-4">
                             <div><h1 style={{fontSize: '500%', color:'gray', fontWeight: 'bold'}}>2</h1></div>
                         </div>
                         <div class="col-lg-5 col-md-4 col-sm-9 mt-md-0 mt-sm-4">
-                            <div style={{textAlign: 'start'}}>The submissions must be anonymous, i.e. without author name(s), affiliation(s), acknowledgments, or obvious references. It should begin with a title, a short abstract, and a list of keywords and its introduction should summarize the contributions of the paper</div>
+                            <div style={{textAlign: 'justify'}}>The submissions must be anonymous, i.e. without author name(s), affiliation(s), acknowledgments, or obvious references. It should begin with a title, a short abstract, and a list of keywords and its introduction should summarize the contributions of the paper</div>
                         </div>
                     </div>
                 </div>

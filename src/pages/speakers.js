@@ -22,7 +22,7 @@ function Speakers() {
         <div className="titleStyle2">
             Speakers
         </div>
-        <div className="divider"></div>
+        <div class="divider" style={{marginBottom: '50px'}}></div>
         <div className="speakerDiv" /*style={{height: "350px", marginTop: "40px", 
                     background: "#FBFBFB", display: "flex", flexDirection:"row", justifyContent: 'space-between'}}*/>
             <img className="speakerImg" src={speaker1} /*style={{height: "350px", marginRight: "20px"}}*/ alt="speaker1"/>
