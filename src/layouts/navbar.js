@@ -45,7 +45,7 @@ function MyNavbar() {
 				</button>
 
 				<div class='collapse navbar-collapse justify-content-end' id="navbarSupportedContent">
-					<ul class="navbar-nav main-nav-list justify-content-end borderXwidth">
+					<ul class="navbar-nav d-flex flex-wrap main-nav-list justify-content-end borderXwidth">
 						<NavWithoutDropDown link={"/ICMC23-Website/"} showname={"Home"} />
 
 						<NavWithDropDown name="About">
