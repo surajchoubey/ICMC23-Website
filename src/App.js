@@ -14,7 +14,7 @@ import Tracks from './pages/callforpapers/tracks';
 import Guidelines from './pages/callforpapers/guidelines';
 import SubmitPaper from './pages/callforpapers/submitpaper';
 import ListAccepted from './pages/callforpapers/listaccepted';
-import ConfRegFee from './pages/registration/confregfree';
+import ConfRegFee from './pages/registration/confregfee';
 import PayRegFee from './pages/registration/payregfee';
 import PastEditions from './pages/pasteditions';
 import BPGCGoa from './pages/venue/bpgcgoa';
@@ -32,6 +32,7 @@ function App() {
     <div className="App" style={{"display": "flex","min-height": "100vh", "flex-direction": "column", "justify-content": "flex-start"}}>
 		<MyNavBar />
 		<Routes>
+			<Route exact path='/' element = {<Home/> } />
 			<Route exact path='/ICMC23-Website/' element = {<Home />} />
 			<Route exact path='/ICMC23-Website/about/bpgc' element = {<BPGC />} />
 			<Route exact path='/ICMC23-Website/about/bpgcmathdept' element = {<BPGCMathDept />} />
@@ -53,7 +54,7 @@ function App() {
 			<Route exact path='/ICMC23-Website/venue/accomodation' element = {<Accomodation />} />
 			<Route exact path='/ICMC23-Website/venue/visa' element = {<VISA />} />
 			<Route exact path='/ICMC23-Website/contact' element = {<Contact />} />
-			<Route exact path='/ICMC23-Website/*' element = {<ErrorPage />} />
+			<Route exact path='/*' element = {<ErrorPage />} />
 		</Routes>
 		<MyFooter />
     </div>

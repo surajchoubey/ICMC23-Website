@@ -19,7 +19,7 @@ function PastEditions() {
             <div className = 'titleStyle2'>
                 Conferences
             </div>
-            <div class="divider"></div>
+            <div class="divider" style={{marginBottom: '50px'}}></div>
             <div style={{display:'flex', flexWrap: 'wrap', justifyContent: 'space-evenly', /*marginLeft: '60px', marginRight: '120px',*/ marginTop: "60px"}}>
                 <PastEditionElement link="https://www.google.com" yearname="2013" />
                 <PastEditionElement link="http://hithaldia.co.in/icmc2015/" yearname="2015" />
