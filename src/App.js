@@ -32,6 +32,7 @@ function App() {
     <div className="App" style={{"display": "flex","min-height": "100vh", "flex-direction": "column", "justify-content": "flex-start"}}>
 		<MyNavBar />
 		<Routes>
+			<Route exact path='/' element = {<Home/> } />
 			<Route exact path='/ICMC23-Website/' element = {<Home />} />
 			<Route exact path='/ICMC23-Website/about/bpgc' element = {<BPGC />} />
 			<Route exact path='/ICMC23-Website/about/bpgcmathdept' element = {<BPGCMathDept />} />
