@@ -20,29 +20,14 @@ function Guidelines() {
             <div className = 'titleStyle1'> Author's </div>
             <div className = 'titleStyle2'> Guidelines </div>
             <div class="divider" style={{marginBottom: '50px'}}></div>
-            <GuidelinesLayout serial_number="1" title="Access to your published paper">
-                If the conference organizers opt for 4-week free access to the volume on SpringerLink, then participants are able to access all papers via the conference website during this period (usually around the time of the conference).<br/> <br/>
-                Conference organizers may also purchase printed books and/or USB-sticks containing navigable content for distribution amongst the participants.<br/> <br/>
-                In addition, all authors who have included their email addresses in the headers of their papers will receive an email containing a coded personal access link, which will enable them to download the PDF of their paper directly from SpringerLink.<br/> <br/>
-                Springer's policy on content sharing is given on the following page: <a href='http://www.springer.com/gp/springernature/landing/content-sharing' target="_blank" rel="noopener noreferrer">http://www.springer.com/gp/springernature/landing/content-sharing</a>           
+            <GuidelinesLayout serial_number="1" /*title="Access to your published paper"*/>
+                Each paper must be original and unpublished work, not submitted for publication elsewhere (copyright infringement issues will be the responsibility of the authors). Papers must be written in good English. Accepted submissions may not appear in any other conference or workshop with proceedings. The submissions must be anonymous, i.e. without author name(s), affiliation(s), acknowledgments, or obvious references. It should begin with a title, a short abstract, and a list of keywords and its introduction should summarize the contributions of the paper. Papers should be at most 12 pages in total, including references and appendices, using 11 point font and reasonable margins. Extra charges of INR 100 or USD 05 per page is required after 12 pages and maximum page limit can be 20. The similarity index for a submitted paper should be below 20%.        
             </GuidelinesLayout>
-            <GuidelinesLayout serial_number="2" title="Access to your published paper">
-                If the conference organizers opt for 4-week free access to the volume on SpringerLink, then participants are able to access all papers via the conference website during this period (usually around the time of the conference).<br/> <br/>
-                Conference organizers may also purchase printed books and/or USB-sticks containing navigable content for distribution amongst the participants.<br/> <br/>
-                In addition, all authors who have included their email addresses in the headers of their papers will receive an email containing a coded personal access link, which will enable them to download the PDF of their paper directly from SpringerLink.<br/> <br/>
-                Springer's policy on content sharing is given on the following page: <a href='http://www.springer.com/gp/springernature/landing/content-sharing' target="_blank" rel="noopener noreferrer">http://www.springer.com/gp/springernature/landing/content-sharing</a>            
+            <GuidelinesLayout serial_number="2" /*title="Access to your published paper"*/>
+                The authors are encouraged to prepare their submissions as per the given <a href='https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines' target="_blank" rel="noopener noreferrer">guidelines</a>. Submitted papers must be in PDF format and should be submitted electronically via easy chair.           
             </GuidelinesLayout>
-            <GuidelinesLayout serial_number="3" title="Access to your published paper">
-                If the conference organizers opt for 4-week free access to the volume on SpringerLink, then participants are able to access all papers via the conference website during this period (usually around the time of the conference).<br/> <br/>
-                Conference organizers may also purchase printed books and/or USB-sticks containing navigable content for distribution amongst the participants.<br/> <br/>
-                In addition, all authors who have included their email addresses in the headers of their papers will receive an email containing a coded personal access link, which will enable them to download the PDF of their paper directly from SpringerLink.<br/> <br/>
-                Springer's policy on content sharing is given on the following page: <a href='http://www.springer.com/gp/springernature/landing/content-sharing' target="_blank" rel="noopener noreferrer">http://www.springer.com/gp/springernature/landing/content-sharing</a>            
-            </GuidelinesLayout>
-            <GuidelinesLayout serial_number="4" title="Access to your published paper">
-                If the conference organizers opt for 4-week free access to the volume on SpringerLink, then participants are able to access all papers via the conference website during this period (usually around the time of the conference).<br/> <br/>
-                Conference organizers may also purchase printed books and/or USB-sticks containing navigable content for distribution amongst the participants.<br/> <br/>
-                In addition, all authors who have included their email addresses in the headers of their papers will receive an email containing a coded personal access link, which will enable them to download the PDF of their paper directly from SpringerLink.<br/> <br/>
-                Springer's policy on content sharing is given on the following page: <a href='http://www.springer.com/gp/springernature/landing/content-sharing' target="_blank" rel="noopener noreferrer">http://www.springer.com/gp/springernature/landing/content-sharing</a>            
+            <GuidelinesLayout serial_number="3" /*title="Access to your published paper"*/>
+            All papers that conform to submission guidelines will be evaluated based on originality, technical and/or research content/depth, correctness, relevance to conference, contributions, and readability. The authors of the accepted papers will be allowed to make corrections in accordance with the suggestions of the reviewers and submit final camera-ready papers within the stipulated deadline.            
             </GuidelinesLayout>
         </div>
     );

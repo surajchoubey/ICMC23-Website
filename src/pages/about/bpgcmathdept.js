@@ -3,7 +3,10 @@ import aboutcontentpng from "../../images/assets/about-content.png";
 import aboutbottompng from '../../images/assets/about_bottom2.png';
 
 const aboutText =
-  "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae laboriosam sequi accusamus nobis delectus omnis nesciunt temporibus nihil necessitatibus illo dicta quos, natus aliquam ad! Praesentium consequatur iste fugiat obcaecati animi minus magnam tempora numquam distinctio suscipit accusantium deserunt, cumque minima mollitia fugit ea eaque. Vero labore necessitatibus nisi veniam temporibus, consequatur, cumque provident quisquam in eum cupiditate nobis illum, dolor perspiciatis laudantium similique magni repudiandae ipsam? Porro sequi tempore doloribus amet, officiis iusto quis similique dolores, cumque ipsum, fuga quas recusandae nam saepe obcaecati perspiciatis. Ullam hic voluptates veritatis voluptate eum esse, harum numquam distinctio quod necessitatibus cumque quisquam, ducimus consectetur nemo vel similique unde ex est illum mollitia aspernatur commodi voluptatum cupiditate? Cum blanditiis, alias minus, reiciendis architecto reprehenderit facilis quam, odit quae inventore iure itaque laboriosam rerum quidem repellendus eum incidunt harum magni deserunt commodi nobis. Voluptate laudantium pariatur debitis ut quibusdam odit quas dolor aspernatur vitae temporibus accusamus animi facilis, quos nihil fugit consequatur qui omnis accusantium delectus doloremque suscipit id molestias? Recusandae facilis sint enim inventore quas blanditiis amet id possimus at iure dolorem, saepe cupiditate. Facilis, eum quia quidem officia recusandae sint. Nisi libero illo, officia eum illum labore enim possimus ab pariatur corporis laudantium eius dignissimos autem sed expedita est qui mollitia unde obcaecati? Dolorum et hic numquam veniam dolore voluptas beatae cumque alias saepe recusandae soluta veritatis ad animi fuga deserunt libero reiciendis, laboriosam error velit culpa magni. Incidunt obcaecati fuga voluptas est, quod debitis! Ipsam reprehenderit deleniti maxime quod facilis?"
+"The Department of Mathematics was established in 2004. The department has competent faculties with vast knowledge in pure & applied Mathematics. The department offers M.Sc. (Hons) and PhD programs. The average strength in each year is approximately eighty students."
+const aboutText2 =  
+"The department provides opportunities for the students to choose their career in education and research in various fields of Mathematics. Department runs several foundation courses for all students pursuing integrated first-degree programs (B.E., M.Sc. (Hons), M.Sc. (Tech)) of the Institute, which provides a solid foundation for the various fields of Mathematics that would be essential and useful in both engineering and sciences. Besides these, the department also offers specialized courses in Mathematics for students pursuing M.Sc. (Hons) and PhD degrees in Mathematics. The department also contributes substantially towards the Work Integrated Learning Programs (WILP) of the Institute, specifically designed for the professionals working in various industries."
+ const aboutText3 = "The graduates from the department will have distinguished careers in science and engineering. The track record in this regard shows that our alumni have occupied leading positions in top-ranked industries and premier institutes across the globe. The department is deeply involved in research and shares the knowledge and transfers it to the academic and industrial sectors through publications, lectures, collaborations, consultations etc."
 
 function BPGCMathDept() {
     return(
@@ -23,6 +26,8 @@ function BPGCMathDept() {
                     className="about-img-cnt"
                 />
                 <p className="about-txt-cnt">{aboutText}</p>
+                <p className="about-txt-cnt">{aboutText2}</p>
+                <p className="about-txt-cnt">{aboutText3}</p>
                 </div>
                 <img
                 src={aboutbottompng}
