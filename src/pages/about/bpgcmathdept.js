@@ -1,5 +1,4 @@
 import React from "react";
-import aboutcontentpng from "../../images/assets/about-content.png";
 import aboutbottompng from '../../images/assets/about_bottom2.png';
 
 const aboutText =
@@ -20,11 +19,6 @@ function BPGCMathDept() {
             <div class="divider" style={{marginBottom: '50px'}}></div>
             <div className="about-content">
                 <div className="about-mid-grid">
-                <img
-                    src={aboutcontentpng}
-                    alt="Speaker at a conference"
-                    className="about-img-cnt"
-                />
                 <p className="about-txt-cnt">{aboutText}</p>
                 <p className="about-txt-cnt">{aboutText2}</p>
                 <p className="about-txt-cnt">{aboutText3}</p>
