@@ -6,6 +6,8 @@ import BITSAudi from '../images/bits-audi.jpeg';
 import Timer from '../layouts/timer';
 import Timeline from "./timeline";
 
+const homepg_text = "BITS Pilani K. K. Birla Goa Campus is one of the four campuses of the Birla Institute of Technology & Science, Pilani, a well-known all-India Institute for higher education. In keeping with the tradition of innovation and creativity, the campus has given a state-of-the-art touch to the infrastructure of the entire institute without diminishing, in the least, the natural beauty of Goa surrounding its Campus. Spacious labs state-of-the-art classrooms with soundproof acoustics, modern furniture, computer labs with Internet facility and Library define the infrastructural counters of the institution. Being an Institute of excellence in Technology and Sciences, the primary motive of the institute is to \"train young men and women able and eager to create and put into action such ideas, methods, techniques and information\". Being fully residential, the university hosts five thousand students and about six hundred staff."
+
 function Home() {
     return (
         <div>
@@ -46,11 +48,9 @@ function Home() {
                     <div class="col-lg-6 col-md-12 p-3" style={{minHeight:'350px'}}>
                         <div>
                             <h1 class="" style={{textAlign: 'start', fontWeight: 'lighter'}}>About<br/></h1>
-                            <p class="" style={{textAlign: 'justify'}}> Vellore Institute of Technology (VIT) was founded in 1984 as Vellore Engineering College by the Chancellor Dr. G. Viswanathan. VIT attracts students from all the 29 states of India and more than 41 different countries because of its academic excellence. The Government of India recognizes VIT as an Institution of Eminence (IoE). The credentials of VIT in academics and research have ranked VIT in 1st position among private institutions.</p>
+                            <p class="" style={{textAlign: 'justify'}}> {homepg_text} </p>
                             <div class="d-flex" style={{textAlign: 'start'}}>
-                                <a class="btn text-secondary btn-light" type="button" href="www.google.com">
-                                    READ MORE
-                                </a>
+                                <Link to="/ICMC23-Website/about/bpgc/" class="black-button" >VIEW MORE</Link>
                             </div>
                         </div>
                     </div>
