@@ -1,4 +1,6 @@
 import React from "react";
+import OrgCommittee from './orgcommitee';
+import TechProCommittee from './techprocommitee';
 
 class Patron {
   constructor(patronType, name, description) {
@@ -54,6 +56,11 @@ function Patrons() {
       <div class="committee-flxbx">{Patron.getCards(ChiefPatrons)}</div>
       <h2 class="heading-secondary">General Co-Chairs</h2>
       <div class="committee-flxbx">{Patron.getCards(GeneralCoChairs)}</div>
+
+      <OrgCommittee />
+
+      <TechProCommittee />
+
     </section>
   );
 }

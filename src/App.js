@@ -6,10 +6,10 @@ import BPGC from './pages/about/bpgc';
 import BPGCMathDept from './pages/about/bpgcmathdept';
 import ICMC from './pages/about/icmc';
 import Speakers from './pages/speakers';
-import Timeline from './pages/timeline';
-import Patrons from './pages/commitee/patrons';
-import OrgCommittee from './pages/commitee/orgcommitee';
-import TechProCommittee from './pages/commitee/techprocommitee';
+// import Timeline from './pages/timeline';
+import Committee from './pages/commitee/patrons';
+// import OrgCommittee from './pages/commitee/orgcommitee';
+// import TechProCommittee from './pages/commitee/techprocommitee';
 import Tracks from './pages/callforpapers/tracks';
 import Guidelines from './pages/callforpapers/guidelines';
 import SubmitPaper from './pages/callforpapers/submitpaper';
@@ -38,10 +38,13 @@ function App() {
 			<Route exact path='/ICMC23-Website/about/bpgcmathdept' element = {<BPGCMathDept />} />
 			<Route exact path='/ICMC23-Website/about/icmc' element = {<ICMC />} />
 			<Route exact path='/ICMC23-Website/speakers' element = {<Speakers />} />
+			<Route exact path='/ICMC23-Website/committee' element = {<Committee />} />
+			{/*
 			<Route exact path='/ICMC23-Website/timeline' element = {<Timeline />} />
 			<Route exact path='/ICMC23-Website/committee/patrons' element = {<Patrons />} />
 			<Route exact path='/ICMC23-Website/committee/orgcommittee' element = {<OrgCommittee />} />
-			<Route exact path='/ICMC23-Website/committee/techprocommittee' element = {<TechProCommittee />} /> 
+			<Route exact path='/ICMC23-Website/committee/techprocommittee' element = {<TechProCommittee />} />
+			*/}
 			<Route exact path='/ICMC23-Website/callforpapers/tracks' element = {<Tracks />} />
 			<Route exact path='/ICMC23-Website/callforpapers/guidelines' element = {<Guidelines />} />
 			<Route exact path='/ICMC23-Website/callforpapers/submitpaper' element = {<SubmitPaper />} />
