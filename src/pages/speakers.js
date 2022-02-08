@@ -2,6 +2,17 @@ import React from "react";
 import speaker1 from '../images/speaker1.jpg';
 import speaker2 from '../images/speaker2.jpg';
 
+function SpeakerLink({link}) {
+    return (
+        <a href={link} target="_blank" rel="nopener noreferrer" style={{all: 'unset', cursor: 'pointer'}}>
+            <div className='boxStyleView'>
+                VIEW MORE &#160; &#x2192;
+            </div>
+        </a>
+    )
+}
+
+
 function Speakers() {
     return(
         <div className="container" style={{marginBottom: '50px' /* marginLeft:"60px", marginTop: "40px", marginRight:"60px" */}}>
@@ -11,11 +22,11 @@ function Speakers() {
         <div className="titleStyle2">
             Speakers
         </div>
-        <div className="divider"></div>
-        <div style={{height: "350px", marginTop: "40px", 
-                    background: "#FBFBFB", display: "flex", flexDirection:"row", justifyContent: 'space-between'}}>
-            <img src={speaker1} style={{height: "350px", marginRight: "20px"}} alt="speaker1"/>
-            <div style={{height: "350px", marginRight: "0px", width: "260px"}}>
+        <div class="divider" style={{marginBottom: '30px'}}></div>
+        <div className="speakerDiv" /*style={{height: "350px", marginTop: "40px", 
+                    background: "#FBFBFB", display: "flex", flexDirection:"row", justifyContent: 'space-between'}}*/>
+            <img className="speakerImg" src={speaker1} /*style={{height: "350px", marginRight: "20px"}}*/ alt="speaker1"/>
+            <div className="upperDiv" /*style={{height: "350px", width: "260px"}}*/>
                 <div className="speakerName">
                 Jiawei Han
                 </div>
@@ -23,16 +34,16 @@ function Speakers() {
                 Department of Computer Science <br/>
                 Univ. of Illinois at Urbana-Champaign
                 </div>
-                <div className="boxStyle" style={{backgroundColor:"white", marginTop: "40px"}}>
-                    <a href='https://google.com/' style={{color:"black", textDecoration:'none'}} target="_blank" rel="noopener noreferrer">VIEW MORE &#160; &#x2192;</a>
+                <div style={{marginTop: "40px"}}>
+                <SpeakerLink link="https://www.google.com"/>
                 </div>
             </div>
-            <div style={{marginRight: "40px", width: "400px"}}>
-                <div style={{position: "relative", height: "28px", marginTop: "32px", fontFamily: "Roboto",
+            <div className="lowerDiv">
+                <div style={{height: "28px", marginTop: "32px", fontFamily: "Roboto",
                             fontWeight: "300", fontSize: "21px",lineHeight: "28px",color: "#BDBDBD", textAlign:"left"}}>
                     Current Research
                 </div>
-                <div className="speakerText" style={{marginTop: "15px", flexWrap: "wrap"}}>
+                <div className="speakerText" style={{marginTop: "15px", flexWrap: "wrap", textAlign: "justify"}}>
                 §  StructNet: Constructing and Mining Structure-Rich Information Networks for Scientific Research (NSF/IIS) <br/>
                 §  Taming Big Networks via Embedding (NSF/IIS-BIGDATA) <br/>
                 §  Mining and Leveraging Knowledge Hypercubes for Complex Applications (NSF-IIS) <br/>
@@ -42,10 +53,10 @@ function Speakers() {
                 </div>
             </div>
         </div>
-        <div style={{height: "350px", marginTop: "40px", 
-                    background: "#FBFBFB", display: "flex", flexDirection:"row", justifyContent: 'space-between'}}>
-            <img src={speaker2} style={{height: "350px", marginRight: "20px"}} alt="speaker2"/>
-            <div style={{marginRight: "0px", width: "260px"}}>
+        <div className="speakerDiv" /*style={{height: "350px", marginTop: "40px", 
+                    background: "#FBFBFB", display: "flex", flexDirection:"row", justifyContent: 'space-between'}}*/>
+            <img className="speakerImg" src={speaker2} /*style={{height: "350px", marginRight: "20px"}}*/ alt="speaker2"/>
+            <div className="upperDiv" /*style={{marginRight: "0px", width: "260px"}}*/>
                 <div className="speakerName">
                 Ellena Ferrari
                 </div>
@@ -56,16 +67,16 @@ function Speakers() {
                 University of Insubria <br/>
                 Department of Theoretical and Applied Science
                 </div>
-                <div className="boxStyle" style={{backgroundColor:"white", color:"black", marginTop: "125px"}}>
-                    <a href='https://google.com/' style={{color:"black", textDecoration:'none'}} target="_blank" rel="noopener noreferrer">VIEW MORE &#160; &#x2192;</a>
+                <div style={{marginTop: "125px"}}>
+                <SpeakerLink link="https://www.google.com"/>
                 </div>
             </div>
-            <div style={{marginRight: "40px", width: "400px"}}>
-                <div style={{position: "relative", height: "28px", marginTop: "32px", fontFamily: "Roboto",
+            <div className="lowerDiv" /*style={{marginRight: "40px", width: "400px"}}*/>
+                <div style={{height: "28px", marginTop: "32px", fontFamily: "Roboto",
                             fontWeight: "300", fontSize: "21px",lineHeight: "28px",color: "#BDBDBD", textAlign:"left"}}>
                     Recent Publications
                 </div>
-                <div className="speakerText" style={{marginTop: "15px", flexWrap: "wrap"}}>
+                <div className="speakerText" style={{marginTop: "15px", flexWrap: "wrap", textAlign: "justify"}}>
                 L. Giaretta, A. Lekssays, B. Carminati, E. Ferrari, S. Girdzijauskas. LiMNet: Early-Stage Detection of IoT Botnets with Lightweight Memory Networks. ESORICS 2021: 605-625 <br/>
                 <br/>
                 Ha Xuan Son, Barbara Carminati, E. Ferrari. A Risk Assessment Mechanism for Android Apps. SmartIoT 2021: 237-244 <br/>

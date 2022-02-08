@@ -49,7 +49,7 @@ function Patrons() {
     <section class="section-comittee">
       <div class="titleStyle1">Our</div>
       <div class="titleStyle2">Committee</div>
-      <div class="divider"></div>
+      <div class="divider" style={{marginBottom: '30px'}}></div>
       <h2 class="heading-secondary">Chief Patron</h2>
       <div class="committee-flxbx">{Patron.getCards(ChiefPatrons)}</div>
       <h2 class="heading-secondary">General Co-Chairs</h2>

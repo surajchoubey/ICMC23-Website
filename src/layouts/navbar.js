@@ -45,7 +45,7 @@ function MyNavbar() {
 				</button>
 
 				<div class='collapse navbar-collapse justify-content-end' id="navbarSupportedContent">
-					<ul class="navbar-nav main-nav-list justify-content-end borderXwidth">
+					<ul class="navbar-nav d-flex flex-wrap main-nav-list justify-content-end borderXwidth">
 						<NavWithoutDropDown link={"/ICMC23-Website/"} showname={"Home"} />
 
 						<NavWithDropDown name="About">
@@ -66,14 +66,14 @@ function MyNavbar() {
 
 						<NavWithDropDown name="Call for Papers">
 								<DropDownItem link={"/ICMC23-Website/callforpapers/tracks/"} showname={"Contribution Tracks"} />
-								<DropDownItem link={"/ICMC23-Website/callforpapers/guidelines/"} showname={"Paper Guidelines"} />
+								<DropDownItem link={"/ICMC23-Website/callforpapers/guidelines/"} showname={"Author Guidelines"} />
 								<DropDownItem link={"/ICMC23-Website/callforpapers/submitpaper/"} showname={"Submit your Paper"} />
 								<DropDownItem link={"/ICMC23-Website/callforpapers/listaccepted/"} showname={"Accepted Papers"} />
 						</NavWithDropDown>
 
 						<NavWithDropDown name="Registration">
-								<DropDownItem link={"/ICMC23-Website/registration/confregfee/"} showname={"Conference Registration Fee"} />
-								<DropDownItem link={"/ICMC23-Website/registration/payregfee/"} showname={"Pay Registration Fee"} />
+								<DropDownItem link={"/ICMC23-Website/registration/confregfee/"} showname={"Conference Fees"} />
+								<DropDownItem link={"/ICMC23-Website/registration/payregfee/"} showname={"Payment"} />
 						</NavWithDropDown>
 
 						<NavWithoutDropDown link={"/ICMC23-Website/pasteditions"} showname={"Past Editions"} />

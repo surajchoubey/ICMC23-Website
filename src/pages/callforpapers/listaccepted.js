@@ -1,13 +1,13 @@
 import React from "react";
-import JsonData from './employee.json'
+import JSONdata from './employee.json'
 
 function ListAccepted() {
-  const DisplayData=JsonData.map(
+  const DisplayData=JSONdata.map(
     (info)=>{
         return(
             <tr>
-                <td>{info.Sl}</td>
-                <td>{info.Id}</td>
+                <td>{info.S_No}</td>
+                <td>{info.ID}</td>
                 <td>{info.Title}</td>
                 <td>{info.Authors}</td>
                 <td>{info.Affiliation}</td>
@@ -19,11 +19,14 @@ function ListAccepted() {
 
 return(
     <div class="container">
+        <div className="titleStyle1"> List Of </div>
+        <div className="titleStyle2"> Accepted Papers </div>
+        <div class="divider" style={{marginBottom: '30px'}}></div>
         <table className="table table-striped">
             <thead>
                 <tr>
-                <th>Sl</th>
-                <th>Id</th>
+                <th>S No.</th>
+                <th>ID</th>
                 <th>Title</th>
                 <th>Authors</th>
                 <th>Affiliation</th>
@@ -31,14 +34,9 @@ return(
                 </tr>
             </thead>
             <tbody>
-             
-
-                
                 {DisplayData}
-                
             </tbody>
         </table>
-         
     </div>
 )
   
