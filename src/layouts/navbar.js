@@ -56,7 +56,7 @@ function MyNavbar() {
 
 						<NavWithoutDropDown link={"/ICMC23-Website/speakers"} showname={"Speakers"} />
 
-						<NavWithoutDropDown link={"/ICMC23-Website/timeline"} showname={"Timeline"} />
+						{/* <NavWithoutDropDown link={"/ICMC23-Website/timeline"} showname={"Timeline"} /> */}
 
 						<NavWithDropDown name="Committee">
 								<DropDownItem link={"/ICMC23-Website/committee/patrons/"} showname={"Patrons"} />

@@ -4,10 +4,7 @@ import BITSDome from '../images/bits-dome-whitebg.png';
 import BITSDClassroom from '../images/bits-d-classroom.jpg';
 import BITSAudi from '../images/bits-audi.jpeg';
 import Timer from '../layouts/timer';
-import ferrari from '../images/speakers/ferrari.jpg';
-import whitenigga from '../images/speakers/whitenigga.jpg';
-import momos from '../images/speakers/momos.jpg';
-import samplediv from '../images/speakers/samplediv.jpg';
+import Timeline from "./timeline";
 
 function Home() {
     return (
@@ -65,43 +62,8 @@ function Home() {
                     </div>           
                 </div>
             </div>
-
-            <div class="container-fluid bg-light py-5">
-                <div class="container">
-                <h1 style={{textAlign: 'start', fontWeight: 'lighter', color: 'gray'}} class="mb-5">Author's Guidelines</h1>
-                    <div class="row justify-content-between">
-                        <div class="col-lg-1 col-md-2 col-sm-3">
-                            <div><h1 style={{fontSize: '500%', color:'gray', fontWeight: 'bold'}}>1</h1></div>
-                        </div>
-                        <div class="col-lg-5 col-md-4 col-sm-9">
-                            <div style={{textAlign: 'justify'}}>Each paper must be original and unpublished work, not submitted for publication elsewhere (copyright infringement issues will be the responsibility of the authors). Papers must be written in good English. Accepted submissions may not appear in any other conference or workshop with proceedings.</div>
-                        </div>
-                        <div class="col-lg-1 col-md-2 col-sm-3 mt-md-0 mt-sm-4">
-                            <div><h1 style={{fontSize: '500%', color:'gray', fontWeight: 'bold'}}>2</h1></div>
-                        </div>
-                        <div class="col-lg-5 col-md-4 col-sm-9 mt-md-0 mt-sm-4">
-                            <div style={{textAlign: 'justify'}}>The submissions must be anonymous, i.e. without author name(s), affiliation(s), acknowledgments, or obvious references. It should begin with a title, a short abstract, and a list of keywords and its introduction should summarize the contributions of the paper</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container my-5">
-                <h1 style={{textAlign: 'start', fontWeight: 'lighter', color: 'gray'}} class="mb-5">Speakers</h1>
-                <div class="row gx-1 mt-5">
-                    <div class="col-6"><img src={samplediv} alt="" class="img-fluid"/></div>
-                    <div class="col-6"><img src={samplediv} alt="" class="img-fluid"/></div>
-                </div>
-                <div class="row justify-content-around mt-5">
-                    <div class="col-3"><img src={momos} alt="" class="img-fluid"/></div>
-                    <div class="col-3"><img src={ferrari} alt="" class="img-fluid"/></div>
-                    <div class="col-3"><img src={whitenigga} alt="" class="img-fluid"/></div>
-                </div>
-                <div class="mt-5 d-flex flex-row-reverse">
-                    <Link to="/ICMC23-Website/speakers" class="black-button">All Speakers</Link>
-                </div>
-            </div>
-
+            
+            <Timeline />
         </div>
     );
 }
