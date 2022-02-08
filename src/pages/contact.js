@@ -15,10 +15,24 @@ const connectstyle2 = {
     cursor: 'pointer'
 }
 
-const profContact = [
-    { "name":"Prof. J. K. Sahoo" , "phone": "8322580441", "email": "icmc2023@goa.bits-pilani.ac.in", "profile": "https://universe.bits-pilani.ac.in/goa/jksahoo/profile" },
-    { "name":"Prof. Anil K Pundir" , "phone": "8322580441", "email": "icmc2023@goa.bits-pilani.ac.in", "profile": "https://www.bits-pilani.ac.in/goa/anilpundir/profile" },
-    { "name":"Prof. P. Danumjaya" , "phone": "9850275789", "email": "danuiitb@gmail.com", "profile": "https://universe.bits-pilani.ac.in/goa/danu/profile" }
+const profContact = [{
+    "name": "Prof. J. K. Sahoo",
+    "phone": "8322580441",
+    "email": "icmc2023@goa.bits-pilani.ac.in",
+    "profile": "https://universe.bits-pilani.ac.in/goa/jksahoo/profile"
+},
+{
+    "name": "Prof. Anil K Pundir",
+    "phone": "8322580441",
+    "email": "icmc2023@goa.bits-pilani.ac.in",
+    "profile": "https://www.bits-pilani.ac.in/goa/anilpundir/profile"
+},
+{
+    "name": "Prof. P. Danumjaya",
+    "phone": "9850275789",
+    "email": "danuiitb@gmail.com",
+    "profile": "https://universe.bits-pilani.ac.in/goa/danu/profile"
+}
 ];
 
 const ProfContact = () => {
