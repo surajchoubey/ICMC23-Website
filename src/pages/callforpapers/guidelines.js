@@ -19,7 +19,7 @@ function Guidelines() {
         <div className="container" style={{marginBottom: '80px' /* marginLeft:"60px", marginTop: "40px", marginRight: '60px'*/ }}>
             <div className = 'titleStyle1'> Author's </div>
             <div className = 'titleStyle2'> Guidelines </div>
-            <div class="divider" style={{marginBottom: '50px'}}></div>
+            <div class="divider" style={{marginBottom: '30px'}}></div>
             <GuidelinesLayout serial_number="1" /*title="Access to your published paper"*/>
                 Each paper must be original and unpublished work, not submitted for publication elsewhere (copyright infringement issues will be the responsibility of the authors). Papers must be written in good English. Accepted submissions may not appear in any other conference or workshop with proceedings. The submissions must be anonymous, i.e. without author name(s), affiliation(s), acknowledgments, or obvious references. It should begin with a title, a short abstract, and a list of keywords and its introduction should summarize the contributions of the paper. Papers should be at most 12 pages in total, including references and appendices, using 11 point font and reasonable margins. Extra charges of INR 100 or USD 05 per page is required after 12 pages and maximum page limit can be 20. The similarity index for a submitted paper should be below 20%.        
             </GuidelinesLayout>
