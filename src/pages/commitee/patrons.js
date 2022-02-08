@@ -1,8 +1,9 @@
 import React from "react";
-
-class Patron {
-  constructor(patronType, name, description) {
-    this.patronType = patronType;
+import OrgCommittee from "./orgcommitee";
+import TechProCommittee from "./techprocommitee";
+class CommitteeMember {
+  constructor(memberType, name, description) {
+    this.patronType = memberType;
     this.name = name;
     this.description = description;
   }
@@ -18,43 +19,66 @@ class Patron {
     });
   }
 }
-const ChiefPatrons = [
-  new Patron(
-    "General Co-Chairs",
-    "Dr. Sheela A",
-    "Associate Dean, School of Advanced Sciences, VIT, Vellore"
-  ),
-];
-const GeneralCoChairs = [
-  new Patron("Chief Patron", "Dr. G. Viswanathan", "Chancellor, VIT, Vellore"),
-  new Patron(
-    "General Co-Chairs",
-    "K. Karthikeyan",
-    "OD(Mathematics), School of Advanced Sciences, VIT, Vellore"
-  ),
-  new Patron(
-    "General Co-Chairs",
-    "Ramesh Babu K",
-    "Dean, (CSE), School of Advanced Sciences, VIT, Velloree"
-  ),
-  new Patron(
-    "General Co-Chairs",
-    "Ch. Aswani Kumar",
-    "Information Technology and Engineering, VIT, Vellore"
-  ),
-];
 
+const ChiefPatron = [
+  new CommitteeMember(
+    "Chief Patron",
+    " Prof. Souvik Bhattacharyya",
+    "Vice Chancellor, Birla Institute of Technology and Science, Pilani"
+  ),
+];
+const GeneralChairs = [
+  new CommitteeMember(
+    "General Co-Chairs",
+    "Prof. D. M. Kulkarni",
+    "Dean Administration, BITS Pilani K K Birla Goa Campus"
+  ),
+  new CommitteeMember(
+    "General Co-Chairs",
+    "Prof. P.K. Saxena",
+    "Scientific Consultant-Cyber Security, Govt. of India, Former Director, SAG, DRDO, Delhi,"
+  ),
+  new CommitteeMember(
+    "General Co-Chairs",
+    "Prof. P.D. Srivastava",
+    "Department of Mathematics, IIT Bhilai"
+  ),
+];
+const ProgrammeChairs = [
+  new CommitteeMember(
+    "Programme Co-Chairs",
+    "Prof. S Ponnusamy",
+    "Department of Mathematics, IIT Madras"
+  ),
+  new CommitteeMember(
+    "Programme Co-Chairs",
+    "Prof. Debasis Giri",
+    "Department of Information Technology, Maulana Abul Kalam Azad University of Technology"
+  ),
+];
 function Patrons() {
   return (
-    <section class="section-comittee">
-      <div class="titleStyle1">Our</div>
-      <div class="titleStyle2">Committee</div>
-      <div class="divider" style={{marginBottom: '50px'}}></div>
-      <h2 class="heading-secondary">Chief Patron</h2>
-      <div class="committee-flxbx">{Patron.getCards(ChiefPatrons)}</div>
-      <h2 class="heading-secondary">General Co-Chairs</h2>
-      <div class="committee-flxbx">{Patron.getCards(GeneralCoChairs)}</div>
-    </section>
+    <>
+      <section class="section-comittee">
+        <div class="titleStyle1">Our</div>
+        <div class="titleStyle2">Committee</div>
+        <div class="divider" style={{ marginBottom: "30px" }}></div>
+        <h2 class="heading-secondary">Chief Patron</h2>
+        <div class="committee-flxbx">
+          {CommitteeMember.getCards(ChiefPatron)}
+        </div>
+        <h2 class="heading-secondary">General Co-Chairs</h2>
+        <div class="committee-flxbx">
+          {CommitteeMember.getCards(GeneralChairs)}
+        </div>
+        <h2 class="heading-secondary">Programme Co-Chairs</h2>
+        <div class="committee-flxbx">
+          {CommitteeMember.getCards(ProgrammeChairs)}
+        </div>
+      </section>
+      <OrgCommittee />
+      <TechProCommittee />
+    </>
   );
 }
 

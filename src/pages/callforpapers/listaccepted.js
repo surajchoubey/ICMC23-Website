@@ -21,7 +21,7 @@ return(
     <div class="container">
         <div className="titleStyle1"> List Of </div>
         <div className="titleStyle2"> Accepted Papers </div>
-        <div class="divider" style={{marginBottom: '50px'}}></div>
+        <div class="divider" style={{marginBottom: '30px'}}></div>
         <table className="table table-striped">
             <thead>
                 <tr>

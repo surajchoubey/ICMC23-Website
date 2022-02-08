@@ -45,7 +45,7 @@ function Tracks() {
             <div className="titleStyle1"> Contribution </div>
             <div className="titleStyle2"> Tracks </div>
 
-            <div class="divider" style={{marginBottom: '50px'}}></div>
+            <div class="divider" style={{marginBottom: '30px'}}></div>
 
             <h2 class="heading-secondary">mathematics</h2>
             <div style={{display:'flex', flexWrap: 'wrap', justifyContent: "space-between", marginTop: "50px"}}>

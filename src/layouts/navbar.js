@@ -56,13 +56,16 @@ function MyNavbar() {
 
 						<NavWithoutDropDown link={"/ICMC23-Website/speakers"} showname={"Speakers"} />
 
-						<NavWithoutDropDown link={"/ICMC23-Website/timeline"} showname={"Timeline"} />
+						<NavWithoutDropDown link={"/ICMC23-Website/committee"} showname={"Committee"} />
+
+						{/* <NavWithoutDropDown link={"/ICMC23-Website/timeline"} showname={"Timeline"} /> 
 
 						<NavWithDropDown name="Committee">
 								<DropDownItem link={"/ICMC23-Website/committee/patrons/"} showname={"Patrons"} />
 								<DropDownItem link={"/ICMC23-Website/committee/orgcommittee/"} showname={"Organizing Committee"} />
 								<DropDownItem link={"/ICMC23-Website/committee/techprocommittee/"} showname={"Technical Program Committee"} />
 						</NavWithDropDown>
+						*/}
 
 						<NavWithDropDown name="Call for Papers">
 								<DropDownItem link={"/ICMC23-Website/callforpapers/tracks/"} showname={"Contribution Tracks"} />

@@ -6,12 +6,12 @@ const aboutText2 = "Goa is a well-known and popular hotspot on the tourist map o
 
 function BPGCGoa() {
     return(
-        <div className="container" style={{marginBottom: "45px" /* marginLeft:"60px", marginTop: "40px" */}}>
+        <div className="container" style={{marginBottom: "30px" /* marginLeft:"60px", marginTop: "40px" */}}>
     <div className="titleStyle1">Venue</div>
       <div className="titleStyle2">
         BITS Goa
       </div>
-      <div className="divider" style={{marginBottom: '50px'}}></div>
+      <div className="divider" style={{marginBottom: '30px'}}></div>
       <div className="about-content">
         <div className="about-mid-grid">
           <p className="about-txt-cnt">{aboutText}</p>

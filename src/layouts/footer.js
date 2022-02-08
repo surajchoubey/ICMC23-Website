@@ -49,13 +49,13 @@ function MyFooter() {
                         &nbsp;&nbsp;&nbsp; BITS Pilani Goa Campus<br/>
                         </a>
                         </p>
-                        <p style={{textAlign: 'start'}}><a style={{textDecoration: 'none'}} href="tel:+919876543210" class="text-white">
+                        <p style={{textAlign: 'start'}}><a style={{textDecoration: 'none'}} href="tel:+918322580441" class="text-white">
                             <i class="fa fa-phone" aria-hidden="true"></i>
-                            &nbsp; +91-9876543210</a>
+                            &nbsp; +91-8322580441</a>
                         </p>
-                        <p style={{textAlign: 'start'}}><a style={{textDecoration: 'none'}} href="mailto:icmc@goa.bits-pilani.ac.in" class="text-white">
+                        <p style={{textAlign: 'start'}}><a style={{textDecoration: 'none'}} href="mailto:icmc2023@goa.bits-pilani.ac.in" class="text-white">
                             <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                            &nbsp; icmc@goa.bits-pilani.ac.in</a>
+                            &nbsp; icmc2023@goa.bits-pilani.ac.in</a>
                         </p>                    
                     </div>
                     <div class="col-md-4 col-sm-12 justify-content-center align-middle">
