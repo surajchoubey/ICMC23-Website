@@ -8,7 +8,7 @@ function ConfRegFee() {
                 <div class="section-header">
                   <div className="titleStyle1"> Conference Registration </div>
                   <div className="titleStyle2"> Fees </div>
-                  <div class="divider" style={{marginBottom: '50px'}}></div>
+                  <div class="divider" style={{marginBottom: '30px'}}></div>
                 </div>
         
                 <div class="section-header">

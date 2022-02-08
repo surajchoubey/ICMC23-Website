@@ -17,7 +17,7 @@ function BPGCMathDept() {
             <div className="titleStyle2">
             Department of Mathematics
             </div>
-            <div class="divider" style={{marginBottom: '50px'}}></div>
+            <div class="divider" style={{marginBottom: '30px'}}></div>
             <div className="about-content">
                 <div className="about-mid-grid">
                 <img

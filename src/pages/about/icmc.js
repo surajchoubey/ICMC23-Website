@@ -11,7 +11,7 @@ function ICMC() {
       <div className="titleStyle2">
         ICMC 2023
       </div>
-      <div className="divider"></div>
+      <div className="divider" style={{marginBottom: '30px'}}></div>
       <div className="about-content">
         <div className="about-mid-grid">
           <img
