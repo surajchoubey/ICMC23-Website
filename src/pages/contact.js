@@ -25,7 +25,7 @@ function Contact() {
                 </div>
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12 mb-1 gmap-bits-goa" id="bits-goa-on-gmaps" style={{display: 'flex',justifyContent: 'space-between', alignItems: 'center'}}>
-                <BITSGoaOnGMAP />
+                <BITSGoaOnGMAP height={"400px"} width={"100%"} />
             </div>
         </div>
         <div className="row" style={{minHeight: '40px'}}></div>
