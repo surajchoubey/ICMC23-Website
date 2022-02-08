@@ -35,7 +35,7 @@ function Timeline() {
     <section class="section-timeline">
       <div className="titleStyle1">Timeline</div>
       <div className="titleStyle2">Of Events</div>
-      <div class="divider" style={{marginBottom: '50px'}}></div>
+      <div class="divider" style={{marginBottom: '30px'}}></div>
       <div class="scale">
         <ul class="timeline">{timelineEvent.getCards(eventList)}</ul>
         <div className="center-fix">
