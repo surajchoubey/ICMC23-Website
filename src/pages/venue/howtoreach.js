@@ -13,28 +13,33 @@ function Howtoreach() {
 
         <div class="divider" style={{ marginBottom: "30px" }}></div>
         <BTable striped bordered hover responsive>
-          <thead>
+          <thead style={{ textAlign: "center" }}>
             <tr>
               <th>From</th>
               <th>Distance (kms)</th>
+              <th>Taxi Fare (INR)</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody style={{ textAlign: "center" }}>
             <tr>
-              <td>Airport</td>
+              <td>Goa International Airport (GOI)</td>
               <td>05</td>
+              <td>300/-</td>
             </tr>
             <tr>
               <td>Vasco Da Gama Railway Station (VSG)</td>
               <td>10</td>
+              <td>300/-</td>
             </tr>
             <tr>
               <td>Madgaon Railway Station (MAO)</td>
               <td>24</td>
+              <td>700/-</td>
             </tr>
             <tr>
               <td>Panjim</td>
               <td>26</td>
+              <td>800/-</td>
             </tr>
           </tbody>
         </BTable>
