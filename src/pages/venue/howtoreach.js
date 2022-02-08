@@ -1,7 +1,7 @@
 import React from "react";
 // import "./styles.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
-import {BITSGoaOnGMAP} from "../../layouts/bits-goa-map.js";
+import BITSGoaOnGMAP from "../../layouts/bits-goa-map.js";
 import BTable from "react-bootstrap/Table";
 
 function Howtoreach() {
