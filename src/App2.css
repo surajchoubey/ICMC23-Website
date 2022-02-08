@@ -219,10 +219,9 @@
 @media screen and (max-width: 1000px) {
   .textStyle {
     word-wrap: break-word;
-    height: 80vh;
     flex-direction: column;
     width: 50vw;
-    overflow: scroll;
+    /* overflow: scroll; */
   }
   .tracksStyle {
     width: 80vw;

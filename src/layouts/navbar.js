@@ -66,7 +66,7 @@ function MyNavbar() {
 
 						<NavWithDropDown name="Call for Papers">
 								<DropDownItem link={"/ICMC23-Website/callforpapers/tracks/"} showname={"Contribution Tracks"} />
-								<DropDownItem link={"/ICMC23-Website/callforpapers/guidelines/"} showname={"Paper Guidelines"} />
+								<DropDownItem link={"/ICMC23-Website/callforpapers/guidelines/"} showname={"Author Guidelines"} />
 								<DropDownItem link={"/ICMC23-Website/callforpapers/submitpaper/"} showname={"Submit your Paper"} />
 								<DropDownItem link={"/ICMC23-Website/callforpapers/listaccepted/"} showname={"Accepted Papers"} />
 						</NavWithDropDown>
