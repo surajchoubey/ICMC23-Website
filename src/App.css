@@ -318,7 +318,7 @@ h2.heading-secondary {
     margin-top: 10px;
   }
   .about-img-cnt{
-    height: 40vh;
+    width: 50vw;
     align-self:flex-start;
   }
   .about-txt-cnt{
