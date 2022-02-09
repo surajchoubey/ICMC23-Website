@@ -25,7 +25,7 @@ let NavWithoutDropDown = ({link, showname}) => {
 
 let DropDownItem = ({link, showname}) => {
 	return (
-		<Link class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" to={link}>{showname}</Link>
+		<Link class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" to={link}> <center>{showname}</center> </Link>
 	)
 }
 
@@ -44,7 +44,7 @@ function MyNavbar() {
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
-				<div class='collapse navbar-collapse justify-content-end' id="navbarSupportedContent">
+				<div class='collapse navbar-collapse in justify-content-end' id="navbarSupportedContent">
 					<ul class="navbar-nav d-flex flex-wrap main-nav-list justify-content-end borderXwidth">
 						<NavWithoutDropDown link={"/ICMC23-Website/"} showname={"Home"} />
 
