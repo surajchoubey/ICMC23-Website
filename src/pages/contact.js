@@ -23,8 +23,8 @@ const profContact = [{
 },
 {
     "name": "Prof. Anil K Pundir",
-    "phone": "8322580441",
-    "email": "icmc2023@goa.bits-pilani.ac.in",
+    "phone": "8322580446",
+    "email": "anilpundir@goa.bits-pilani.ac.in",
     "profile": "https://www.bits-pilani.ac.in/goa/anilpundir/profile"
 },
 {
