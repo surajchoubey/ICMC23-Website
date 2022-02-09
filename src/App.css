@@ -234,9 +234,9 @@ a.dropdown-item:hover {
 }
 
 .btn-raise {
-  padding: 1.5rem 2em;
+  padding: 1.5rem;
   background-color: #fbfbfb;
-  max-width: 420px;
+  max-width: 350px;
   color: #333;
   transition: 0.25s;
 }
