@@ -51,7 +51,7 @@ function MyFooter() {
                         </p>
                         <p style={{textAlign: 'start'}}><a style={{textDecoration: 'none'}} href="tel:+918322580441" class="text-white">
                             <i class="fa fa-phone" aria-hidden="true"></i>
-                            &nbsp; +91-8322580441</a>
+                            &nbsp; 8322580441</a>
                         </p>
                         <p style={{textAlign: 'start'}}><a style={{textDecoration: 'none'}} href="mailto:icmc2023@goa.bits-pilani.ac.in" class="text-white">
                             <i class="fa fa-envelope-o" aria-hidden="true"></i>
