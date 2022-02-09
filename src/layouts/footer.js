@@ -18,7 +18,7 @@ let SocialLinks = ({fontawesomename, link}) => {
 
 let FooterNav = ({navigateTo, name}) => {
     return (
-        <Link style={{textAlign: 'start', textDecoration: 'none'}} className='d-sm-flex m-2 text-white' to={navigateTo}>{name}</Link>
+        <Link style={{textAlign: 'start', textDecoration: 'none'}} className='d-sm-flex m-2 text-white footer-navigations' to={navigateTo}>{name}</Link>
     )
 }
 
@@ -33,7 +33,7 @@ function MyFooter() {
                         <div class="">
                             <FooterNav navigateTo={"/ICMC23-Website/"} name="Home" />
                             <FooterNav navigateTo={"/ICMC23-Website/speakers"} name="Speakers" />
-                            <FooterNav navigateTo={"/ICMC23-Website/timeline"} name="Timeline" />
+                            <FooterNav navigateTo={"/ICMC23-Website/committee"} name="Committee" />
                             <FooterNav navigateTo={"/ICMC23-Website/pasteditions"} name="Past Editions" />
                             <FooterNav navigateTo={"/ICMC23-Website/contact"} name="Contact Us" />
                         </div>

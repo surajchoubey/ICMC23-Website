@@ -26,11 +26,13 @@ import ErrorPage from './pages/errorpage';
 import { Routes, Route } from "react-router-dom";
 import MyNavBar from './layouts/navbar';
 import MyFooter from './layouts/footer';
+import ScrollToTop from './layouts/scrolltotop'
 
 function App() {
   return (
     <div className="App" style={{"display": "flex","min-height": "100vh", "flex-direction": "column", "justify-content": "flex-start"}}>
 		<MyNavBar />
+		<ScrollToTop>
 		<Routes>
 			<Route exact path='/' element = {<Home/> } />
 			<Route exact path='/ICMC23-Website/' element = {<Home />} />
@@ -59,6 +61,7 @@ function App() {
 			<Route exact path='/ICMC23-Website/contact' element = {<Contact />} />
 			<Route exact path='/*' element = {<ErrorPage />} />
 		</Routes>
+		</ScrollToTop>
 		<MyFooter />
     </div>
   );

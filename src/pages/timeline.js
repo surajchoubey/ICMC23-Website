@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "../timeline.css";
 
 class timelineEvent {
@@ -39,9 +40,9 @@ function Timeline() {
       <div class="scale">
         <ul class="timeline">{timelineEvent.getCards(eventList)}</ul>
         <div className="center-fix">
-          <div class="black-button mg-tp">
+          <Link class="black-button mg-tp" to="/ICMC23-Website/contact">
             CONTACT US <span> REGARDING ANY OTHER DETAILS </span>
-          </div>
+          </Link>
         </div>
       </div>
     </section>
