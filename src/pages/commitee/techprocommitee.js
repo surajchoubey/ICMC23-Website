@@ -1,17 +1,17 @@
 import React from "react";
-import JSONData from "./techcomm.json";
-import BTable from "react-bootstrap/Table";
+// import JSONData from "./techcomm.json";
+// import BTable from "react-bootstrap/Table";
 import { ExcuseCard, Excuses } from "../../layouts/excuses.js";
 
 function TechProCommittee() {
-  const DisplayData = JSONData.map((info) => {
-    return (
-      <tr>
-        <td>{info.Name}</td>
-        <td>{info.Organization}</td>
-      </tr>
-    );
-  });
+  // const DisplayData = JSONData.map((info) => {
+  //   return (
+  //     <tr>
+  //       <td>{info.Name}</td>
+  //       <td>{info.Organization}</td>
+  //     </tr>
+  //   );
+  // });
 
   return (
     <div class="section-header">

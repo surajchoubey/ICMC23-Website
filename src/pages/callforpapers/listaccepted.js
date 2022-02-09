@@ -1,20 +1,21 @@
 import React from "react";
-import JSONdata from "./employee.json";
+// import JSONdata from "./employee.json";
 import { ExcuseCard, Excuses } from "../../layouts/excuses.js";
 
 function ListAccepted() {
-  const DisplayData = JSONdata.map((info) => {
-    return (
-      <tr>
-        <td>{info.S_No}</td>
-        <td>{info.ID}</td>
-        <td>{info.Title}</td>
-        <td>{info.Authors}</td>
-        <td>{info.Affiliation}</td>
-        <td>{info.Country}</td>
-      </tr>
-    );
-  });
+  // const DisplayData = JSONdata.map((info) => {
+  //   return (
+  //     <tr>
+  //       <td>{info.S_No}</td>
+  //       <td>{info.ID}</td>
+  //       <td>{info.Title}</td>
+  //       <td>{info.Authors}</td>
+  //       <td>{info.Affiliation}</td>
+  //       <td>{info.Country}</td>
+  //     </tr>
+  //   );
+  // },
+  // );
 
   return (
     <div class="container">
