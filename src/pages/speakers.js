@@ -21,13 +21,15 @@ class SpeakerHelper {
     speakerImage,
     speakerText,
     speakerLink,
-    speakerDescription
+    speakerDescription,
+    speakerLinkStyle
   ) {
-    this.name = speakerName;
+    this.speakerName = speakerName;
     this.speakerImage = speakerImage;
     this.speakerText = speakerText;
     this.SpeakerLink = speakerLink;
     this.speakerDescription = speakerDescription;
+    this.speakerLinkStyle = speakerLinkStyle;
   }
 
   static speakerTextStyle = {
@@ -50,7 +52,9 @@ class SpeakerHelper {
             <div className="speakerText" style={{ marginTop: "25px" }}>
               {speaker.speakerText}
             </div>
-            <SpeakerLink link={speaker.SpeakerLink} />
+            <div style={speaker.speakerLinkStyle}>
+              <SpeakerLink link={speaker.SpeakerLink} />
+            </div>
           </div>
           <div className="lowerDiv">
             <div
@@ -85,6 +89,7 @@ const speakerList = [
         Univ. of Illinois at Urbana-Champaign
       </div>
     ),
+    "www.google.com",
     (
       <div className="speakerText" style={SpeakerHelper.speakerTextStyle}>
         § StructNet: Constructing and Mining Structure-Rich Information Networks
@@ -98,7 +103,8 @@ const speakerList = [
         kNowledge” <br />§ DARPA/INCAS: “Analytics of Information Influence:
         Effect Characterization”
       </div>
-    )
+    ),
+    { marginTop: "40px" }
   ),
   new SpeakerHelper(
     "Ellena Ferrari",
@@ -112,6 +118,7 @@ const speakerList = [
         Department of Theoretical and Applied Science
       </div>
     ),
+    "www.google.com",
     (
       <div className="speakerText" style={SpeakerHelper.speakerTextStyle}>
         L. Giaretta, A. Lekssays, B. Carminati, E. Ferrari, S. Girdzijauskas.
@@ -124,7 +131,8 @@ const speakerList = [
         P. Colombo, E. Ferrari, E. D. Tümer. Regulating data sharing across MQTT
         environments.J. Netw. Comput. Appl. 174: 102907 (2021)
       </div>
-    )
+    ),
+    { marginTop: "125px" }
   ),
 ];
 function Speakers() {
