@@ -72,7 +72,7 @@
 
 .textStyle {
   margin-left: 40px;
-  text-align: left;
+  text-align: justify;
   position: relative;
   width: 1060px;
   top: 35px;
@@ -221,6 +221,7 @@
     word-wrap: break-word;
     flex-direction: column;
     width: 50vw;
+    text-align: left;
     /* overflow: scroll; */
   }
   .tracksStyle {

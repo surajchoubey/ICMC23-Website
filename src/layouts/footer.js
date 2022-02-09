@@ -18,7 +18,7 @@ let SocialLinks = ({fontawesomename, link}) => {
 
 let FooterNav = ({navigateTo, name}) => {
     return (
-        <Link style={{textAlign: 'start', textDecoration: 'none'}} className='d-sm-flex m-2 text-white' to={navigateTo}>{name}</Link>
+        <Link style={{textAlign: 'start', textDecoration: 'none'}} className='d-sm-flex m-2 text-white footer-navigations' to={navigateTo}>{name}</Link>
     )
 }
 
@@ -33,7 +33,7 @@ function MyFooter() {
                         <div class="">
                             <FooterNav navigateTo={"/ICMC23-Website/"} name="Home" />
                             <FooterNav navigateTo={"/ICMC23-Website/speakers"} name="Speakers" />
-                            <FooterNav navigateTo={"/ICMC23-Website/timeline"} name="Timeline" />
+                            <FooterNav navigateTo={"/ICMC23-Website/committee"} name="Committee" />
                             <FooterNav navigateTo={"/ICMC23-Website/pasteditions"} name="Past Editions" />
                             <FooterNav navigateTo={"/ICMC23-Website/contact"} name="Contact Us" />
                         </div>
@@ -51,7 +51,7 @@ function MyFooter() {
                         </p>
                         <p style={{textAlign: 'start'}}><a style={{textDecoration: 'none'}} href="tel:+918322580441" class="text-white">
                             <i class="fa fa-phone" aria-hidden="true"></i>
-                            &nbsp; +91-8322580441</a>
+                            &nbsp; 8322580441</a>
                         </p>
                         <p style={{textAlign: 'start'}}><a style={{textDecoration: 'none'}} href="mailto:icmc2023@goa.bits-pilani.ac.in" class="text-white">
                             <i class="fa fa-envelope-o" aria-hidden="true"></i>
