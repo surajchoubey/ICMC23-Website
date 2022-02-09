@@ -31,6 +31,12 @@
               $navbar.collapse('hide');
           }
       });
+
+      document.getElementsByClassName('footer-navigations').onclick = () => {
+        console.log('test footer navigations')
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
     </script>
   </body>
 </html>
