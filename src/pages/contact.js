@@ -49,7 +49,7 @@ function Contact() {
     return (
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-12" style={{minHeight: "400px"}}>
+            <div class="col-lg-6 col-md-12" style={{minHeight: "400px"}}>
                 <div class="">
                     <div class="contact-content" style={{textAlign: 'start'}}>
                         <div className="titleStyle1"> Contact </div>

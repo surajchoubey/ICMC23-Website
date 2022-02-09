@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import BITSDome from '../images/bits-dome-whitebg.png';
+import BITSDome from '../images/bits-dome-whitebg.jpg';
 import BITSDClassroom from '../images/bits-d-classroom.jpg';
 import BITSAudi from '../images/bits-audi.jpeg';
 import Timer from '../layouts/timer';
