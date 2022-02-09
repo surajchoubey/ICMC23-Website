@@ -28,12 +28,12 @@ const OrganizingChair = [
 ];
 const OrganizingCoChairs = [
   new CommitteeMember(
-    "Organizing CoChair",
-    "Prof Anil Kumar",
+    "Organizing Co-Chairs",
+    "Prof. Anil Kumar",
     "Department of Mathematics, BITS Pilani K K Birla Goa Campus"
   ),
   new CommitteeMember(
-    "Organizing CoChair",
+    "Organizing Co-Chairs",
     "Prof. P. Danumjaya",
     "Department of Mathematics, BITS Pilani K K Birla Goa Campus"
   ),
@@ -93,7 +93,7 @@ function OrgCommittee() {
       <div class="committee-flxbx">
         {CommitteeMember.getCards(OrganizingChair)}
       </div>
-      <h2 class="heading-secondary">Organizing CoChairs</h2>
+      <h2 class="heading-secondary">Organizing Co-Chairs</h2>
       <div class="committee-flxbx">
         {CommitteeMember.getCards(OrganizingCoChairs)}
       </div>

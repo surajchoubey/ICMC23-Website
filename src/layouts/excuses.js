@@ -2,7 +2,7 @@ import React from "react";
 
 const Excuses = {
   TBA: {
-    message: "TO BE ANNOUNDED!",
+    message: "TO BE ANNOUNCED!",
     description: "Sit back and relax!",
     helperClass: "alert alert-info alert-dismissible fade show",
   },
