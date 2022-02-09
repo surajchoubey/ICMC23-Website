@@ -213,7 +213,7 @@ a.dropdown-item:hover {
 
 .card-name {
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   margin: 0;
   color: #444;
   line-height: normal;
@@ -222,7 +222,7 @@ a.dropdown-item:hover {
 
 .card-description {
   font-weight: 300;
-  font-size: 1.3rem;
+  font-size: 1rem;
   line-height: 1.1;
   margin: 0;
 }
@@ -234,9 +234,9 @@ a.dropdown-item:hover {
 }
 
 .btn-raise {
-  padding: 2em;
+  padding: 1.5rem 2em;
   background-color: #fbfbfb;
-  max-width: 390px;
+  max-width: 420px;
   color: #333;
   transition: 0.25s;
 }
@@ -250,20 +250,13 @@ a.dropdown-item:hover {
 h2.heading-secondary {
   font-weight: 900;
   text-align: start;
-  font-size: 6.5rem;
-  color: #cfcfcf;
+  font-size: 3.5rem;
+  color: rgb(167, 167, 167);
 }
 
 @media (max-width: 900px) {
   h2.heading-secondary {
-    font-size: max(12vw, 3rem);
-  }
-  .card-name {
-    font-size: max(3.5vw, 1.6rem);
-    line-height: normal;
-  }
-  .card-description {
-    font-size: max(2.1vw, 1.1rem);
+    font-size: max(7.5vw, 2.7rem);
   }
   .committee-flxbx {
     row-gap: 0.7rem;
@@ -322,7 +315,7 @@ h2.heading-secondary {
   .about-img-cnt {
     width: 50vw;
     max-width: 50%;
-    align-self:flex-start;
+    align-self: flex-start;
   }
   .about-txt-cnt {
     text-align: left;

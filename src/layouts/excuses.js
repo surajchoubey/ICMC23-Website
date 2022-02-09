@@ -1,27 +1,31 @@
 import React from "react";
 
-const TBA = () => {
-    return (
-        <div class="alert alert-info alert-dismissible fade show" role="alert">
-            <strong>TO BE ANNOUNCED!</strong>
-            &nbsp; Sit back and relax! &nbsp;
-            <button style={{all: 'unset', cursor: 'pointer'}} type="button" class="close text-info" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true"><i class="fa fa-close"></i></span>
-            </button>
-        </div>
-    )
-}
+const Excuses = {
+  TBA: {
+    message: "TO BE ANNOUNCED!",
+    description: "Sit back and relax!",
+    helperClass: "alert alert-info alert-dismissible fade show",
+  },
+  TBU: {
+    message: "TO BE UPDATED!",
+    description: "Sit back and relax!",
+    helperClass: "alert alert-info alert-dismissible fade show",
+  },
+  UnderDevelopmentPhase: {
+    message: "Website is currently under development phase.",
+    description: "Please come back later!",
+    helperClass: "alert alert-danger alert-dismissible fade show",
+  },
+};
 
-const UnderDevelopmentPhase = () => {
-    return (
-        <div class="alert alert-danger alert-dismissible fade show" role="alert">
-            <strong>Website is currently under development phase.</strong>
-            &nbsp; Please come back later! &nbsp;
-            <button style={{all: 'unset', cursor: 'pointer'}} class="close text-info text-danger" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true"><i class="fa fa-close"></i></span>
-            </button>
-        </div>
-    )
-}
+const ExcuseCard = (excuseType) => {
+  return (
+    <div class={excuseType.helperClass} role="alert">
+      <strong>{excuseType.message}</strong>
+      <br />
+      &nbsp; {excuseType.description} &nbsp;
+    </div>
+  );
+};
 
-export {TBA, UnderDevelopmentPhase};
+export { ExcuseCard, Excuses };

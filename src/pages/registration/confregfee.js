@@ -1,24 +1,18 @@
 import React from "react";
+import { ExcuseCard, Excuses } from "../../layouts/excuses.js";
 
 function ConfRegFee() {
-    return (
-        <div>
-            <section id="registeration" class="team section-bg">
-                <div class="container aos-init aos-animate">
-                    <div class="section-header">
-                        <div className="titleStyle1">
-                            Conference Registration
-                        </div>
-                        <div className="titleStyle2">
-                            Fees
-                        </div>
-                        <div class="divider"
-                            style={
-                                {marginBottom: '30px'}
-                        }></div>
-                    </div>
+  return (
+    <div>
+      <section id="registeration" class="team section-bg">
+        <div class="container aos-init aos-animate">
+          <div class="section-header">
+            <div className="titleStyle1">Conference Registration</div>
+            <div className="titleStyle2">Fees</div>
+            <div class="divider" style={{ marginBottom: "30px" }}></div>
+          </div>
 
-                    <div class="section-header">
+          {/* <div class="section-header">
                         <center>
                             <div>
                                 <table class="table table-striped table-bordered">
@@ -88,12 +82,13 @@ function ConfRegFee() {
                                 <br/>
                             </center>
                         </center>
-                    </div>
-                </div>
-                <div class="box" style={{minHeight: '40px'}}></div>
-            </section>
+                    </div> */}
+          {ExcuseCard(Excuses.TBU)}
         </div>
-    );
+        <div class="box" style={{ minHeight: "40px" }}></div>
+      </section>
+    </div>
+  );
 }
 
 export default ConfRegFee;
