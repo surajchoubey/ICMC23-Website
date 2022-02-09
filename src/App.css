@@ -206,8 +206,7 @@ a.dropdown-item:hover {
 .committee-flxbx {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 1%;
-  row-gap: 0.6rem;
+  gap: 0.6rem;
   margin-bottom: 50px;
 }
 
@@ -224,6 +223,7 @@ a.dropdown-item:hover {
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.1;
+  max-width: 290px;
   margin: 0;
 }
 
@@ -236,7 +236,7 @@ a.dropdown-item:hover {
 .btn-raise {
   padding: 1.5rem;
   background-color: #fbfbfb;
-  max-width: 350px;
+  max-width: 100%;
   color: #333;
   transition: 0.25s;
 }
