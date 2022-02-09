@@ -1,5 +1,5 @@
 import React from 'react';
-import NavLogo from '../images/bits-logo.png';
+import NavLogo from '../images/icmc-logo-80px.png';
 import { Link } from 'react-router-dom';
 
 let NavWithDropDown = (props) => {
@@ -36,7 +36,7 @@ function MyNavbar() {
 		<nav class="navbar navbar-light px-3 navbar-expand-lg sticky-top bg-white">
 			<div class="container-fluid">
 
-				<a class="navbar-brand my-2" href="/ICMC23-Website/">
+				<a class="navbar-brand my-2" href="/">
 				<img src={NavLogo} height="70" class="align-top p-1" alt="" />
 				</a>
 				
