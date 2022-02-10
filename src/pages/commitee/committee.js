@@ -6,8 +6,11 @@ import Patrons from "./patrons";
 const Committee = () => {
     return (
         <div class="container">
+            <br/>
             <Patrons/>
+            <br/>
             <OrgCommittee />
+            <br/>
             <TechProCommittee />
         </div>
     );
