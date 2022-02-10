@@ -14,7 +14,7 @@ function TechProCommittee() {
   // });
 
   return (
-    <section class="section-comittee">
+    <div class="container">
         <div className="titleStyle1"> Technical Program </div>
         <div className="titleStyle2"> Committee </div>
         <div class="divider" style={{ marginBottom: "30px" }}></div>
@@ -29,7 +29,8 @@ function TechProCommittee() {
         </BTable> */}
         {/* {TBA("test")} */}
         {ExcuseCard(Excuses.TBA)}
-    </section>
+        <p></p>
+    </div>
   );
 }
 export default TechProCommittee;
