@@ -26,7 +26,7 @@ function Home() {
                                 </h1>
                             </div>
                             <div class="d-flex" style={{textAlign: 'start'}}>
-                                <Link to="/ICMC23-Website/registration/payregfee/" class="black-button" >Registration</Link>
+                                <Link to="/registration/payregfee/" class="black-button" >Registration</Link>
                             </div>                                           
                             <div class="d-flex" style={{textAlign: 'start'}}>
                                 <h3 style={{fontWeight: 'lighter'}}>JANUARY 6-8 | 2023</h3>
@@ -50,7 +50,7 @@ function Home() {
                             <h1 class="" style={{textAlign: 'start', fontWeight: 'lighter'}}>About<br/></h1>
                             <p class="" style={{textAlign: 'justify'}}> {homepg_text} </p>
                             <div class="d-flex" style={{textAlign: 'start'}}>
-                                <Link to="/ICMC23-Website/about/bpgc/" class="black-button" >VIEW MORE</Link>
+                                <Link to="/about/bpgc/" class="black-button" >VIEW MORE</Link>
                             </div>
                         </div>
                     </div>
