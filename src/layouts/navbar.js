@@ -36,9 +36,9 @@ function MyNavbar() {
 		<nav class="navbar navbar-light px-3 navbar-expand-lg sticky-top bg-white">
 			<div class="container-fluid">
 
-				<a class="navbar-brand my-2" href="/">
+				<Link class="navbar-brand my-2" to="/">
 				<img src={NavLogo} height="70" class="align-top p-1" alt="" />
-				</a>
+				</Link>
 				
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
