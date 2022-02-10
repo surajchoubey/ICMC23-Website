@@ -7,7 +7,7 @@ import BPGCMathDept from './pages/about/bpgcmathdept';
 import ICMC from './pages/about/icmc';
 import Speakers from './pages/speakers';
 // import Timeline from './pages/timeline';
-import Committee from './pages/commitee/patrons';
+import Committee from './pages/commitee/committee';
 // import OrgCommittee from './pages/commitee/orgcommitee';
 // import TechProCommittee from './pages/commitee/techprocommitee';
 import Tracks from './pages/callforpapers/tracks';
