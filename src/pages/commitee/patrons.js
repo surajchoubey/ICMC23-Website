@@ -67,7 +67,7 @@ const ProgrammeChairs = [
 ];
 function Patrons() {
   return (
-    <>
+    <div class="container">
       <section class="section-comittee">
         <div class="titleStyle1">Our</div>
         <div class="titleStyle2">Committee</div>
@@ -87,7 +87,7 @@ function Patrons() {
       </section>
       <OrgCommittee />
       <TechProCommittee />
-    </>
+    </div>
   );
 }
 

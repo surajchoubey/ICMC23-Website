@@ -33,7 +33,7 @@ const eventList = [
 
 function Timeline() {
   return (
-    <section class="section-timeline">
+    <div class="container">
       <div className="titleStyle1">Timeline</div>
       <div className="titleStyle2">Of Events</div>
       <div class="divider" style={{ marginBottom: "30px" }}></div>
@@ -45,7 +45,7 @@ function Timeline() {
           </Link>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 
