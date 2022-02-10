@@ -9,7 +9,9 @@ const Committee = () => {
             <br/>
             <Patrons/>
             <br/>
+            <br/>
             <OrgCommittee />
+            <br/>
             <br/>
             <TechProCommittee />
         </div>
