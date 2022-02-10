@@ -11,7 +11,7 @@ class CommitteeMember {
   static getCards(patronList) {
     return patronList.map(function (patron, _) {
       return (
-        <div class="btn-raise raise col-md-4 col-sm-6 col-xs-12 my-2">
+        <div class="btn-raise raise col-md-4 col-sm-6 col-xs-12 p-3 my-2">
           <p class="card-name">{patron.name}</p>
           <p class="card-description">{patron.description}</p>
           <p class="card-description">{patron.institute}</p>
@@ -69,16 +69,16 @@ function Patrons() {
       <div class="titleStyle1">Our</div>
       <div class="titleStyle2">Committee</div>
       <div class="divider" style={{ marginBottom: "30px" }}></div>
-      <h2 class="heading-secondary my-5">Chief Patron</h2>
-      <div class="row gx-5">
+      <h2 class="heading-secondary my-4">Chief Patron</h2>
+      <div class="row px-3">
         {CommitteeMember.getCards(ChiefPatron)}
       </div>
-      <h2 class="heading-secondary my-5">General Co-Chairs</h2>
-      <div class="row gx-5">
+      <h2 class="heading-secondary my-4">General Co-Chairs</h2>
+      <div class="row px-3">
         {CommitteeMember.getCards(GeneralChairs)}
       </div>
-      <h2 class="heading-secondary my-5">Programme Co-Chairs</h2>
-      <div class="row gx-5">
+      <h2 class="heading-secondary my-4">Programme Co-Chairs</h2>
+      <div class="row px-3">
         {CommitteeMember.getCards(ProgrammeChairs)}
       </div>
     </div>
