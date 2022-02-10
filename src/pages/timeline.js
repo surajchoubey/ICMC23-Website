@@ -40,7 +40,7 @@ function Timeline() {
       <div class="scale">
         <ul class="timeline">{timelineEvent.getCards(eventList)}</ul>
         <div className="center-fix">
-          <Link class="black-button mg-tp" to="/ICMC23-Website/contact">
+          <Link class="black-button mg-tp" to="/contact">
             CONTACT US <span> REGARDING ANY OTHER DETAILS </span>
           </Link>
         </div>

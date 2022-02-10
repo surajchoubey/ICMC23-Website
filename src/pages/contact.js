@@ -1,7 +1,8 @@
 import React from "react";
 import BITSGoaOnGMAP from "../layouts/bits-goa-map";
 
-const contactuslink = "https://www.google.com/";
+const contactuslink = "https://forms.gle/unohzJ54tW31MUvcA";
+
 
 const connectstyle = {
     color: 'grey',
@@ -67,7 +68,7 @@ function Contact() {
                         </div>
 
                         <div style={{marginTop: "20px", marginBottom: "30px"}}>
-                            <a className="black-button" href={contactuslink} target="_blank" rel="nopener noreferrer">CONTACT US</a>
+                            <a className="black-button" href={contactuslink} target="_blank" rel="nopener noreferrer">CONTACT WEB DEVELOPER</a>
                         </div>
                     </div>
                 </div>

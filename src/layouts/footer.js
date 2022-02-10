@@ -31,11 +31,11 @@ function MyFooter() {
                     <div class="col-md-3 col-sm-12">
                         <h5 class="my-3 justify-content-center-md" style={{fontWeight: 'bold', textAlign: 'start'}}>ICMC 2023</h5>
                         <div class="">
-                            <FooterNav navigateTo={"/ICMC23-Website/"} name="Home" />
-                            <FooterNav navigateTo={"/ICMC23-Website/speakers"} name="Speakers" />
-                            <FooterNav navigateTo={"/ICMC23-Website/committee"} name="Committee" />
-                            <FooterNav navigateTo={"/ICMC23-Website/pasteditions"} name="Past Editions" />
-                            <FooterNav navigateTo={"/ICMC23-Website/contact"} name="Contact Us" />
+                            <FooterNav navigateTo={"/"} name="Home" />
+                            <FooterNav navigateTo={"/speakers"} name="Speakers" />
+                            <FooterNav navigateTo={"/committee"} name="Committee" />
+                            <FooterNav navigateTo={"/pasteditions"} name="Past Editions" />
+                            <FooterNav navigateTo={"/contact"} name="Contact Us" />
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12">
