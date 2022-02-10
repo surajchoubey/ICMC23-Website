@@ -6,7 +6,7 @@ function ConfRegFee() {
         <div>
             <section id="registration" class="team section-bg">
                 <div class="container">
-                    {/*<div class="section-header">
+                    <div class="section-header">
                         <div className="titleStyle1">Conference Registration</div>
                         <div className="titleStyle2">Fees</div>
                         <div class="divider"
@@ -14,7 +14,7 @@ function ConfRegFee() {
                                 {marginBottom: "30px"}
                         }></div>
                     </div>
-
+                    {/*
                     <div class="section-header">
                         <div>
                             <table class="table table-striped table-bordered">
