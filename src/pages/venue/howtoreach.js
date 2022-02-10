@@ -24,42 +24,33 @@ function Howtoreach() {
             <tr>
               <td>Goa International Airport (GOI)</td>
               <td>05</td>
-              <td>300/-</td>
+              <td>300</td>
             </tr>
             <tr>
               <td>Vasco Da Gama Railway Station (VSG)</td>
               <td>10</td>
-              <td>300/-</td>
+              <td>300</td>
             </tr>
             <tr>
               <td>Madgaon Railway Station (MAO)</td>
               <td>24</td>
-              <td>700/-</td>
+              <td>700</td>
             </tr>
             <tr>
               <td>Panjim</td>
               <td>26</td>
-              <td>800/-</td>
+              <td>800</td>
             </tr>
           </tbody>
         </BTable>
         <p></p>
-        <h4>
-          <strong>
-            For more details, visit:{" "}
-            <a 
-              href="https://www.bits-pilani.ac.in/goa/reachGoaCampus" target="_blank" rel="noopener noreferrer"
-            >
-              <button className="button black-button btn-sm">How to Reach BITS Pilani Goa Campus?</button>
-              
+            <a class="black-button" href="https://www.bits-pilani.ac.in/goa/reachGoaCampus" target="_blank" rel="noopener noreferrer">
+                More on How to Reach BITS Pilani Goa Campus
             </a>
-          </strong>
-        </h4>
-      </div>
-
-      <div>
+        <p></p>
+        <p></p>
         <BITSGoaOnGMAP height={"400px"} width={"100%"} />
-
+        <p></p>
         <p></p>
       </div>
     </div>
