@@ -207,7 +207,7 @@ a.dropdown-item:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .card-name {
