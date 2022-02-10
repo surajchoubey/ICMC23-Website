@@ -48,7 +48,7 @@ function Howtoreach() {
           <strong>
             For more details, visit:{" "}
             <a 
-              href="https://www.bits-pilani.ac.in/goa/reachGoaCampus" target="_blank" rel="noopener noreferer"
+              href="https://www.bits-pilani.ac.in/goa/reachGoaCampus" target="_blank" rel="noopener noreferrer"
             >
               <button className="button black-button btn-sm">How to Reach BITS Pilani Goa Campus?</button>
               
