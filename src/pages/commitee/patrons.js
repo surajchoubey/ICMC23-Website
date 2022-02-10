@@ -1,6 +1,4 @@
 import React from "react";
-import OrgCommittee from "./orgcommitee";
-import TechProCommittee from "./techprocommitee";
 
 class CommitteeMember {
   constructor(memberType, name, description, institute) {
@@ -67,27 +65,23 @@ const ProgrammeChairs = [
 ];
 function Patrons() {
   return (
-    <div class="container">
-      <section class="section-comittee">
-        <div class="titleStyle1">Our</div>
-        <div class="titleStyle2">Committee</div>
-        <div class="divider" style={{ marginBottom: "30px" }}></div>
-        <h2 class="heading-secondary">Chief Patron</h2>
-        <div class="committee-flxbx">
-          {CommitteeMember.getCards(ChiefPatron)}
-        </div>
-        <h2 class="heading-secondary">General Co-Chairs</h2>
-        <div class="committee-flxbx">
-          {CommitteeMember.getCards(GeneralChairs)}
-        </div>
-        <h2 class="heading-secondary">Programme Co-Chairs</h2>
-        <div class="committee-flxbx">
-          {CommitteeMember.getCards(ProgrammeChairs)}
-        </div>
-      </section>
-      <OrgCommittee />
-      <TechProCommittee />
-    </div>
+    <section style={{textAlign: 'start'}}>
+      <div class="titleStyle1">Our</div>
+      <div class="titleStyle2">Committee</div>
+      <div class="divider" style={{ marginBottom: "30px" }}></div>
+      <h2 class="heading-secondary">Chief Patron</h2>
+      <div class="row gx-1">
+        {CommitteeMember.getCards(ChiefPatron)}
+      </div>
+      <h2 class="heading-secondary">General Co-Chairs</h2>
+      <div class="row gx-1">
+        {CommitteeMember.getCards(GeneralChairs)}
+      </div>
+      <h2 class="heading-secondary">Programme Co-Chairs</h2>
+      <div class="row gx-1">
+        {CommitteeMember.getCards(ProgrammeChairs)}
+      </div>
+    </section>
   );
 }
 

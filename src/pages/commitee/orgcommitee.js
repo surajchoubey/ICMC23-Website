@@ -98,24 +98,24 @@ const WebsiteTeam = [
 
 function OrgCommittee() {
   return (
-    <section class="section-comittee">
+    <section style={{textAlign: 'start'}}>
       <div class="titleStyle1">Organizing</div>
       <div class="titleStyle2">Committee</div>
       <div class="divider" style={{ marginBottom: "30px" }}></div>
       <h2 class="heading-secondary">Organizing Chair</h2>
-      <div class="committee-flxbx">
+      <div class="row gx-1">
         {CommitteeMember.getCards(OrganizingChair)}
       </div>
       <h2 class="heading-secondary">Organizing Co-Chairs</h2>
-      <div class="committee-flxbx">
+      <div class="row gx-1">
         {CommitteeMember.getCards(OrganizingCoChairs)}
       </div>
       <h2 class="heading-secondary">Organizing Committee</h2>
-      <div class="committee-flxbx">
+      <div class="row gx-1">
         {CommitteeMember.getCards(OrganizingCommittee)}
       </div>
       <h2 class="heading-secondary">Website Team</h2>
-      <div class="committee-flxbx">{CommitteeMember.getCards(WebsiteTeam)}</div>
+      <div class="row gx-1">{CommitteeMember.getCards(WebsiteTeam)}</div>
     </section>
   );
 }
