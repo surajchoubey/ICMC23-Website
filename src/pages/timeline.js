@@ -43,6 +43,7 @@ function Timeline() {
           <Link class="black-button mg-tp" to="/contact">
             CONTACT US <span> REGARDING ANY OTHER DETAILS </span>
           </Link>
+          <p></p>
         </div>
       </div>
     </div>
