@@ -43,7 +43,7 @@ function MyFooter() {
                         <p style={{textAlign: 'start'}}>
                         <a style={{textDecoration: 'none'}} href="https://universe.bits-pilani.ac.in/goa/jksahoo/profile" target="_blank" rel="nopener noreferrer" class="text-white">
                         <i class="fa fa-map-marker text-white" aria-hidden="true"></i>
-                        &nbsp; Dr. Jejati Keshari Sahoo<br/>
+                        &nbsp; Prof. Jejati Keshari Sahoo<br/>
                         &nbsp;&nbsp;&nbsp; Organizing Chair<br/>
                         &nbsp;&nbsp;&nbsp; HOD Mathematics<br/>
                         &nbsp;&nbsp;&nbsp; BITS Pilani Goa Campus<br/>
@@ -51,7 +51,7 @@ function MyFooter() {
                         </p>
                         <p style={{textAlign: 'start'}}><a style={{textDecoration: 'none'}} href="tel:+918322580441" class="text-white">
                             <i class="fa fa-phone" aria-hidden="true"></i>
-                            &nbsp; 8322580441</a>
+                            &nbsp; +91-832-2580-441</a>
                         </p>
                         <p style={{textAlign: 'start'}}><a style={{textDecoration: 'none'}} href="mailto:icmc2023@goa.bits-pilani.ac.in" class="text-white">
                             <i class="fa fa-envelope-o" aria-hidden="true"></i>

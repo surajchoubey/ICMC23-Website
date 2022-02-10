@@ -49,8 +49,8 @@ function MyNavbar() {
 						<NavWithoutDropDown link={"/"} showname={"Home"} />
 
 						<NavWithDropDown name="About">
-								<DropDownItem link={"/about/bpgc"} showname={"BPGC"} />
-								<DropDownItem link={"/about/bpgcmathdept"} showname={"BPGC Math Dept"} />
+								<DropDownItem link={"/about/bpgc"} showname={"University"} />
+								<DropDownItem link={"/about/bpgcmathdept"} showname={"Math Department"} />
 								<DropDownItem link={"/about/icmc"} showname={"ICMC"} />
 						</NavWithDropDown>
 
