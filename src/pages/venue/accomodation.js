@@ -1,12 +1,17 @@
 import React from "react";
 
+const hotelslink = "https://www.bits-pilani.ac.in/goa/goahotels"
+
 function Accomodation() {
     return(
-        <section className="container">
+        <div className="container">
             <div className="titleStyle1"> Accomodation </div>
             <div className="titleStyle2"> Nearby </div>
             <div class="divider" style={{marginBottom: '30px'}}></div>
-        </section>
+
+            <a class="black-button" href={hotelslink} target="_blank" rel="nopener noreferrer">CLICK HERE FOR ACCOMODATION DETAILS NEARBY</a>
+            <p></p>
+        </div>
     );
 }
 

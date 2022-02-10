@@ -1,6 +1,9 @@
 import React from "react";
 import BITSGoaOnGMAP from "../layouts/bits-goa-map";
 
+const contactuslink = "https://forms.gle/unohzJ54tW31MUvcA";
+
+
 const connectstyle = {
     color: 'grey',
     backgroundColor: 'transparent',
@@ -49,7 +52,7 @@ function Contact() {
     return (
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-12" style={{minHeight: "400px"}}>
+            <div class="col-lg-6 col-md-12" style={{minHeight: "400px"}}>
                 <div class="">
                     <div class="contact-content" style={{textAlign: 'start'}}>
                         <div className="titleStyle1"> Contact </div>
@@ -65,12 +68,12 @@ function Contact() {
                         </div>
 
                         <div style={{marginTop: "20px", marginBottom: "30px"}}>
-                            <a className="black-button" href="https://www.google.com/" target="_blank" rel="nopener noreferrer">CONTACT US</a>
+                            <a className="black-button" href={contactuslink} target="_blank" rel="nopener noreferrer">CONTACT WEBSITE TEAM</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-12 mb-1 gmap-bits-goa" id="bits-goa-on-gmaps" style={{display: 'flex',justifyContent: 'space-between', alignItems: 'center'}}>
+            <div class="col-lg-6 col-md-12 mb-1 gmap-bits-goa" id="bits-goa-on-gmaps" style={{display: 'flex',justifyContent: 'space-between', alignItems: 'center'}}>
                 <BITSGoaOnGMAP height={"400px"} width={"100%"} />
             </div>
         </div>

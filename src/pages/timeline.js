@@ -33,19 +33,22 @@ const eventList = [
 
 function Timeline() {
   return (
-    <section class="section-timeline">
+    <div class="container">
       <div className="titleStyle1">Timeline</div>
       <div className="titleStyle2">Of Events</div>
       <div class="divider" style={{ marginBottom: "30px" }}></div>
-      <div class="scale">
-        <ul class="timeline">{timelineEvent.getCards(eventList)}</ul>
-        <div className="center-fix">
-          <Link class="black-button mg-tp" to="/ICMC23-Website/contact">
-            CONTACT US <span> REGARDING ANY OTHER DETAILS </span>
-          </Link>
+      <section class="section-timeline">
+        <div class="scale">
+          <ul class="timeline">{timelineEvent.getCards(eventList)}</ul>
+          <div className="center-fix">
+            <Link class="black-button mg-tp" to="/contact">
+              CONTACT US <span> REGARDING ANY OTHER DETAILS </span>
+            </Link>
+            <p></p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 }
 

@@ -1,6 +1,6 @@
 import React from "react";
-import abouttoppng from "../../images/assets/about-top.png";
-import aboutcontentpng from "../../images/assets/about-content.png";
+import abouttoppng from "../../images/assets/about-top.jpg";
+import aboutcontentpng from "../../images/assets/about-content.jpg";
 import aboutbottompng from "../../images/assets/about-bottom3.jpg";
 
 const aboutText =
