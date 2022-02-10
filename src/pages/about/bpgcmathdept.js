@@ -1,5 +1,5 @@
 import React from "react";
-import aboutbottompng from '../../images/assets/about_bottom2.png';
+import aboutbottompng from '../../images/assets/bits-top.jpg';
 
 const aboutText =
 "The Department of Mathematics was established in 2004. The department has competent faculties with vast knowledge in pure & applied Mathematics. The department offers M.Sc. (Hons) and PhD programs. The average strength in each year is approximately eighty students."
