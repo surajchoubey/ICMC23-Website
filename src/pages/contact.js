@@ -68,7 +68,7 @@ function Contact() {
                         </div>
 
                         <div style={{marginTop: "20px", marginBottom: "30px"}}>
-                            <a className="black-button" href={contactuslink} target="_blank" rel="nopener noreferrer">CONTACT WEB DEVELOPER</a>
+                            <a className="black-button" href={contactuslink} target="_blank" rel="nopener noreferrer">CONTACT WEBSITE TEAM</a>
                         </div>
                     </div>
                 </div>
