@@ -18,7 +18,7 @@ let SocialLinks = ({fontawesomename, link}) => {
 
 let FooterNav = ({navigateTo, name}) => {
     return (
-        <Link style={{textAlign: 'start', textDecoration: 'none'}} className='d-sm-flex m-2 text-white' to={navigateTo}>{name}</Link>
+        <Link style={{textAlign: 'start', textDecoration: 'none'}} className='d-sm-flex m-2 text-white footer-navigations' to={navigateTo}>{name}</Link>
     )
 }
 
@@ -31,17 +31,17 @@ function MyFooter() {
                     <div class="col-md-3 col-sm-12">
                         <h5 class="my-3 justify-content-center-md" style={{fontWeight: 'bold', textAlign: 'start'}}>ICMC 2023</h5>
                         <div class="">
-                            <FooterNav navigateTo={"/ICMC23-Website/"} name="Home" />
-                            <FooterNav navigateTo={"/ICMC23-Website/speakers"} name="Speakers" />
-                            <FooterNav navigateTo={"/ICMC23-Website/timeline"} name="Timeline" />
-                            <FooterNav navigateTo={"/ICMC23-Website/pasteditions"} name="Past Editions" />
-                            <FooterNav navigateTo={"/ICMC23-Website/contact"} name="Contact Us" />
+                            <FooterNav navigateTo={"/"} name="Home" />
+                            <FooterNav navigateTo={"/speakers"} name="Speakers" />
+                            <FooterNav navigateTo={"/committee"} name="Committee" />
+                            <FooterNav navigateTo={"/pasteditions"} name="Past Editions" />
+                            <FooterNav navigateTo={"/contact"} name="Contact Us" />
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <h5 class="my-3" style={{fontWeight: 'bold', textAlign: 'start'}}>Contact</h5>
                         <p style={{textAlign: 'start'}}>
-                        <a style={{textDecoration: 'none'}} href="https://universe.bits-pilani.ac.in/goa/jksahoo/profile" class="text-white">
+                        <a style={{textDecoration: 'none'}} href="https://universe.bits-pilani.ac.in/goa/jksahoo/profile" target="_blank" rel="nopener noreferrer" class="text-white">
                         <i class="fa fa-map-marker text-white" aria-hidden="true"></i>
                         &nbsp; Dr. Jejati Keshari Sahoo<br/>
                         &nbsp;&nbsp;&nbsp; Organizing Chair<br/>
@@ -51,7 +51,7 @@ function MyFooter() {
                         </p>
                         <p style={{textAlign: 'start'}}><a style={{textDecoration: 'none'}} href="tel:+918322580441" class="text-white">
                             <i class="fa fa-phone" aria-hidden="true"></i>
-                            &nbsp; +91-8322580441</a>
+                            &nbsp; 8322580441</a>
                         </p>
                         <p style={{textAlign: 'start'}}><a style={{textDecoration: 'none'}} href="mailto:icmc2023@goa.bits-pilani.ac.in" class="text-white">
                             <i class="fa fa-envelope-o" aria-hidden="true"></i>
