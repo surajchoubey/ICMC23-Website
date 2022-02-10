@@ -41,7 +41,7 @@ function MyFooter() {
                     <div class="col-md-4 col-sm-12">
                         <h5 class="my-3" style={{fontWeight: 'bold', textAlign: 'start'}}>Contact</h5>
                         <p style={{textAlign: 'start'}}>
-                        <a style={{textDecoration: 'none'}} href="https://universe.bits-pilani.ac.in/goa/jksahoo/profile" class="text-white">
+                        <a style={{textDecoration: 'none'}} href="https://universe.bits-pilani.ac.in/goa/jksahoo/profile" target="_blank" rel="nopener noreferrer" class="text-white">
                         <i class="fa fa-map-marker text-white" aria-hidden="true"></i>
                         &nbsp; Dr. Jejati Keshari Sahoo<br/>
                         &nbsp;&nbsp;&nbsp; Organizing Chair<br/>
