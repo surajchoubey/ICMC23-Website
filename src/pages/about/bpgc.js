@@ -13,7 +13,7 @@ const aboutText3 =
 function BPGC() {
   return (
     <div className="container" style={{marginBottom: "45px" /* marginLeft:"60px", marginTop: "40px" */}}>
-    <div className="titleStyle1">About the Campus</div>
+    <div className="titleStyle1">About </div>
       <div className="titleStyle2">
         Birla Institute of Technology and Science
       </div>

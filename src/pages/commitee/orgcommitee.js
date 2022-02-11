@@ -11,7 +11,7 @@ class CommitteeMember {
   static getCards(patronList) {
     return patronList.map(function (patron, _) {
       return (
-        <div class="btn-raise raise col-md-4 col-sm-6 col-xs-12">
+        <div class="btn-raise raise col-md-4 col-sm-6 col-xs-12 p-3 my-2">
           <p class="card-name">{patron.name}</p>
           <p class="card-description">{patron.description}</p>
           <p class="card-description">{patron.institute}</p>
@@ -98,24 +98,24 @@ const WebsiteTeam = [
 
 function OrgCommittee() {
   return (
-    <section class="section-comittee">
+    <section style={{textAlign: 'start'}}>
       <div class="titleStyle1">Organizing</div>
       <div class="titleStyle2">Committee</div>
       <div class="divider" style={{ marginBottom: "30px" }}></div>
-      <h2 class="heading-secondary">Organizing Chair</h2>
-      <div class="committee-flxbx">
+      <h2 class="heading-secondary my-4">Organizing Chair</h2>
+      <div class="row px-3">
         {CommitteeMember.getCards(OrganizingChair)}
       </div>
-      <h2 class="heading-secondary">Organizing Co-Chairs</h2>
-      <div class="committee-flxbx">
+      <h2 class="heading-secondary my-4">Organizing Co-Chairs</h2>
+      <div class="row px-3">
         {CommitteeMember.getCards(OrganizingCoChairs)}
       </div>
-      <h2 class="heading-secondary">Organizing Committee</h2>
-      <div class="committee-flxbx">
+      <h2 class="heading-secondary my-4">Organizing Committee</h2>
+      <div class="row px-3">
         {CommitteeMember.getCards(OrganizingCommittee)}
       </div>
-      <h2 class="heading-secondary">Website Team</h2>
-      <div class="committee-flxbx">{CommitteeMember.getCards(WebsiteTeam)}</div>
+      <h2 class="heading-secondary my-4">Website Team</h2>
+      <div class="row px-3">{CommitteeMember.getCards(WebsiteTeam)}</div>
     </section>
   );
 }
