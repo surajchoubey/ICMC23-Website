@@ -43,7 +43,7 @@ function MyFooter() {
                         <p style={{textAlign: 'start'}}>
                         <a style={{textDecoration: 'none'}} href="https://universe.bits-pilani.ac.in/goa/jksahoo/profile" target="_blank" rel="nopener noreferrer" class="text-white">
                         <i class="fa fa-map-marker text-white" aria-hidden="true"></i>
-                        &nbsp; Prof. Jejati Keshari Sahoo<br/>
+                        &nbsp; Prof. Jajati Keshari Sahoo<br/>
                         &nbsp;&nbsp;&nbsp; Organizing Chair<br/>
                         &nbsp;&nbsp;&nbsp; HOD Mathematics<br/>
                         &nbsp;&nbsp;&nbsp; BITS Pilani Goa Campus<br/>
