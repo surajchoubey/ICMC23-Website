@@ -45,7 +45,7 @@ function Home() {
             
             <Timer />
 
-            <div class="container my-5 py-0">
+            <div class="container mt-3 py-0">
                 <div class="row align-middle">             
                     <div class="col-lg-6 col-md-12 p-3" style={{minHeight:'350px'}}>
                         <div>
@@ -65,7 +65,7 @@ function Home() {
                 </div>
             </div>
 
-            <div class="container my-5 py-5">
+            <div class="container mb-3 py-4">
                 <div class="row justify-content-end"> 
                     <div class="col-lg-3 col-md-6 d-block d-lg-block d-none d-sm-none align-self-center">
                         <img src={icmclogo} alt="" class="img-fluid"/>
