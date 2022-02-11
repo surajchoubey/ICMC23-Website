@@ -24,7 +24,7 @@ class CommitteeMember {
 const OrganizingChair = [
   new CommitteeMember(
     "Organizing Chair",
-    "Prof. J.K. Sahoo",
+    "Prof. J. K. Sahoo",
     "Department of Mathematics,",
     "BITS Pilani K K Birla Goa Campus"
   ),
@@ -52,22 +52,28 @@ const OrganizingCommittee = [
   ),
   new CommitteeMember(
     "Organizing Committee",
-    "Prof. Amit Setia",
+    "Prof. Shilpa Gondhali",
     "Department of Mathematics,",
     "BITS Pilani K K Birla Goa Campus"
   ),
-  new CommitteeMember(
-    "Organizing Committee",
-    "Prof. Manoj Kumar Pandey",
-    "Department of Mathematics,",
-    "BITS Pilani K K Birla Goa Campus"
-  ),
-  new CommitteeMember(
-    "Organizing Committee",
-    "Prof. Prasanna Kumar N.",
-    "Department of Mathematics,",
-    "BITS Pilani K K Birla Goa Campus"
-  ),
+  // new CommitteeMember(
+  //   "Organizing Committee",
+  //   "Prof. Amit Setia",
+  //   "Department of Mathematics,",
+  //   "BITS Pilani K K Birla Goa Campus"
+  // ),
+  // new CommitteeMember(
+  //   "Organizing Committee",
+  //   "Prof. Manoj Kumar Pandey",
+  //   "Department of Mathematics,",
+  //   "BITS Pilani K K Birla Goa Campus"
+  // ),
+  // new CommitteeMember(
+  //   "Organizing Committee",
+  //   "Prof. Prasanna Kumar N.",
+  //   "Department of Mathematics,",
+  //   "BITS Pilani K K Birla Goa Campus"
+  // ),
 ];
 const WebsiteTeam = [
   new CommitteeMember(
