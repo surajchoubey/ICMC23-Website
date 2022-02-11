@@ -5,8 +5,10 @@ import BITSDClassroom from '../images/bits-d-classroom.jpg';
 import BITSAudi from '../images/bits-audi.jpeg';
 import Timer from '../layouts/timer';
 import Timeline from "./timeline";
+import icmclogo from "./about/icmc-logo.jpg"
 
 const homepg_text = "BITS Pilani K. K. Birla Goa Campus is one of the four campuses of the Birla Institute of Technology & Science, Pilani, a well-known all-India Institute for higher education. In keeping with the tradition of innovation and creativity, the campus has given a state-of-the-art touch to the infrastructure of the entire institute without diminishing, in the least, the natural beauty of Goa surrounding its Campus. Spacious labs state-of-the-art classrooms with soundproof acoustics, modern furniture, computer labs with Internet facility and Library define the infrastructural counters of the institution. Being an Institute of excellence in Technology and Sciences, the primary motive of the institute is to \"train young men and women able and eager to create and put into action such ideas, methods, techniques and information\". Being fully residential, the university hosts five thousand students and about six hundred staff."
+const homepg_text2 = "ICMC 2023 aims to bring together both novice and experienced scientists with developers, to meet new colleagues, collect new ideas and establish new cooperation between research groups and provide a platform for researchers from academic and industry to present their original work and exchange ideas, information, techniques and applications in the field of Computational Applied Mathematics."
 
 function Home() {
     return (
@@ -43,7 +45,7 @@ function Home() {
             
             <Timer />
 
-            <div class="container my-5 py-5">
+            <div class="container my-5 py-0">
                 <div class="row align-middle">             
                     <div class="col-lg-6 col-md-12 p-3" style={{minHeight:'350px'}}>
                         <div>
@@ -60,6 +62,23 @@ function Home() {
                     <div class="col-lg-3 col-md-6 d-block d-lg-block d-none d-sm-none align-self-center">
                         <img src={BITSDClassroom} alt="" class="img-fluid"/>
                     </div>           
+                </div>
+            </div>
+
+            <div class="container my-5 py-5">
+                <div class="row justify-content-end"> 
+                    <div class="col-lg-3 col-md-6 d-block d-lg-block d-none d-sm-none align-self-center">
+                        <img src={icmclogo} alt="" class="img-fluid"/>
+                    </div>            
+                    <div class="col-lg-6 col-md-12 p-3" style={{minHeight:'350px'}}>
+                        <div>
+                            <h1 class="" style={{textAlign: 'start', fontWeight: 'lighter'}}>About the Conference<br/></h1>
+                            <p class="" style={{textAlign: 'justify'}}> {homepg_text2} </p>
+                            <div class="d-flex" style={{textAlign: 'start'}}>
+                                <Link to="/about/icmc/" class="black-button" >VIEW MORE</Link>
+                            </div>
+                        </div>
+                    </div>          
                 </div>
             </div>
             
