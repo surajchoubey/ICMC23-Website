@@ -52,7 +52,7 @@ function Tracks() {
                 <MathTiles />  
             </div>
 
-            <h2 class="heading-secondary" style={{color: '#f2f2f2'}}>computing</h2>
+            <h2 class="heading-secondary">computing</h2>
             <div style={{display:'flex', flexWrap: 'wrap', justifyContent: "space-between", marginTop: "50px"}}>
                 <CompTiles />
             </div>
