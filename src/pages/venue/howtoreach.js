@@ -44,7 +44,7 @@ function Howtoreach() {
           </tbody>
         </BTable>
         <p>
-          <b>Note</b>- The fare mentioned above are subject to variation as per
+          <b>Note:</b> The fare mentioned above are subject to variation as per
           market demand. Our Campus is not responsible for any change in the
           indicated fare.
         </p>
