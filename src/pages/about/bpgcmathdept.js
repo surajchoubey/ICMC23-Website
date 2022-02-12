@@ -21,16 +21,16 @@ function BPGCMathDept() {
       <div className="about-content">
         <div className="about-mid-grid">
           <p className="about-txt-cnt">
-            <b>
+              The&nbsp;
               <a
-                class="text-reset text-decoration-none"
+                class="text-decoration-none"
                 href="https://www.bits-pilani.ac.in/goa/mathematics/DepartmentofMathematics"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                The Department of Mathematics
+                Department of Mathematics of BITS Pilani Goa
               </a>
-            </b>{" "}
+              {" "}
             was established in 2004. The department has competent faculties with
             vast knowledge in pure & applied Mathematics. The department offers
             M.Sc. (Hons) and PhD programs. The average strength in each year is

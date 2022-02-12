@@ -25,7 +25,7 @@ const profContact = [{
     "profile": "https://universe.bits-pilani.ac.in/goa/jksahoo/profile"
 },
 {
-    "name": "Prof. Anil K Pundir",
+    "name": "Prof. Anil Kumar",
     "phone": "8322580446",
     "phone_text": "+91-832-2580-446",
     "profile": "https://www.bits-pilani.ac.in/goa/anilpundir/profile"

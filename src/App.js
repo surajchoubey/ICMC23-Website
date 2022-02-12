@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import './App2.css';
 import Home from './pages/home';
-import BPGC from './pages/about/bpgc';
+import BITSPilani from './pages/about/bpgc';
 import BPGCMathDept from './pages/about/bpgcmathdept';
 import ICMC from './pages/about/icmc';
 import Speakers from './pages/speakers';
@@ -35,7 +35,7 @@ function App() {
 		<ScrollToTop>
 		<Routes>
 			<Route exact path='/' element = {<Home/> } />
-			<Route exact path='/about/bpgc' element = {<BPGC />} />
+			<Route exact path='/about/bitspilani' element = {<BITSPilani />} />
 			<Route exact path='/about/bpgcmathdept' element = {<BPGCMathDept />} />
 			<Route exact path='/about/icmc' element = {<ICMC />} />
 			<Route exact path='/speakers' element = {<Speakers />} />
@@ -53,7 +53,7 @@ function App() {
 			<Route exact path='/registration/confregfee' element = {<ConfRegFee />} />
 			<Route exact path='/registration/payregfee' element = {<PayRegFee />} />
 			<Route exact path='/pasteditions' element = {<PastEditions />} />
-			<Route exact path='/venue/bgpc-goa' element = {<BPGCGoa />} />
+			<Route exact path='/venue/bpgc-goa' element = {<BPGCGoa />} />
 			<Route exact path='/venue/howtoreach' element = {<HowToReach />} />
 			<Route exact path='/venue/accomodation' element = {<Accomodation />} />
 			<Route exact path='/venue/visa' element = {<VISA />} />
