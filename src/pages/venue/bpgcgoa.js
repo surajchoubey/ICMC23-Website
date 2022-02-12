@@ -20,7 +20,7 @@ function BPGCGoa() {
               href="https://www.bits-pilani.ac.in/Goa/"
               target="_blank"
               rel="noopener noreferrer"
-            >BITS, Pilani- K. K. Birla Goa Campus</a>{aboutText}</p>
+            >BITS Pilani K. K. Birla Goa Campus</a>{aboutText}</p>
           <p className="about-txt-cnt">{aboutText2}</p>
         </div>
         <img
