@@ -46,8 +46,8 @@ function Home() {
             <Timer />
 
             <div class="container my-5 py-0">
-                <div class="row align-middle">             
-                    <div class="col-lg-6 col-md-12 p-3" style={{minHeight:'350px'}}>
+                <div class="row  justify-content-center align-middle">             
+                    <div class="col-lg-5 col-md-12 p-3" style={{minHeight:'350px'}}>
                         <div>
                             <h1 class="" style={{textAlign: 'start', fontWeight: 'lighter'}}>About The Institute <br/></h1>
                             <p class="" style={{textAlign: 'justify'}}>
