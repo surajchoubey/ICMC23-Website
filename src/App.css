@@ -292,8 +292,15 @@ h2.heading-secondary {
   text-align: justify;
 }
 
-.about-img-cnt {
+.about-img-logo{
   max-width: 30%;
+  float: left;
+  align-self: center;
+  margin: 1rem 2rem 1rem 0;
+}
+
+.about-img-cnt {
+  max-width: 50%;
   float: left;
   align-self: center;
   margin: 1rem 2rem 1rem 0;
@@ -310,10 +317,17 @@ h2.heading-secondary {
     margin-top: 10px;
   }
   .about-img-cnt {
+    max-width: 100%; 
+    align-self: flex-start;
+    margin-bottom: 30px;
+  }
+  .about-img-logo{
     width: 50vw;
-    max-width: 50%;
+    max-width: 50%; 
     align-self: flex-start;
   }
+
+
   .about-txt-cnt {
     text-align: left;
   }
