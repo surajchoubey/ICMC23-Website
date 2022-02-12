@@ -7,7 +7,7 @@ import Timer from '../layouts/timer';
 import Timeline from "./timeline";
 import icmclogo from "./about/icmc-logo.jpg"
 
-const homepg_text = ", a well-known all-India Institute for higher education. In keeping with the tradition of innovation and creativity, the campus has given a state-of-the-art touch to the infrastructure of the entire institute without diminishing, in the least, the natural beauty of Goa surrounding its Campus. Spacious labs state-of-the-art classrooms with soundproof acoustics, modern furniture, computer labs with Internet facility and Library define the infrastructural counters of the institution. "
+const homepg_text = ", a well-known all-India Institute for higher education. In keeping with the tradition of innovation and creativity, a state-of-the-art touch is given to the infrastructure of the entire institute without diminishing, in the least, the natural beauty of Goa surrounding the campus. Spacious labs, classrooms with soundproof acoustics, modern furniture, library and computer labs with internet facility define the infrastructural counters of the institution."
 const homepg_text2 = "ICMC 2023 aims to bring together both novice and experienced scientists with developers, to meet new colleagues, collect new ideas and establish new cooperation between research groups and provide a platform for researchers from academic and industry to present their original work and exchange ideas, information, techniques and applications in the field of Computational Applied Mathematics."
 
 function Home() {
@@ -46,8 +46,8 @@ function Home() {
             <Timer />
 
             <div class="container my-5 py-0">
-                <div class="row align-middle">             
-                    <div class="col-lg-6 col-md-12 p-3" style={{minHeight:'350px'}}>
+                <div class="row  justify-content-center align-middle">             
+                    <div class="col-lg-5 col-md-12 p-3" style={{minHeight:'350px'}}>
                         <div>
                             <h1 class="" style={{textAlign: 'start', fontWeight: 'lighter'}}>About The Institute <br/></h1>
                             <p class="" style={{textAlign: 'justify'}}>

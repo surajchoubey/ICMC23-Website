@@ -82,7 +82,7 @@ function MyNavbar() {
 						<NavWithoutDropDown link={"/pasteditions"} showname={"Past Editions"} />
 
 						<NavWithDropDown name="Venue">
-								<DropDownItem link={"/venue/bgpc-goa"} showname={"BITS Goa"} />
+								<DropDownItem link={"/venue/bpgc-goa"} showname={"BITS Goa"} />
 								<DropDownItem link={"/venue/howtoreach"} showname={"How to reach?"} />
 								<DropDownItem link={"/venue/accomodation"} showname={"Accomodation"} />
 								<DropDownItem link={"/venue/visa"} showname={"VISA Information"} />
