@@ -17,7 +17,7 @@ function ICMC() {
           <img
             src={icmclogo}
             alt="Speaker at a conference"
-            className="about-img-cnt"
+            className="about-img-logo"
           />
           <p className="about-txt-cnt">{aboutText}</p>
           <p className="about-txt-cnt">{aboutText2}</p>

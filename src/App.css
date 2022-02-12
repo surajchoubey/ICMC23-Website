@@ -292,6 +292,13 @@ h2.heading-secondary {
   text-align: justify;
 }
 
+.about-img-logo{
+  max-width: 30%;
+  float: left;
+  align-self: center;
+  margin: 1rem 2rem 1rem 0;
+}
+
 .about-img-cnt {
   max-width: 50%;
   float: left;
@@ -314,6 +321,13 @@ h2.heading-secondary {
     align-self: flex-start;
     margin-bottom: 30px;
   }
+  .about-img-logo{
+    width: 50vw;
+    max-width: 50%; 
+    align-self: flex-start;
+  }
+
+
   .about-txt-cnt {
     text-align: left;
   }
