@@ -32,7 +32,7 @@ function BPGCMathDept() {
               </a>
               {" "}
             was established in 2004. The department has competent faculties with
-            vast knowledge in pure & applied Mathematics. The department offers
+            vast knowledge in pure &amp; applied Mathematics. The department offers
             M.Sc. (Hons) and PhD programs. The average strength in each year is
             approximately eighty students.
           </p>
