@@ -24,7 +24,7 @@ class CommitteeMember {
 const OrganizingChair = [
   new CommitteeMember(
     "Organizing Chair",
-    "Prof. J.K. Sahoo",
+    "Prof. J. K. Sahoo",
     "Department of Mathematics,",
     "BITS Pilani K K Birla Goa Campus"
   ),
@@ -52,22 +52,28 @@ const OrganizingCommittee = [
   ),
   new CommitteeMember(
     "Organizing Committee",
-    "Prof. Amit Setia",
+    "Dr. Shilpa Gondhali",
     "Department of Mathematics,",
     "BITS Pilani K K Birla Goa Campus"
   ),
-  new CommitteeMember(
-    "Organizing Committee",
-    "Prof. Manoj Kumar Pandey",
-    "Department of Mathematics,",
-    "BITS Pilani K K Birla Goa Campus"
-  ),
-  new CommitteeMember(
-    "Organizing Committee",
-    "Prof. Prasanna Kumar N.",
-    "Department of Mathematics,",
-    "BITS Pilani K K Birla Goa Campus"
-  ),
+  // new CommitteeMember(
+  //   "Organizing Committee",
+  //   "Prof. Amit Setia",
+  //   "Department of Mathematics,",
+  //   "BITS Pilani K K Birla Goa Campus"
+  // ),
+  // new CommitteeMember(
+  //   "Organizing Committee",
+  //   "Prof. Manoj Kumar Pandey",
+  //   "Department of Mathematics,",
+  //   "BITS Pilani K K Birla Goa Campus"
+  // ),
+  // new CommitteeMember(
+  //   "Organizing Committee",
+  //   "Prof. Prasanna Kumar N.",
+  //   "Department of Mathematics,",
+  //   "BITS Pilani K K Birla Goa Campus"
+  // ),
 ];
 const WebsiteTeam = [
   new CommitteeMember(
@@ -98,18 +104,14 @@ const WebsiteTeam = [
 
 function OrgCommittee() {
   return (
-    <section style={{textAlign: 'start'}}>
+    <section style={{ textAlign: "start" }}>
       <div class="titleStyle1">Organizing</div>
       <div class="titleStyle2">Committee</div>
       <div class="divider" style={{ marginBottom: "30px" }}></div>
       <h2 class="heading-secondary my-4">Organizing Chair</h2>
-      <div class="row px-3">
-        {CommitteeMember.getCards(OrganizingChair)}
-      </div>
+      <div class="row px-3">{CommitteeMember.getCards(OrganizingChair)}</div>
       <h2 class="heading-secondary my-4">Organizing Co-Chairs</h2>
-      <div class="row px-3">
-        {CommitteeMember.getCards(OrganizingCoChairs)}
-      </div>
+      <div class="row px-3">{CommitteeMember.getCards(OrganizingCoChairs)}</div>
       <h2 class="heading-secondary my-4">Organizing Committee</h2>
       <div class="row px-3">
         {CommitteeMember.getCards(OrganizingCommittee)}

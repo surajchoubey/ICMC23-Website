@@ -38,13 +38,13 @@ const GeneralChairs = [
   ),
   new CommitteeMember(
     "General Co-Chairs",
-    "Prof. P.K. Saxena",
+    "Prof. P. K. Saxena",
     "Scientific Consultant-Cyber Security,",
     "Govt. of India, Former Director, SAG, DRDO, Delhi,"
   ),
   new CommitteeMember(
     "General Co-Chairs",
-    "Prof. P.D. Srivastava",
+    "Prof. P. D. Srivastava",
     "Department of Mathematics,",
     "IIT Bhilai"
   ),
