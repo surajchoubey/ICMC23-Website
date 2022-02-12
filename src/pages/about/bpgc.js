@@ -1,6 +1,5 @@
 import React from "react";
-import abouttoppng from "../../images/assets/about-top2.jpg";
-import aboutcontentpng from "../../images/assets/about-content.jpg";
+import aboutcontentpng from "../../images/assets/about-content4.jpg";
 import aboutbottompng from "../../images/assets/about-bottom3.jpg";
 
 const aboutText =
@@ -19,11 +18,6 @@ function BPGC() {
       </div>
       <div className="divider" style={{marginBottom: '30px'}}></div>
       <div className="about-content">
-        <img
-          src={abouttoppng}
-          alt="Professors and Students attending a conference"
-          className="about-img-top"
-        />
         <div className="about-mid-grid">
           <img
             src={aboutcontentpng}
