@@ -25,7 +25,7 @@ function Guidelines() {
                 {/* Extra charges of INR 100 or USD 05 per page is required after 12 pages and maximum page limit can be 20. The similarity index for a submitted paper should be below 20%.*/}
             </GuidelinesLayout>
             <GuidelinesLayout serial_number="2" /*title="Access to your published paper"*/>
-                The authors are encouraged to prepare their submissions as per the given <a href='https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines' target="_blank" rel="noopener noreferrer">guidelines</a>. Submitted papers must be in PDF format and should be submitted electronically via easy chair.           
+                The authors are encouraged to prepare their submissions as per the given <a href='https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines' target="_blank" rel="noopener noreferrer" class="text-decoration-none">guidelines</a>. Submitted papers must be in PDF format and should be submitted electronically via easy chair.           
             </GuidelinesLayout>
             <GuidelinesLayout serial_number="3" /*title="Access to your published paper"*/>
             All papers that conform to submission guidelines will be evaluated based on originality, technical and/or research content/depth, correctness, relevance to conference, contributions, and readability. The authors of the accepted papers will be allowed to make corrections in accordance with the suggestions of the reviewers and submit final camera-ready papers within the stipulated deadline.            
