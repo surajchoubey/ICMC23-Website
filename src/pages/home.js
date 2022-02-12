@@ -75,7 +75,7 @@ function Home() {
                     <div class="col-lg-3 col-md-6 d-block d-lg-block d-none d-sm-none align-self-center">
                         <img src={icmclogo} alt="" class="img-fluid"/>
                     </div>            
-                    <div class="col-lg-6 col-md-12 p-3" style={{minHeight:'350px'}}>
+                    <div class="col-lg-8 col-md-12 p-3" style={{minHeight:'350px'}}>
                         <div>
                             <h1 class="" style={{textAlign: 'start', fontWeight: 'lighter'}}>About the Conference<br/></h1>
                             <p class="" style={{textAlign: 'justify'}}> {homepg_text2} </p>
