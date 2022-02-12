@@ -32,19 +32,19 @@ const ChiefPatron = [
 const GeneralChairs = [
   new CommitteeMember(
     "General Co-Chairs",
-    "Prof. D. M. Kulkarni",
+    "Prof. D.M. Kulkarni",
     "Dean Administration,",
     "BITS Pilani K K Birla Goa Campus"
   ),
   new CommitteeMember(
     "General Co-Chairs",
-    "Prof. P.K. Saxena",
+    "Prof. P. K. Saxena",
     "Scientific Consultant-Cyber Security,",
     "Govt. of India, Former Director, SAG, DRDO, Delhi,"
   ),
   new CommitteeMember(
     "General Co-Chairs",
-    "Prof. P.D. Srivastava",
+    "Prof. P. D. Srivastava",
     "Department of Mathematics,",
     "IIT Bhilai"
   ),
@@ -52,7 +52,7 @@ const GeneralChairs = [
 const ProgrammeChairs = [
   new CommitteeMember(
     "Programme Co-Chairs",
-    "Prof. S Ponnusamy",
+    "Prof. S. Ponnusamy",
     "Department of Mathematics,",
     "IIT Madras"
   ),

@@ -7,7 +7,7 @@ import Timer from '../layouts/timer';
 import Timeline from "./timeline";
 import icmclogo from "./about/icmc-logo.jpg"
 
-const homepg_text = "BITS Pilani K. K. Birla Goa Campus is one of the four campuses of the Birla Institute of Technology & Science, Pilani, a well-known all-India Institute for higher education. In keeping with the tradition of innovation and creativity, the campus has given a state-of-the-art touch to the infrastructure of the entire institute without diminishing, in the least, the natural beauty of Goa surrounding its Campus. Spacious labs state-of-the-art classrooms with soundproof acoustics, modern furniture, computer labs with Internet facility and Library define the infrastructural counters of the institution. Being an Institute of excellence in Technology and Sciences, the primary motive of the institute is to \"train young men and women able and eager to create and put into action such ideas, methods, techniques and information\". Being fully residential, the university hosts five thousand students and about six hundred staff."
+const homepg_text = "BITS Pilani K. K. Birla Goa Campus is one of the four campuses of the Birla Institute of Technology & Science, Pilani, a well-known all-India Institute for higher education. In keeping with the tradition of innovation and creativity, the campus has given a state-of-the-art touch to the infrastructure of the entire institute without diminishing, in the least, the natural beauty of Goa surrounding its Campus. Spacious labs state-of-the-art classrooms with soundproof acoustics, modern furniture, computer labs with Internet facility and Library define the infrastructural counters of the institution. "
 const homepg_text2 = "ICMC 2023 aims to bring together both novice and experienced scientists with developers, to meet new colleagues, collect new ideas and establish new cooperation between research groups and provide a platform for researchers from academic and industry to present their original work and exchange ideas, information, techniques and applications in the field of Computational Applied Mathematics."
 
 function Home() {
@@ -52,7 +52,7 @@ function Home() {
                             <h1 class="" style={{textAlign: 'start', fontWeight: 'lighter'}}>About The Institute <br/></h1>
                             <p class="" style={{textAlign: 'justify'}}> {homepg_text} </p>
                             <div class="d-flex" style={{textAlign: 'start'}}>
-                                <Link to="/about/bpgc/" class="black-button" >VIEW MORE</Link>
+                                <Link to="/venue/bpgc-goa/" class="black-button" >VIEW MORE</Link>
                             </div>
                         </div>
                     </div>
