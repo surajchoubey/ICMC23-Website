@@ -293,7 +293,7 @@ h2.heading-secondary {
 }
 
 .about-img-cnt {
-  max-width: 30%;
+  max-width: 50%;
   float: left;
   align-self: center;
   margin: 1rem 2rem 1rem 0;
@@ -310,9 +310,9 @@ h2.heading-secondary {
     margin-top: 10px;
   }
   .about-img-cnt {
-    width: 50vw;
-    max-width: 50%;
+    max-width: 100%; 
     align-self: flex-start;
+    margin-bottom: 30px;
   }
   .about-txt-cnt {
     text-align: left;
