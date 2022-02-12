@@ -23,7 +23,7 @@ function BPGCMathDept() {
           <p className="about-txt-cnt">
               The&nbsp;
               <a
-                class="text-decoration-none"
+                class="modern-link"
                 href="https://www.bits-pilani.ac.in/goa/mathematics/DepartmentofMathematics"
                 target="_blank"
                 rel="noopener noreferrer"
