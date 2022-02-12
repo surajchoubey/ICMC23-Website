@@ -43,6 +43,11 @@ function Howtoreach() {
             </tr>
           </tbody>
         </BTable>
+        <p>
+          <b>Note</b>- The fare mentioned above are subject to variation as per
+          market demand. Our Campus is not responsible for any change in the
+          indicated fare.
+        </p>
         <p></p>
             <a class="black-button" href="https://www.bits-pilani.ac.in/goa/reachGoaCampus" target="_blank" rel="noopener noreferrer">
                 More on How to Reach BITS Pilani Goa Campus
