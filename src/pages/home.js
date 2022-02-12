@@ -71,7 +71,7 @@ function Home() {
             </div>
 
             <div class="container py-4 my-5">
-                <div class="row justify-content-start"> 
+                <div class="row justify-content-center"> 
                     <div class="col-lg-3 col-md-6 d-block d-lg-block d-none d-sm-none align-self-center">
                         <img src={icmclogo} alt="" class="img-fluid"/>
                     </div>            
