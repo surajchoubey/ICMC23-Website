@@ -21,7 +21,7 @@ function BPGC() {
         <div className="about-mid-grid">
           <img
             src={aboutcontentpng}
-            alt="Speaker at a conference"
+            alt="Scenic Campus View"
             className="about-img-cnt"
           />
           <p className="about-txt-cnt">The <a href="https://www.bits-pilani.ac.in/" target="_blank" rel="noopener noreferrer" class="text-decoration-none">Birla Institute of Technology &amp; Science, Pilani</a>{aboutText}</p>

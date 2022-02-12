@@ -16,7 +16,7 @@ function ICMC() {
         <div className="about-mid-grid">
           <img
             src={icmclogo}
-            alt="Speaker at a conference"
+            alt="ICMC logo"
             className="about-img-logo"
           />
           <p className="about-txt-cnt">{aboutText}</p>
