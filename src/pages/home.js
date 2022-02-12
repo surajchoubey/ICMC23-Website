@@ -52,7 +52,7 @@ function Home() {
                             <h1 class="" style={{textAlign: 'start', fontWeight: 'lighter'}}>About The Institute <br/></h1>
                             <p class="" style={{textAlign: 'justify'}}> {homepg_text} </p>
                             <div class="d-flex" style={{textAlign: 'start'}}>
-                                <Link to="/venue/bpgc-goa/" class="black-button" >VIEW MORE</Link>
+                                <Link to="/venue/bpgc-goa" class="black-button" >VIEW MORE</Link>
                             </div>
                         </div>
                     </div>
