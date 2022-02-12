@@ -32,8 +32,8 @@ const profContact = [{
 },
 {
     "name": "Prof. P. Danumjaya",
-    "phone": "9850275789",
-    "phone_text": "+91-985-0275-789",
+    "phone": "8322580144",
+    "phone_text": "+91-832-2580-144",
     "profile": "https://universe.bits-pilani.ac.in/goa/danu/profile"
 }
 ];
