@@ -350,12 +350,11 @@ h2.heading-secondary {
   color: #000;
   font-weight: 400;
   position: relative;
-}
-
-.modern-link:hover {
-  color: #000;
   background-image: linear-gradient(to right, #777 0%, #777 100%);
   background-repeat: repeat-x;
   background-position: 0 100%;
   background-size: 100% 3px;
+}
+.modern-link:hover {
+  color: black;
 }
