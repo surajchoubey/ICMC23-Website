@@ -292,7 +292,7 @@ h2.heading-secondary {
   text-align: justify;
 }
 
-.about-img-logo{
+.about-img-logo {
   max-width: 30%;
   float: left;
   align-self: center;
@@ -317,16 +317,15 @@ h2.heading-secondary {
     margin-top: 10px;
   }
   .about-img-cnt {
-    max-width: 100%; 
+    max-width: 100%;
     align-self: flex-start;
     margin-bottom: 30px;
   }
-  .about-img-logo{
+  .about-img-logo {
     width: 50vw;
-    max-width: 50%; 
+    max-width: 50%;
     align-self: flex-start;
   }
-
 
   .about-txt-cnt {
     text-align: left;
@@ -353,25 +352,10 @@ h2.heading-secondary {
   position: relative;
 }
 
-.modern-link:before {
-  position: absolute;
-  margin: 0 auto;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #000;
-  content: "";
-  opacity: 0.3;
-  transition-property: opacity, -webkit-transform;
-  /* transform: scaleX(0.97); */
-  transition-duration: 0.3s;
-}
 .modern-link:hover {
   color: #000;
-}
-.modern-link:hover:before {
-  opacity: 1;
-  transform: scale(1);
-  -webkit-transform: scaleX(1);
+  background-image: linear-gradient(to right, #777 0%, #777 100%);
+  background-repeat: repeat-x;
+  background-position: 0 100%;
+  background-size: 100% 3px;
 }
