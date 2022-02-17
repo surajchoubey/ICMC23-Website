@@ -41,7 +41,7 @@ const profContact = [{
 const ProfContact = () => {
     return profContact.map(element => (
     <div class="col-sm-12 col-md-6" style={{marginBottom: '7px'}}>
-        <a style={connectstyle2} href={element["profile"]} target="_blank" rel="nopener noreferrer" title="Visit website">{element["name"]}</a> <br/> Office:&nbsp;
+        <a style={connectstyle2} href={element["profile"]} target="_blank" rel="nopener noreferrer" title="Visit website">{element["name"]} <i class="fa fa-external-link"></i></a> <br/> Office:&nbsp;
         <a style={connectstyle} href={"tel:+91" + element["phone"]} title="Call" >{element["phone_text"]}</a>
     </div>
     ));
