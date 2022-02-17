@@ -357,4 +357,5 @@ h2.heading-secondary {
 }
 .modern-link:hover {
   color: black;
+  background-image: none;
 }

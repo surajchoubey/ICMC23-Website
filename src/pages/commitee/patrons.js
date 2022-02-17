@@ -40,13 +40,13 @@ const GeneralChairs = [
     "General Co-Chairs",
     "Prof. P. K. Saxena",
     "Scientific Consultant-Cyber Security,",
-    "Govt. of India, Former Director, SAG, DRDO, Delhi,"
+    "Govt. of India, Former Director, SAG, DRDO, New Delhi, India"
   ),
   new CommitteeMember(
     "General Co-Chairs",
     "Prof. P. D. Srivastava",
     "Department of Mathematics,",
-    "IIT Bhilai"
+    "IIT Bhilai, Raipur, India"
   ),
 ];
 const ProgrammeChairs = [
@@ -54,33 +54,27 @@ const ProgrammeChairs = [
     "Programme Co-Chairs",
     "Prof. S. Ponnusamy",
     "Department of Mathematics,",
-    "IIT Madras"
+    "IIT Madras, India"
   ),
   new CommitteeMember(
     "Programme Co-Chairs",
     "Prof. Debasis Giri",
     "Department of Information Technology,",
-    "Maulana Abul Kalam Azad University of Technology"
+    "Maulana Abul Kalam Azad University of Technology, West Bengal, India"
   ),
 ];
 function Patrons() {
   return (
-    <div style={{textAlign: 'start'}}>
+    <div style={{ textAlign: "start" }}>
       <div class="titleStyle1">Our</div>
       <div class="titleStyle2">Committee</div>
       <div class="divider" style={{ marginBottom: "30px" }}></div>
       <h2 class="heading-secondary my-4">Chief Patron</h2>
-      <div class="row px-3">
-        {CommitteeMember.getCards(ChiefPatron)}
-      </div>
+      <div class="row px-3">{CommitteeMember.getCards(ChiefPatron)}</div>
       <h2 class="heading-secondary my-4">General Co-Chairs</h2>
-      <div class="row px-3">
-        {CommitteeMember.getCards(GeneralChairs)}
-      </div>
+      <div class="row px-3">{CommitteeMember.getCards(GeneralChairs)}</div>
       <h2 class="heading-secondary my-4">Programme Co-Chairs</h2>
-      <div class="row px-3">
-        {CommitteeMember.getCards(ProgrammeChairs)}
-      </div>
+      <div class="row px-3">{CommitteeMember.getCards(ProgrammeChairs)}</div>
     </div>
   );
 }
