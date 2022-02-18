@@ -49,8 +49,8 @@ function Home() {
                 <div class="row  justify-content-center align-middle">             
                     <div class="col-lg-5 col-md-12 p-3" style={{minHeight:'350px'}}>
                         <div>
-                            <h1 class="" style={{textAlign: 'start', fontWeight: 'lighter'}}>About The Institute <br/></h1>
-                            <p class="" style={{textAlign: 'justify'}}>
+                            <h1 class="" style={{textAlign: 'start', fontWeight: 'lighter'}}>About the Institute <br/></h1>
+                            <p style={{fontWeight: '300', textAlign: 'justify'}}>
                                 <a href="https://www.bits-pilani.ac.in/Goa/" target="_blank" rel="noopener noreferrer" class="modern-link">BITS Pilani K. K. Birla Goa Campus</a>
                                 &nbsp;is one of the four campuses of the&nbsp;
                                 <a href="https://www.bits-pilani.ac.in/" target="_blank" rel="noopener noreferrer" class="modern-link">Birla Institute of Technology &amp; Science, Pilani</a>
@@ -78,7 +78,7 @@ function Home() {
                     <div class="col-lg-8 col-md-12 p-3" style={{minHeight:'350px'}}>
                         <div>
                             <h1 class="" style={{textAlign: 'start', fontWeight: 'lighter'}}>About the Conference<br/></h1>
-                            <p class="" style={{textAlign: 'justify'}}> {homepg_text2} </p>
+                            <p class="" style={{fontWeight: '300', textAlign: 'justify'}}> {homepg_text2} </p>
                             <div class="d-flex" style={{textAlign: 'start'}}>
                                 <Link to="/about/icmc/" class="black-button" >VIEW MORE</Link>
                             </div>

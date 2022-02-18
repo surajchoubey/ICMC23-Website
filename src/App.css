@@ -360,3 +360,26 @@ h2.heading-secondary {
   background-image: none;
   text-decoration: underline;
 }
+
+.connectstyle {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.connectstyle:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.connectstyle2 {
+  color: black;
+  text-decoration: none;
+  font-size: 120%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.connectstyle2:hover{
+  color: #0a9dff !important;
+}
