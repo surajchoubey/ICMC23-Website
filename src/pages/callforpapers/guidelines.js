@@ -1,8 +1,9 @@
 import React from "react";
+import springer from '../../images/springer.jpeg'
 
 const GuidelinesLayout = (props) => {
     return (
-        <div style={{display:'flex', flexDirection: 'row', marginBottom:"40px"}}>
+        <div style={{display:'flex', flexDirection: 'row', marginBottom:'40px'}}>
             <div className="numStyle">
                 {props.serial_number}
             </div>
@@ -30,6 +31,10 @@ function Guidelines() {
             <GuidelinesLayout serial_number="3" /*title="Access to your published paper"*/>
             All papers that conform to submission guidelines will be evaluated based on originality, technical and/or research content/depth, correctness, relevance to conference, contributions, and readability. The authors of the accepted papers will be allowed to make corrections in accordance with the suggestions of the reviewers and submit final camera-ready papers within the stipulated deadline.            
             </GuidelinesLayout>
+            <br/>
+                <img src={springer} class="img-fluid" alt="springer logo"/>
+                <p style={{fontWeight: '300'}}>All accepted papers are expected to be published in Springer.</p>
+            <br/>
         </div>
     );
 }
