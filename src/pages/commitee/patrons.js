@@ -71,9 +71,9 @@ function Patrons() {
       <div class="divider" style={{ marginBottom: "30px" }}></div>
       <h2 class="heading-secondary my-4">Chief Patron</h2>
       <div class="row px-3">{CommitteeMember.getCards(ChiefPatron)}</div>
-      <h2 class="heading-secondary my-4">General Co-Chairs</h2>
+      <h2 class="heading-secondary my-4">General Chairs</h2>
       <div class="row px-3">{CommitteeMember.getCards(GeneralChairs)}</div>
-      <h2 class="heading-secondary my-4">Programme Co-Chairs</h2>
+      <h2 class="heading-secondary my-4">Programme Chairs</h2>
       <div class="row px-3">{CommitteeMember.getCards(ProgrammeChairs)}</div>
     </div>
   );
