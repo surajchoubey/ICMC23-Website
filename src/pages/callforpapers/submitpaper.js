@@ -13,7 +13,7 @@ function SubmitPaper() {
           <div className="titleStyle1"> Submit Your Paper </div>
           <div className="titleStyle2"> Information </div>
           <div class="divider" style={{ marginBottom: "30px" }}></div>
-          <p class="" align="justify"> {paragraph} <b> {paragraph_bold_line} </b> </p>
+          <p style={{fontWeight: '300', fontSize: '110%'}} align="justify"> {paragraph} <b> {paragraph_bold_line} </b> </p>
         </div>
 
         <div class="col-lg- cta-btn-container text-center">
@@ -31,7 +31,7 @@ function SubmitPaper() {
         </div>
         <div class="text-center text-lg-left">
           <br/>
-          <p class="cta-text justify">
+          <p class="cta-text justify" style={{fontWeight: '300', fontSize: '110%'}}>
             <b> Note: </b> 
               {note}
           </p>
