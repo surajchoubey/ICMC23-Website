@@ -51,9 +51,9 @@ function Home() {
                         <div>
                             <h1 class="" style={{textAlign: 'start', fontWeight: 'lighter'}}>About The Institute <br/></h1>
                             <p class="" style={{textAlign: 'justify'}}>
-                                <a href="https://www.bits-pilani.ac.in/Goa/" target="_blank" rel="noopener noreferrer" class="text-decoration-none">BITS Pilani K. K. Birla Goa Campus </a>
-                                is one of the four campuses of the&nbsp;
-                                <a href="https://www.bits-pilani.ac.in/" target="_blank" rel="noopener noreferrer" class="text-decoration-none">Birla Institute of Technology &amp; Science, Pilani</a>
+                                <a href="https://www.bits-pilani.ac.in/Goa/" target="_blank" rel="noopener noreferrer" class="modern-link">BITS Pilani K. K. Birla Goa Campus</a>
+                                &nbsp;is one of the four campuses of the&nbsp;
+                                <a href="https://www.bits-pilani.ac.in/" target="_blank" rel="noopener noreferrer" class="modern-link">Birla Institute of Technology &amp; Science, Pilani</a>
                                 {homepg_text}
                             </p>
                             <div class="d-flex" style={{textAlign: 'start'}}>

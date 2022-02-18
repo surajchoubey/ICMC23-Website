@@ -16,7 +16,7 @@ function BPGCGoa() {
         <div className="about-mid-grid">
           <p className="about-txt-cnt">
             <a
-              class="text-decoration-none"
+              class="modern-link"
               href="https://www.bits-pilani.ac.in/Goa/"
               target="_blank"
               rel="noopener noreferrer"
