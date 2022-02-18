@@ -84,7 +84,7 @@ function ConfRegFee() {
                     </div>
                     */}
                     {ExcuseCard(Excuses.TBU)}
-                    <p></p>
+                    <div class="box" style={{ minHeight: "40px" }}></div>
                 </div>
             </section>
         </div>
