@@ -32,8 +32,10 @@ function Guidelines() {
             All papers that conform to submission guidelines will be evaluated based on originality, technical and/or research content/depth, correctness, relevance to conference, contributions, and readability. The authors of the accepted papers will be allowed to make corrections in accordance with the suggestions of the reviewers and submit final camera-ready papers within the stipulated deadline.            
             </GuidelinesLayout>
             <br/>
-                <img src={springer} class="img-fluid" alt="springer logo"/>
-                <p style={{fontWeight: '300'}}>All accepted papers are expected to be published in Springer.</p>
+            <br/>
+                <p style={{fontWeight: '300', fontSize: '200%'}}>HOW TO <b>PROCEED?</b></p>
+                <a href="https://link.springer.com/" style={{focus: 'cursor'}}><img src={springer} class="img-fluid" alt="springer logo"/></a>
+                <p style={{fontWeight: '300'}}>All accepted papers are expected to be published in <b>Springer</b>.</p>
             <br/>
         </div>
     );
