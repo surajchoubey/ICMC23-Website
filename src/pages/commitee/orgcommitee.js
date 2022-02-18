@@ -58,13 +58,13 @@ const OrganizingCommittee = [
   ),
   new CommitteeMember(
     "Organizing Committee",
-    "Prof. Minhajul",
+    "Dr. Minhajul",
     "Department of Mathematics,",
     "BITS Pilani K K Birla Goa Campus"
   ),
   new CommitteeMember(
     "Organizing Committee",
-    "Prof. Yasmeen S. Akhtar",
+    "Dr. Yasmeen S. Akhtar",
     "Department of Mathematics,",
     "BITS Pilani K K Birla Goa Campus"
   ),
