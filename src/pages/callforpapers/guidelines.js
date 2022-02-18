@@ -1,6 +1,8 @@
 import React from "react";
 import springer from '../../images/springer.jpeg'
 
+const springer_link = "https://link.springer.com/";
+
 const GuidelinesLayout = (props) => {
     return (
         <div style={{display:'flex', flexDirection: 'row', marginBottom:'40px'}}>
@@ -34,8 +36,8 @@ function Guidelines() {
             <br/>
             <br/>
                 <p style={{fontWeight: '300', fontSize: '200%'}}>HOW TO <b>PROCEED?</b></p>
-                <a href="https://link.springer.com/" target="_blank" rel="nopener noreferrer" style={{focus: 'cursor'}}><img src={springer} class="img-fluid" alt="springer logo"/></a>
-                <p style={{fontWeight: '300'}}>All accepted papers are expected to be published in <b>Springer</b>.</p>
+                <a href={springer_link} target="_blank" rel="nopener noreferrer" style={{focus: 'cursor'}}><img src={springer} class="img-fluid" alt="springer logo"/></a>
+                <p style={{fontWeight: '300'}}>All accepted papers are expected to be published in <a class="modern-link" href={springer_link} target="_blank" rel="nopener noreferrer">Springer</a>.</p>
         </div>
     );
 }

@@ -345,17 +345,18 @@ h2.heading-secondary {
 
 .modern-link {
   /* line-height: 32px; */
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 18px;
   color: #000;
   font-weight: 400;
   position: relative;
-  background-image: linear-gradient(to right, #777 0%, #777 100%);
+  /* background-image: linear-gradient(to right, #777 0%, #777 100%); */
   background-repeat: repeat-x;
   background-position: 0 100%;
   background-size: 100% 3px;
 }
 .modern-link:hover {
-  color: black;
+  color: #0a9dff;
   background-image: none;
+  text-decoration: underline;
 }
