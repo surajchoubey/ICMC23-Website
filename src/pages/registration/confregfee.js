@@ -1,5 +1,5 @@
 import React from "react";
-import { ExcuseCard, Excuses } from "../../layouts/excuses.js";
+// import { ExcuseCard, Excuses } from "../../layouts/excuses.js";
 
 function ConfRegFee() {
   return (
