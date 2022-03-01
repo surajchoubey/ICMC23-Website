@@ -241,6 +241,11 @@ a.dropdown-item:hover {
   transition: 0.25s;
 }
 
+.btn-raise > a {
+  color: #333;
+  text-decoration: none;
+}
+
 .btn-raise:hover,
 .btn-raise:focus {
   border-color: black;
@@ -380,6 +385,6 @@ h2.heading-secondary {
   cursor: pointer;
 }
 
-.connectstyle2:hover{
+.connectstyle2:hover {
   color: #0a9dff !important;
 }
