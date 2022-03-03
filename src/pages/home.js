@@ -28,7 +28,7 @@ function Home() {
                                 </h1>
                             </div>
                             <div class="d-flex" style={{textAlign: 'start'}}>
-                                <Link to="/registration/payregfee/" class="black-button" >Registration</Link>
+                                <Link to="/registration/confregfee/" class="black-button" >Registration</Link>
                             </div>                                           
                             <div class="d-flex" style={{textAlign: 'start'}}>
                                 <h3 style={{fontWeight: '300'}}>JANUARY 6-8 | 2023</h3>
@@ -49,7 +49,7 @@ function Home() {
                 <div class="row  justify-content-center align-middle">             
                     <div class="col-lg-5 col-md-12 p-3" style={{minHeight:'350px'}}>
                         <div>
-                            <h1 class="" style={{textAlign: 'start', fontWeight: 'lighter'}}>About the Institute <br/></h1>
+                            <h1 class="" style={{textAlign: 'start', fontWeight: 'light'}}>About the Institute <br/></h1>
                             <p style={{fontWeight: '400', textAlign: 'justify'}}>
                                 <a href="https://www.bits-pilani.ac.in/Goa/" target="_blank" rel="noopener noreferrer" class="modern-link">BITS Pilani K. K. Birla Goa Campus</a>
                                 &nbsp;is one of the four campuses of the&nbsp;
@@ -77,7 +77,7 @@ function Home() {
                     </div>            
                     <div class="col-lg-8 col-md-12 p-3" style={{minHeight:'350px'}}>
                         <div>
-                            <h1 class="" style={{textAlign: 'start', fontWeight: 'lighter'}}>About the Conference<br/></h1>
+                            <h1 class="" style={{textAlign: 'start', fontWeight: 'light'}}>About the Conference<br/></h1>
                             <p class="" style={{fontWeight: '400', textAlign: 'justify'}}> {homepg_text2} </p>
                             <div class="d-flex" style={{textAlign: 'start'}}>
                                 <Link to="/about/icmc/" class="black-button" >VIEW MORE</Link>

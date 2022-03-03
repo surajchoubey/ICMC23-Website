@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 // import { ExcuseCard, Excuses } from "../../layouts/excuses.js";
 
 function ConfRegFee() {
@@ -110,15 +111,12 @@ function ConfRegFee() {
               </table>
             </div>
             <p></p>
-            <a
+            <Link
               class="black-button"
-              href="#/registration/payregfee/"
-              target="_blank"
-              style={{ "margin-top": "2rem" }}
-              rel="noopener noreferrer"
+              to="/registration/payregfee/"
             >
-              Registration Link
-            </a>
+              Pay Registration Fees
+            </Link>
             <p></p>
           </div>
 
