@@ -35,8 +35,8 @@ const compTracks = [
   "MOBILE, DISTRIBUTED, AND PARALLEL COMPUTING"
 ];
 
-const MathTiles = () => { return mathTracks.map(trackname => (<div className="tracksStyle"> {trackname} </div>)) };
-const CompTiles = () => { return compTracks.map(trackname => (<div className="tracksStyle"> {trackname} </div>)) };
+const MathTiles = () => { return mathTracks.map(trackname => (<div style={{fontWeight: '400'}} className="tracksStyle"> {trackname} </div>)) };
+const CompTiles = () => { return compTracks.map(trackname => (<div style={{fontWeight: '400'}} className="tracksStyle"> {trackname} </div>)) };
 
 function Tracks() {
     return(
@@ -48,7 +48,7 @@ function Tracks() {
             <div class="divider" style={{marginBottom: '30px'}}></div>
 
             <h2 class="heading-secondary">mathematics</h2>
-            <div style={{display:'flex', flexWrap: 'wrap', justifyContent: "space-between", marginTop: "50px"}}>
+            <div style={{display:'flex', flexWrap: 'wrap',justifyContent: "space-between", marginTop: "50px"}}>
                 <MathTiles />  
             </div>
 

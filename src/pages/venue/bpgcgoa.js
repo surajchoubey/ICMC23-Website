@@ -14,14 +14,14 @@ function BPGCGoa() {
       <div className="divider" style={{marginBottom: '30px'}}></div>
       <div className="about-content">
         <div className="about-mid-grid">
-          <p className="about-txt-cnt">
+          <p style={{fontWeight: '400'}} className="about-txt-cnt">
             <a
               class="modern-link"
               href="https://www.bits-pilani.ac.in/Goa/"
               target="_blank"
               rel="noopener noreferrer"
             >BITS Pilani K. K. Birla Goa Campus</a>{aboutText}</p>
-          <p className="about-txt-cnt">{aboutText2}</p>
+          <p style={{fontWeight: '400'}} className="about-txt-cnt">{aboutText2}</p>
         </div>
         <img
           src={aboutbottompng}
