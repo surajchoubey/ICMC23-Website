@@ -25,7 +25,7 @@ let NavWithoutDropDown = ({link, showname}) => {
 
 let DropDownItem = ({link, showname}) => {
 	return (
-		<Link class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" to={link}>{showname}</Link>
+		<Link style={{fontWeight: '400'}} class="dropdown-item" data-toggle="collapse" data-target=".navbar-collapse.show" to={link}>{showname}</Link>
 	)
 }
 

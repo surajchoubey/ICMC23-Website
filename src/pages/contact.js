@@ -44,7 +44,7 @@ function Contact() {
                         <div className="titleStyle2"> Information </div>
                         <div class="divider" style={{marginBottom: '20px'}}></div>
                         <strong style={{fontSize: '140%'}}>Birla Institute of Technology &amp; Science</strong>
-                        <p class="address" style={{fontWeight: '300'}}>
+                        <p class="address" style={{fontWeight: '400'}}>
                             NH 17B, Bypass Road, Zuarinagar, Sancoale, Goa, India - 403726
                         </p>
                         <p style={{fontSize: '140%', fontWeight: 'bold'}}>

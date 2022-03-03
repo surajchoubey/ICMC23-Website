@@ -10,8 +10,8 @@ const GuidelinesLayout = (props) => {
                 {props.serial_number}
             </div>
             <div className="textStyle">
-            <div style={{fontWeight:'500'}}>{props.title}</div>
-                {props.children}
+            <div style={{fontWeight:'300'}}>{props.title}</div>
+                <p style={{fontWeight: '400'}}> {props.children} </p>
             </div>
         </div>        
     )
@@ -35,9 +35,9 @@ function Guidelines() {
             </GuidelinesLayout>
             <br/>
             <br/>
-                <p style={{fontWeight: '300', fontSize: '200%'}}>HOW TO <b>PROCEED?</b></p>
+                <p style={{fontWeight: '400', fontSize: '200%'}}>HOW TO <b>PROCEED?</b></p>
                 <a href={springer_link} target="_blank" rel="nopener noreferrer" style={{focus: 'cursor'}}><img src={springer} class="img-fluid" alt="springer logo"/></a>
-                <p style={{fontWeight: '300'}}>All accepted papers are expected to be published in <a class="modern-link" href={springer_link} target="_blank" rel="nopener noreferrer">Springer</a>.</p>
+                <p style={{fontWeight: '400'}}>All accepted papers are expected to be published in <a class="modern-link" href={springer_link} target="_blank" rel="nopener noreferrer">Springer</a>.</p>
         </div>
     );
 }
