@@ -112,7 +112,7 @@ function ConfRegFee() {
             <p></p>
             <a
               class="black-button"
-              href="#/registration/confregfee/"
+              href="#/registration/payregfee/"
               target="_blank"
               style={{ "margin-top": "2rem" }}
               rel="noopener noreferrer"
