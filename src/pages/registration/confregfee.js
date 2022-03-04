@@ -80,8 +80,8 @@ function ConfRegFee() {
                     </td>
                     <td align="center">INR 8000</td>
                     <td align="center">INR 9000</td>
-                    <td align="center">USD 300</td>
-                    <td align="center">USD 400</td>
+                    <td align="center">USD 350</td>
+                    <td align="center">USD 450</td>
                   </tr>
                   <tr>
                     <td>
@@ -103,18 +103,18 @@ function ConfRegFee() {
                       {/* <font size="3px">(as a participant)</font> */}
                     </td>
                     <td align="center">INR 3000</td>
-                    <td align="center">INR 3500</td>
+                    <td align="center">INR 4000</td>
                     <td align="center">USD 200</td>
-                    <td align="center">USD 250</td>
+                    <td align="center">USD 150</td>
                   </tr>
                 </tbody>
               </table>
             </div>
             <p style={{ textAlign: "justify" }}>
-              Note: The registration fees include, cost of tea/coffee, snacks,
-              working lunch and banquet dinner. Accommodation is not included,
-              for accommodation please refer to the information given in the
-              conference website.
+              <strong>Note:</strong> The registration fees include, cost of
+              tea/coffee, snacks, working lunch and banquet dinner.
+              Accommodation is not included, for accommodation please refer to
+              the information given in the conference website.
             </p>
             <a
               class="black-button"
