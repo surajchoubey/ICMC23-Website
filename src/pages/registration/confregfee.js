@@ -98,7 +98,7 @@ function ConfRegFee() {
                   </tr>
                   <tr>
                     <td>
-                      Only for Presentation
+                      Only Presentation
                       {/* <br /> */}
                       {/* <font size="3px">(as a participant)</font> */}
                     </td>
