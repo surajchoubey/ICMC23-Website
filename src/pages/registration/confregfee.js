@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 // import { ExcuseCard, Excuses } from "../../layouts/excuses.js";
 
 function ConfRegFee() {
@@ -111,12 +111,14 @@ function ConfRegFee() {
               </table>
             </div>
             <p></p>
-            <Link
+            <a
               class="black-button"
-              to="/registration/payregfee/"
+              href="/registration/payregfee/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Pay Registration Fees
-            </Link>
+            </a>
             <p></p>
           </div>
 
