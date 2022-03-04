@@ -110,7 +110,12 @@ function ConfRegFee() {
                 </tbody>
               </table>
             </div>
-            <p></p>
+            <p style={{ textAlign: "justify" }}>
+              Note: The registration fees include, cost of tea/coffee, snacks,
+              working lunch and banquet dinner. Accommodation is not included,
+              for accommodation please refer to the information given in the
+              conference website.
+            </p>
             <a
               class="black-button"
               href="/registration/payregfee/"
