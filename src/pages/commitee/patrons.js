@@ -13,7 +13,7 @@ class CommitteeMember {
     return patronList.map(function (patron, _) {
       return (
         <div class="btn-raise raise col-md-4 col-sm-6 col-xs-12 p-3 my-2">
-          <a href={patron.link}>
+          <a href={patron.link} target="_blank" rel="nopener noreferrer">
             <p class="card-name">{patron.name}</p>
             <p class="card-description">{patron.description}</p>
             <p class="card-description">{patron.institute}</p>
