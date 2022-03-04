@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 // import { ExcuseCard, Excuses } from "../../layouts/excuses.js";
 
 function ConfRegFee() {
@@ -103,8 +104,8 @@ function ConfRegFee() {
                     </td>
                     <td align="center">INR 3000</td>
                     <td align="center">INR 4000</td>
-                    <td align="center">USD 200</td>
                     <td align="center">USD 150</td>
+                    <td align="center">USD 200</td>
                   </tr>
                 </tbody>
               </table>
@@ -115,14 +116,12 @@ function ConfRegFee() {
               Accommodation is not included, for accommodation please refer to
               the information given in the conference website.
             </p>
-            <a
+            <Link
               class="black-button"
-              href="#/registration/payregfee"
-              target="_blank"
-              rel="noopener noreferrer"
+              to="/registration/payregfee/"
             >
               Pay Registration Fees
-            </a>
+            </Link>
             <p></p>
           </div>
 
