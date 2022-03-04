@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 // import { ExcuseCard, Excuses } from "../../layouts/excuses.js";
 
 function ConfRegFee() {
