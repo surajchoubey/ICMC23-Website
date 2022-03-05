@@ -46,6 +46,7 @@
   width: 100%;
   z-index: 10;
   max-width: 100%;
+  font-weight: 400;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -140,6 +141,7 @@ a.dropdown-item:hover {
   gap: 3.2rem;
   align-items: center;
   justify-content: center;
+  font-weight: 400;
 }
 
 .main-nav-link:link,
@@ -351,7 +353,7 @@ h2.heading-secondary {
 .modern-link {
   /* line-height: 32px; */
   text-decoration: underline;
-  font-size: 18px;
+  /*font-size: 18px;*/
   color: #000;
   font-weight: 400;
   position: relative;

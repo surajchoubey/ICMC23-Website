@@ -19,8 +19,8 @@ function ICMC() {
             alt="ICMC logo"
             className="about-img-logo"
           />
-          <p className="about-txt-cnt">{aboutText}</p>
-          <p className="about-txt-cnt">{aboutText2}</p>
+          <p style={{fontWeight: '400'}} className="about-txt-cnt">{aboutText}</p>
+          <p style={{fontWeight: '400'}} className="about-txt-cnt">{aboutText2}</p>
         </div>
       </div>
     </div>

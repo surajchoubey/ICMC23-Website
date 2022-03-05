@@ -1,5 +1,6 @@
 import React from "react";
-import { ExcuseCard, Excuses } from "../../layouts/excuses.js";
+import { Link } from 'react-router-dom';
+// import { ExcuseCard, Excuses } from "../../layouts/excuses.js";
 
 function ConfRegFee() {
   return (
@@ -79,8 +80,8 @@ function ConfRegFee() {
                     </td>
                     <td align="center">INR 8000</td>
                     <td align="center">INR 9000</td>
-                    <td align="center">USD 300</td>
-                    <td align="center">USD 400</td>
+                    <td align="center">USD 350</td>
+                    <td align="center">USD 450</td>
                   </tr>
                   <tr>
                     <td>
@@ -97,28 +98,30 @@ function ConfRegFee() {
                   </tr>
                   <tr>
                     <td>
-                      Only for Presentation
+                      Accompanying Person
                       {/* <br /> */}
                       {/* <font size="3px">(as a participant)</font> */}
                     </td>
                     <td align="center">INR 3000</td>
-                    <td align="center">INR 3500</td>
+                    <td align="center">INR 4000</td>
+                    <td align="center">USD 150</td>
                     <td align="center">USD 200</td>
-                    <td align="center">USD 250</td>
                   </tr>
                 </tbody>
               </table>
             </div>
-            <p></p>
-            <a
+            <p style={{ textAlign: "justify" }}>
+              <strong>Note:</strong> The registration fees include, cost of
+              tea/coffee, snacks, working lunch and banquet dinner.
+              Accommodation is not included, for accommodation please refer to
+              the information given in the conference website.
+            </p>
+            <Link
               class="black-button"
-              href="https://events.vit.ac.in/events/ICMC/"
-              target="_blank"
-              style={{ "margin-top": "2rem" }}
-              rel="noopener noreferrer"
+              to="/registration/payregfee/"
             >
-              Registration Link
-            </a>
+              Pay Registration Fees
+            </Link>
             <p></p>
           </div>
 

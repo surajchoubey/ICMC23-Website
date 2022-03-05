@@ -4,7 +4,7 @@ function PastEditionElement({link, yearname}) {
     return (
         <a href={link} target="_blank" rel="nopener noreferrer" style={{all: 'unset', cursor: 'pointer'}}>
             <div className='boxStyle'>
-                {yearname}
+                <b>{yearname}</b>
             </div>
         </a>
     )
