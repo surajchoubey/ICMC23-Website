@@ -51,7 +51,7 @@ function Home() {
             
             <Timer />
              <section className="section-carousel">
-        <h1 class="">In Association With</h1>
+                <h2 className="my-5 text-center">IN ASSOCIATION WITH</h2>
         <div class="container-fluid test">
           <OwlCarousel
             items={3}
