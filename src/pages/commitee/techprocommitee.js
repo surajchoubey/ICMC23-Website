@@ -1,5 +1,5 @@
 import React from "react";
-import JSONData from "./techcomm.json";
+import JSONData from "./techcom.json";
 import BTable from "react-bootstrap/Table";
 // import "./styles.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
