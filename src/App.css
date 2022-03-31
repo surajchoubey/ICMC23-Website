@@ -390,3 +390,14 @@ h2.heading-secondary {
 .connectstyle2:hover {
   color: #0a9dff !important;
 }
+
+/* ************************************ */
+/* SECTION-SPONSOR CAROUSEL*/
+/* ************************************ */
+
+.section-carousel {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto 50px auto;
+  text-align: start;
+}
