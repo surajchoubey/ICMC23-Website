@@ -27,7 +27,7 @@ class CommitteeMember {
 const ChiefPatron = [
   new CommitteeMember(
     "Chief Patron",
-    " Prof. Souvik Bhattacharyya",
+    "Prof. Souvik Bhattacharyya",
     "Vice Chancellor,",
     "Birla Institute of Technology and Science, Pilani"
   ),

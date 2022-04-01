@@ -1,20 +1,20 @@
 import React from "react";
-import JSONData from "./techcom.json";
 import BTable from "react-bootstrap/Table";
-// import "./styles.css";
-// import "bootstrap/dist/css/bootstrap.min.css";
-// import { ExcuseCard, Excuses } from "../../layouts/excuses.js";
+import { JSONData } from "./techcom";
+
+const DisplayData = () => {
+
+  JSONData.sort((a,b) => (a.FirstName > b.FirstName) ? 1 : ((b.FirstName > a.FirstName) ? -1 : 0))
+
+  return JSONData.map(person => (
+    <tr>
+      <td align="start">{person["FirstName"]} {person["LastName"]} </td>
+      <td align="start">{person["Affiliation"]}</td>
+    </tr>
+  ))
+};
 
 function TechProCommittee() {
-  const DisplayData = JSONData.map((info) => {
-    return (
-      <tr>
-        <td>{info.Name}</td>
-        <td>{info.Institution}</td>
-      </tr>
-    );
-  });
-
   return (
     <>
       <div className="titleStyle1"> Technical Program </div>
@@ -23,14 +23,14 @@ function TechProCommittee() {
       <BTable striped bordered hover responsive>
         <thead>
           <tr>
-            <th>Name</th>
-            <th>Organization</th>
+            <th align="start">Name</th>
+            <th align="start">Affiliation</th>
           </tr>
         </thead>
-        <tbody>{DisplayData}</tbody>
+        <tbody>
+          <DisplayData/>
+        </tbody>
       </BTable>
-      {/* {TBA("test")} */}
-      {/* {ExcuseCard(Excuses.TBA)} */}
       <br />
     </>
   );
