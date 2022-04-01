@@ -4,7 +4,7 @@ import { JSONData } from "./techcom";
 
 const DisplayData = () => {
 
-  JSONData.sort((a,b) => (a.FirstName > b.FirstName) ? 1 : ((b.FirstName > a.FirstName) ? 1 : 0))
+  JSONData.sort((a,b) => (a.FirstName > b.FirstName) ? 1 : ((b.FirstName > a.FirstName) ? -1 : 0))
 
   return JSONData.map(person => (
     <tr>
