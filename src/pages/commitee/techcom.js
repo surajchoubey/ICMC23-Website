@@ -2,12 +2,12 @@ export const JSONData = [
   {
    "FirstName": "Debasis",
    "LastName": "Giri",
-   "Affiliation": "Maulana Abul Kalam Azad University of Technology West Bengal India"
+   "Affiliation": "Maulana Abul Kalam Azad University of Technology, West Bengal "
   },
   {
    "FirstName": "Saru",
    "LastName": "Kumari",
-   "Affiliation": "Chaudhary Charan Singh University Meerut 250004 U.P. India"
+   "Affiliation": "Chaudhary Charan Singh University, Meerut "
   },
   {
    "FirstName": "Rifat",
@@ -17,12 +17,12 @@ export const JSONData = [
   {
    "FirstName": "Jaydeep",
    "LastName": "Howlader",
-   "Affiliation": "National Institute of Technology Durgapur India"
+   "Affiliation": "National Institute of Technology, Durgapur"
   },
   {
    "FirstName": "Shreeya",
    "LastName": "Sahoo",
-   "Affiliation": "NIT Rourkela"
+   "Affiliation": "NIT, Rourkela"
   },
   {
    "FirstName": "Adriana M.",
@@ -37,7 +37,7 @@ export const JSONData = [
   {
    "FirstName": "Asish",
    "LastName": "Bera",
-   "Affiliation": "SRM University-AP"
+   "Affiliation": "SRM University, Andhra Pradesh"
   },
   {
    "FirstName": "Jajati",
@@ -57,27 +57,27 @@ export const JSONData = [
   {
    "FirstName": "Florin",
    "LastName": "Leon",
-   "Affiliation": "Gheorghe Asachi Technical University of Iasi"
+   "Affiliation": "Gheorghe Asachi Technical University, Iasi"
   },
   {
    "FirstName": "Dipanwita",
    "LastName": "Roy Chowdhury",
-   "Affiliation": "IIt kharagpur"
+   "Affiliation": "IIT Kharagpur"
   },
   {
    "FirstName": "Mario",
    "LastName": "Larangeira",
-   "Affiliation": "Tokyo Institute of Technology/IOHK"
+   "Affiliation": "Tokyo Institute of Technology, IOHK"
   },
   {
    "FirstName": "Jaydeb",
    "LastName": "Bhaumik",
-   "Affiliation": "Dept. of ETCE Jadavpur University Kolkata"
+   "Affiliation": "Dept. of ETCE Jadavpur University, Kolkata"
   },
   {
    "FirstName": "Prasun",
    "LastName": "Ghosal",
-   "Affiliation": "Indian Institute of Engineering Science and Technology Shibpur"
+   "Affiliation": "Indian Institute of Engineering Science and Technology, Shibpur"
   },
   {
    "FirstName": "Weizhi",
@@ -92,12 +92,12 @@ export const JSONData = [
   {
    "FirstName": "Fagen",
    "LastName": "Li",
-   "Affiliation": "Univ. of Electronic Science and Technology of China"
+   "Affiliation": "University of Electronic Science and Technology of China"
   },
   {
    "FirstName": "Siddhartha",
    "LastName": "Bhattacharyya",
-   "Affiliation": "RCC Institute of Information Technology Kolkata"
+   "Affiliation": "RCC Institute of Information Technology, Kolkata"
   },
   {
    "FirstName": "Konstantin",
@@ -112,7 +112,7 @@ export const JSONData = [
   {
    "FirstName": "Girraj Kumar",
    "LastName": "Verma",
-   "Affiliation": "Amity School of Engineering and Technology Amity University Madhya Pradesh Gwalior"
+   "Affiliation": "Amity School of Engineering and Technology Amity, Gwalior"
   },
   {
    "FirstName": "Saibal",
@@ -142,7 +142,7 @@ export const JSONData = [
   {
    "FirstName": "Bimal",
    "LastName": "Roy",
-   "Affiliation": "Indian Statistical Institute Kolkata INDIA"
+   "Affiliation": "Indian Statistical Institute, Kolkata"
   },
   {
    "FirstName": "Anwesha",
@@ -157,7 +157,7 @@ export const JSONData = [
   {
    "FirstName": "Costin",
    "LastName": "Badica",
-   "Affiliation": "University of Craiova Computer and Information Technology Department Romania"
+   "Affiliation": "University of Craiova Computer and Information Technology Department, Romania"
   },
   {
    "FirstName": "Vilem",
@@ -167,7 +167,7 @@ export const JSONData = [
   {
    "FirstName": "Atanu",
    "LastName": "Manna",
-   "Affiliation": "Indian Institute of Carpet Technology Bhadohi"
+   "Affiliation": "Indian Institute of Carpet Technology, Bhadohi"
   },
   {
    "FirstName": "Sokratis",
@@ -177,7 +177,7 @@ export const JSONData = [
   {
    "FirstName": "Sourav",
    "LastName": "Mandal",
-   "Affiliation": "School of Computer Science and Engineering XIM University Bhubaneswar Odisha India."
+   "Affiliation": "School of Computer Science and Engineering XIM University, Bhubaneswar "
   },
   {
    "FirstName": "Christina",
@@ -192,7 +192,7 @@ export const JSONData = [
   {
    "FirstName": "Shyamalendu",
    "LastName": "Kandar",
-   "Affiliation": "Indian Institute of Engineering Science and Technology Shibpur"
+   "Affiliation": "Indian Institute of Engineering Science and Technology, Shibpur"
   },
   {
    "FirstName": "Niladri",
@@ -207,7 +207,7 @@ export const JSONData = [
   {
    "FirstName": "Ashish",
    "LastName": "Awasthi",
-   "Affiliation": "National Institute of Technology Calicut"
+   "Affiliation": "National Institute of Technology, Calicut"
   },
   {
    "FirstName": "Arif Ahmed",
@@ -217,17 +217,17 @@ export const JSONData = [
   {
    "FirstName": "Ashok Kumar",
    "LastName": "Das",
-   "Affiliation": "International Institute of Information Technology Hyderabad India"
+   "Affiliation": "International Institute of Information Technology, Hyderabad "
   },
   {
    "FirstName": "Neetesh",
    "LastName": "Saxena",
-   "Affiliation": "Cardiff University UK"
+   "Affiliation": "Cardiff University, UK"
   },
   {
    "FirstName": "Suchandan",
    "LastName": "Kayal",
-   "Affiliation": "National Institute of Technology Rourkela"
+   "Affiliation": "National Institute of Technology, Rourkela"
   },
   {
    "FirstName": "Kwok Yan",
@@ -247,7 +247,7 @@ export const JSONData = [
   {
    "FirstName": "Ranbir",
    "LastName": "Sanasam",
-   "Affiliation": "Indian Institute of Technology Guwahati"
+   "Affiliation": "Indian Institute of Technology, Guwahati"
   },
   {
    "FirstName": "Debi Prosad",
@@ -267,7 +267,7 @@ export const JSONData = [
   {
    "FirstName": "Heinrich",
    "LastName": "Begehr",
-   "Affiliation": "Free University Berlin Germany"
+   "Affiliation": "Free University, Berlin "
   },
   {
    "FirstName": "Bidyut Kr.",
@@ -282,17 +282,17 @@ export const JSONData = [
   {
    "FirstName": "Somesh",
    "LastName": "Kumar",
-   "Affiliation": "Indian Institute of Technology Kharagpur"
+   "Affiliation": "Indian Institute of Technology, Kharagpur"
   },
   {
    "FirstName": "Suvrojit",
    "LastName": "Das",
-   "Affiliation": "National Institute Of Technology Durgapur India"
+   "Affiliation": "National Institute Of Technology, Durgapur "
   },
   {
    "FirstName": "S.",
    "LastName": "Ponnusamy",
-   "Affiliation": "IIT Madras India"
+   "Affiliation": "IIT, Madras "
   },
   {
    "FirstName": "Predrag S.",
@@ -302,77 +302,77 @@ export const JSONData = [
   {
    "FirstName": "Moumita",
    "LastName": "Mandal",
-   "Affiliation": "IIT Jodhpur India"
+   "Affiliation": "IIT Jodhpur "
   },
   {
    "FirstName": "Sanjeev",
    "LastName": "Singh",
-   "Affiliation": "IIT Indore India"
+   "Affiliation": "IIT Indore "
   },
   {
    "FirstName": "Sunirmal",
    "LastName": "Khatua",
-   "Affiliation": "Calcutta University India"
+   "Affiliation": "Calcutta University "
   },
   {
    "FirstName": "Santanu",
    "LastName": "Manna",
-   "Affiliation": "Indian Institute of Technology Indore"
+   "Affiliation": "IIT Indore"
   },
   {
    "FirstName": "Sabyasachi",
    "LastName": "Mukherjee",
-   "Affiliation": "IIEST Shibpur India"
+   "Affiliation": "IIEST, Shibpur "
   },
   {
    "FirstName": "Sarita",
    "LastName": "Ojha",
-   "Affiliation": "Indian Institute of Engineering Science and Technology Shibpur"
+   "Affiliation": "Indian Institute of Engineering Science and Technology, Shibpur"
   },
   {
    "FirstName": "Saiyed",
    "LastName": "Umer",
-   "Affiliation": "Aliah University India"
+   "Affiliation": "Aliah University "
   },
   {
    "FirstName": "Amit",
    "LastName": "Maji",
-   "Affiliation": "IIT Roorkee India"
+   "Affiliation": "IIT Roorkee "
   },
   {
    "FirstName": "Srinivasu",
    "LastName": "Bodapati",
-   "Affiliation": "IIT Mandi India"
+   "Affiliation": "IIT Mandi "
   },
   {
    "FirstName": "Sujit Kumar",
    "LastName": "Das",
-   "Affiliation": "Jadavpur University India"
+   "Affiliation": "Jadavpur University "
   },
   {
    "FirstName": "Santanu",
    "LastName": "Sarkar",
-   "Affiliation": "IIT Madras India"
+   "Affiliation": "IIT Madras "
   },
   {
    "FirstName": "Nabakumar",
    "LastName": "Jana",
-   "Affiliation": "IIT(ISM) Dhanbad India"
+   "Affiliation": "IIT(ISM) Dhanbad "
   },
   {
    "FirstName": "Partha Sarathi",
    "LastName": "Majee",
-   "Affiliation": "IIT Kharagpur India"
+   "Affiliation": "IIT Kharagpur "
   },
   {
    "FirstName": "Mikheil",
    "LastName": "Rukhaia",
-   "Affiliation": "Tbilisi State University Georgia"
+   "Affiliation": "Tbilisi State University, Georgia"
   },
   {
    "FirstName": "Chien-Ming",
    "LastName": "Chen",
-   "Affiliation": "Harbin Institute of Technology shenzhen graduate school China"
+   "Affiliation": "Harbin Institute of Technology shenzhen graduate school, China"
   },
   {
    "FirstName": "Liming",
