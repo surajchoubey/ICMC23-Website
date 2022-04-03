@@ -72,7 +72,7 @@ export const JSONData = [
   {
    "FirstName": "Jaydeb",
    "LastName": "Bhaumik",
-   "Affiliation": "Dept. of ETCE Jadavpur University, Kolkata"
+   "Affiliation": "Jadavpur University, Kolkata"
   },
   {
    "FirstName": "Prasun",
@@ -112,12 +112,12 @@ export const JSONData = [
   {
    "FirstName": "Girraj Kumar",
    "LastName": "Verma",
-   "Affiliation": "Amity School of Engineering and Technology Amity, Gwalior"
+   "Affiliation": "Amity School of Engineering and Technology, Gwalior"
   },
   {
    "FirstName": "Saibal",
    "LastName": "Pal",
-   "Affiliation": "DRDO"
+   "Affiliation": "DRDO, Delhi"
   },
   {
    "FirstName": "Wenjuan",
@@ -127,7 +127,7 @@ export const JSONData = [
   {
    "FirstName": "Dhananjoy",
    "LastName": "Dey",
-   "Affiliation": "Scientific Analysis Group"
+   "Affiliation": "SAG DRDO"
   },
   {
    "FirstName": "Jianting",
@@ -157,7 +157,7 @@ export const JSONData = [
   {
    "FirstName": "Costin",
    "LastName": "Badica",
-   "Affiliation": "University of Craiova Computer and Information Technology Department, Romania"
+   "Affiliation": "University of Craiova, Romania"
   },
   {
    "FirstName": "Vilem",
@@ -167,7 +167,7 @@ export const JSONData = [
   {
    "FirstName": "Atanu",
    "LastName": "Manna",
-   "Affiliation": "IICT, Bhadohi"
+   "Affiliation": "IICT Bhadohi"
   },
   {
    "FirstName": "Sokratis",
@@ -177,7 +177,7 @@ export const JSONData = [
   {
    "FirstName": "Sourav",
    "LastName": "Mandal",
-   "Affiliation": "School of Computer Science and Engineering XIM University, Bhubaneswar "
+   "Affiliation": "Xavier School of Computer Science and Engineering XIM University, Bhubaneswar "
   },
   {
    "FirstName": "Christina",
@@ -337,17 +337,17 @@ export const JSONData = [
   {
    "FirstName": "Amit",
    "LastName": "Maji",
-   "Affiliation": "IIT Roorkee "
+   "Affiliation": "IIT Roorkee"
   },
   {
    "FirstName": "Srinivasu",
    "LastName": "Bodapati",
-   "Affiliation": "IIT Mandi "
+   "Affiliation": "IIT Mandi"
   },
   {
    "FirstName": "Sujit Kumar",
    "LastName": "Das",
-   "Affiliation": "Jadavpur University "
+   "Affiliation": "Jadavpur University, Kolkata"
   },
   {
    "FirstName": "Santanu",
