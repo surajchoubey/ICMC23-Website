@@ -82,7 +82,7 @@ export const JSONData = [
   {
    "FirstName": "Weizhi",
    "LastName": "Meng",
-   "Affiliation": "Department of Applied Mathematics and Computer Science Technical University of Denmark"
+   "Affiliation": "Technical University of Denmark"
   },
   {
    "FirstName": "Tanmoy",
@@ -167,7 +167,7 @@ export const JSONData = [
   {
    "FirstName": "Atanu",
    "LastName": "Manna",
-   "Affiliation": "Indian Institute of Carpet Technology, Bhadohi"
+   "Affiliation": "IICT, Bhadohi"
   },
   {
    "FirstName": "Sokratis",
