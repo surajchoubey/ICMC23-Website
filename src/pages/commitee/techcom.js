@@ -2,7 +2,7 @@ export const JSONData = [
   {
    "FirstName": "Debasis",
    "LastName": "Giri",
-   "Affiliation": "Maulana Abul Kalam Azad University of Technology, West Bengal "
+   "Affiliation": "Maulana Abul Kalam Azad University of Technology, West Bengal"
   },
   {
    "FirstName": "Saru",
@@ -12,7 +12,7 @@ export const JSONData = [
   {
    "FirstName": "Rifat",
    "LastName": "Colak",
-   "Affiliation": "Firat University"
+   "Affiliation": "Firat University, Turkey"
   },
   {
    "FirstName": "Jaydeep",
@@ -32,7 +32,7 @@ export const JSONData = [
   {
    "FirstName": "Biswapati",
    "LastName": "Jana",
-   "Affiliation": "Vidyasagar University"
+   "Affiliation": "Vidyasagar University, West Bengal"
   },
   {
    "FirstName": "Asish",
@@ -117,7 +117,7 @@ export const JSONData = [
   {
    "FirstName": "Saibal",
    "LastName": "Pal",
-   "Affiliation": "DRDO, Delhi"
+   "Affiliation": "DRDO Delhi"
   },
   {
    "FirstName": "Wenjuan",
@@ -177,7 +177,7 @@ export const JSONData = [
   {
    "FirstName": "Sourav",
    "LastName": "Mandal",
-   "Affiliation": "Xavier School of Computer Science and Engineering XIM University, Bhubaneswar "
+   "Affiliation": "Xavier School of Computer Science and Engineering XIM University, Bhubaneswar"
   },
   {
    "FirstName": "Christina",
@@ -202,7 +202,7 @@ export const JSONData = [
   {
    "FirstName": "Ilsun",
    "LastName": "You",
-   "Affiliation": "Soonchunhyang University"
+   "Affiliation": "Soonchunhyang University, South Korea"
   },
   {
    "FirstName": "Ashish",
@@ -212,12 +212,12 @@ export const JSONData = [
   {
    "FirstName": "Arif Ahmed",
    "LastName": "Sk",
-   "Affiliation": "University of Tromsø"
+   "Affiliation": "University of Tromsø, Norway"
   },
   {
    "FirstName": "Ashok Kumar",
    "LastName": "Das",
-   "Affiliation": "IIIT Hyderabad "
+   "Affiliation": "IIIT Hyderabad"
   },
   {
    "FirstName": "Neetesh",
@@ -232,17 +232,17 @@ export const JSONData = [
   {
    "FirstName": "Kwok Yan",
    "LastName": "Lam",
-   "Affiliation": "Nanyang Technological University"
+   "Affiliation": "Nanyang Technological University, Singapore"
   },
   {
    "FirstName": "Emel",
    "LastName": "Aşıcı",
-   "Affiliation": "Karadeniz Technical University"
+   "Affiliation": "Karadeniz Technical University, Turkey"
   },
   {
    "FirstName": "Engin",
    "LastName": "Şahin",
-   "Affiliation": "Çanakkale Onsekiz Mart University"
+   "Affiliation": "Çanakkale Onsekiz Mart University, Turkey"
   },
   {
    "FirstName": "Ranbir",
@@ -262,12 +262,12 @@ export const JSONData = [
   {
    "FirstName": "Sedat",
    "LastName": "Akleylek",
-   "Affiliation": "Ondokuz Mayis University"
+   "Affiliation": "Ondokuz Mayis University, Turkey"
   },
   {
    "FirstName": "Heinrich",
    "LastName": "Begehr",
-   "Affiliation": "Free University, Berlin "
+   "Affiliation": "Free University, Berlin"
   },
   {
    "FirstName": "Bidyut Kr.",
@@ -277,7 +277,7 @@ export const JSONData = [
   {
    "FirstName": "Binod Chandra",
    "LastName": "Tripathy",
-   "Affiliation": "Tripura University"
+   "Affiliation": "Tripura University, Agartala"
   },
   {
    "FirstName": "Somesh",
@@ -287,32 +287,32 @@ export const JSONData = [
   {
    "FirstName": "Suvrojit",
    "LastName": "Das",
-   "Affiliation": "NIT Durgapur "
+   "Affiliation": "NIT Durgapur"
   },
   {
    "FirstName": "S.",
    "LastName": "Ponnusamy",
-   "Affiliation": "IIT Madras "
+   "Affiliation": "IIT Madras"
   },
   {
    "FirstName": "Predrag S.",
    "LastName": "Stanimirović",
-   "Affiliation": "University of Niš Serbia"
+   "Affiliation": "University of Niš, Serbia"
   },
   {
    "FirstName": "Moumita",
    "LastName": "Mandal",
-   "Affiliation": "IIT Jodhpur "
+   "Affiliation": "IIT Jodhpur"
   },
   {
    "FirstName": "Sanjeev",
    "LastName": "Singh",
-   "Affiliation": "IIT Indore "
+   "Affiliation": "IIT Indore"
   },
   {
    "FirstName": "Sunirmal",
    "LastName": "Khatua",
-   "Affiliation": "Calcutta University "
+   "Affiliation": "Calcutta University"
   },
   {
    "FirstName": "Santanu",
@@ -332,7 +332,7 @@ export const JSONData = [
   {
    "FirstName": "Saiyed",
    "LastName": "Umer",
-   "Affiliation": "Aliah University "
+   "Affiliation": "Aliah University, Kolkata"
   },
   {
    "FirstName": "Amit",
@@ -352,17 +352,17 @@ export const JSONData = [
   {
    "FirstName": "Santanu",
    "LastName": "Sarkar",
-   "Affiliation": "IIT Madras "
+   "Affiliation": "IIT Madras"
   },
   {
    "FirstName": "Nabakumar",
    "LastName": "Jana",
-   "Affiliation": "IIT(ISM) Dhanbad "
+   "Affiliation": "IIT(ISM) Dhanbad"
   },
   {
    "FirstName": "Partha Sarathi",
    "LastName": "Majee",
-   "Affiliation": "IIT Kharagpur "
+   "Affiliation": "IIT Kharagpur"
   },
   {
    "FirstName": "Mikheil",
@@ -377,6 +377,6 @@ export const JSONData = [
   {
    "FirstName": "Liming",
    "LastName": "Fang",
-   "Affiliation": "Nanjing University of Aeronautics and Astronautics"
+   "Affiliation": "Nanjing University of Aeronautics and Astronautics, China"
   }
  ]
