@@ -17,12 +17,12 @@ export const JSONData = [
   {
    "FirstName": "Jaydeep",
    "LastName": "Howlader",
-   "Affiliation": "National Institute of Technology, Durgapur"
+   "Affiliation": "NIT Durgapur"
   },
   {
    "FirstName": "Shreeya",
    "LastName": "Sahoo",
-   "Affiliation": "NIT, Rourkela"
+   "Affiliation": "NIT Rourkela"
   },
   {
    "FirstName": "Adriana M.",
@@ -77,12 +77,12 @@ export const JSONData = [
   {
    "FirstName": "Prasun",
    "LastName": "Ghosal",
-   "Affiliation": "Indian Institute of Engineering Science and Technology, Shibpur"
+   "Affiliation": "IIEST Shibpur"
   },
   {
    "FirstName": "Weizhi",
    "LastName": "Meng",
-   "Affiliation": "Department of Applied Mathematics and Computer Science Technical Universtiy of Denmark"
+   "Affiliation": "Department of Applied Mathematics and Computer Science Technical University of Denmark"
   },
   {
    "FirstName": "Tanmoy",
@@ -142,7 +142,7 @@ export const JSONData = [
   {
    "FirstName": "Bimal",
    "LastName": "Roy",
-   "Affiliation": "Indian Statistical Institute, Kolkata"
+   "Affiliation": "ISI Kolkata"
   },
   {
    "FirstName": "Anwesha",
@@ -152,7 +152,7 @@ export const JSONData = [
   {
    "FirstName": "Ajoy Kumar",
    "LastName": "Khan",
-   "Affiliation": "Mizoram University (A Central University)"
+   "Affiliation": "Mizoram University"
   },
   {
    "FirstName": "Costin",
@@ -192,7 +192,7 @@ export const JSONData = [
   {
    "FirstName": "Shyamalendu",
    "LastName": "Kandar",
-   "Affiliation": "Indian Institute of Engineering Science and Technology, Shibpur"
+   "Affiliation": "IIEST Shibpur"
   },
   {
    "FirstName": "Niladri",
@@ -207,7 +207,7 @@ export const JSONData = [
   {
    "FirstName": "Ashish",
    "LastName": "Awasthi",
-   "Affiliation": "National Institute of Technology, Calicut"
+   "Affiliation": "NIT Calicut"
   },
   {
    "FirstName": "Arif Ahmed",
@@ -217,7 +217,7 @@ export const JSONData = [
   {
    "FirstName": "Ashok Kumar",
    "LastName": "Das",
-   "Affiliation": "International Institute of Information Technology, Hyderabad "
+   "Affiliation": "IIIT Hyderabad "
   },
   {
    "FirstName": "Neetesh",
@@ -227,7 +227,7 @@ export const JSONData = [
   {
    "FirstName": "Suchandan",
    "LastName": "Kayal",
-   "Affiliation": "National Institute of Technology, Rourkela"
+   "Affiliation": "NIT Rourkela"
   },
   {
    "FirstName": "Kwok Yan",
@@ -247,7 +247,7 @@ export const JSONData = [
   {
    "FirstName": "Ranbir",
    "LastName": "Sanasam",
-   "Affiliation": "Indian Institute of Technology, Guwahati"
+   "Affiliation": "IIT Guwahati"
   },
   {
    "FirstName": "Debi Prosad",
@@ -272,7 +272,7 @@ export const JSONData = [
   {
    "FirstName": "Bidyut Kr.",
    "LastName": "Patra",
-   "Affiliation": "National Institute of Technology"
+   "Affiliation": "NIT Rourkela"
   },
   {
    "FirstName": "Binod Chandra",
@@ -282,17 +282,17 @@ export const JSONData = [
   {
    "FirstName": "Somesh",
    "LastName": "Kumar",
-   "Affiliation": "Indian Institute of Technology, Kharagpur"
+   "Affiliation": "IIT Kharagpur"
   },
   {
    "FirstName": "Suvrojit",
    "LastName": "Das",
-   "Affiliation": "National Institute Of Technology, Durgapur "
+   "Affiliation": "NIT Durgapur "
   },
   {
    "FirstName": "S.",
    "LastName": "Ponnusamy",
-   "Affiliation": "IIT, Madras "
+   "Affiliation": "IIT Madras "
   },
   {
    "FirstName": "Predrag S.",
@@ -322,12 +322,12 @@ export const JSONData = [
   {
    "FirstName": "Sabyasachi",
    "LastName": "Mukherjee",
-   "Affiliation": "IIEST, Shibpur "
+   "Affiliation": "IIEST Shibpur "
   },
   {
    "FirstName": "Sarita",
    "LastName": "Ojha",
-   "Affiliation": "Indian Institute of Engineering Science and Technology, Shibpur"
+   "Affiliation": "IIEST Shibpur"
   },
   {
    "FirstName": "Saiyed",
@@ -372,7 +372,7 @@ export const JSONData = [
   {
    "FirstName": "Chien-Ming",
    "LastName": "Chen",
-   "Affiliation": "Harbin Institute of Technology shenzhen graduate school, China"
+   "Affiliation": "Harbin Institute of Technology Shenzhen Graduate School, China"
   },
   {
    "FirstName": "Liming",
