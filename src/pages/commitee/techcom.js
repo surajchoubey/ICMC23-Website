@@ -27,7 +27,7 @@ export const JSONData = [
   {
    "FirstName": "Adriana M.",
    "LastName": "Coroiu",
-   "Affiliation": "Babes-Bolyai University"
+   "Affiliation": "Babes-Bolyai University, Romania"
   },
   {
    "FirstName": "Biswapati",
