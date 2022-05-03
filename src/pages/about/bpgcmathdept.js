@@ -20,10 +20,10 @@ function BPGCMathDept() {
       <div class="divider" style={{ marginBottom: "30px" }}></div>
       <div className="about-content">
         <div className="about-mid-grid">
-          <p className="about-txt-cnt">
+          <p style={{fontWeight: '400'}} className="about-txt-cnt">
               The&nbsp;
               <a
-                class="text-decoration-none"
+                class="modern-link"
                 href="https://www.bits-pilani.ac.in/goa/mathematics/DepartmentofMathematics"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -36,8 +36,8 @@ function BPGCMathDept() {
             M.Sc. (Hons) and PhD programs. The average strength in each year is
             approximately eighty students.
           </p>
-          <p className="about-txt-cnt">{aboutText2}</p>
-          <p className="about-txt-cnt">{aboutText3}</p>
+          <p style={{fontWeight: '400'}} className="about-txt-cnt">{aboutText2}</p>
+          <p style={{fontWeight: '400'}} className="about-txt-cnt">{aboutText3}</p>
         </div>
         <img
           src={aboutbottompng}

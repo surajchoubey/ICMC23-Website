@@ -4,20 +4,6 @@ import BITSGoaOnGMAP from "../layouts/bits-goa-map";
 const contactuslink = "https://forms.gle/unohzJ54tW31MUvcA";
 const icmc_email = "icmc2023@goa.bits-pilani.ac.in"
 
-const connectstyle = {
-    color: 'grey',
-    backgroundColor: 'transparent',
-    textDecoration: 'none'
-}
-
-const connectstyle2 = {
-    color: 'black',
-    textDecoration: 'none',
-    fontSize: "130%", 
-    fontWeight: 'bold',
-    cursor: 'pointer'
-}
-
 const profContact = [{
     "name": "Prof. J. K. Sahoo",
     "phone": "8322580441",
@@ -41,8 +27,8 @@ const profContact = [{
 const ProfContact = () => {
     return profContact.map(element => (
     <div class="col-sm-12 col-md-6" style={{marginBottom: '7px'}}>
-        <a style={connectstyle2} href={element["profile"]} target="_blank" rel="nopener noreferrer" title="Visit website">{element["name"]}</a> <br/> Office:&nbsp;
-        <a style={connectstyle} href={"tel:+91" + element["phone"]} title="Call" >{element["phone_text"]}</a>
+        <a className="connectstyle2" href={element["profile"]} target="_blank" rel="nopener noreferrer" title="Visit website">{element["name"]} <i class="fa fa-external-link"></i></a> <br/> Office:&nbsp;
+        <a className="connectstyle" href={"tel:+91" + element["phone"]} title="Call" >{element["phone_text"]}</a>
     </div>
     ));
 };
@@ -58,7 +44,7 @@ function Contact() {
                         <div className="titleStyle2"> Information </div>
                         <div class="divider" style={{marginBottom: '20px'}}></div>
                         <strong style={{fontSize: '140%'}}>Birla Institute of Technology &amp; Science</strong>
-                        <p class="address">
+                        <p class="address" style={{fontWeight: '400'}}>
                             NH 17B, Bypass Road, Zuarinagar, Sancoale, Goa, India - 403726
                         </p>
                         <p style={{fontSize: '140%', fontWeight: 'bold'}}>

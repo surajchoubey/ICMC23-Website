@@ -56,18 +56,18 @@ const OrganizingCommittee = [
     "Department of Mathematics,",
     "BITS Pilani K K Birla Goa Campus"
   ),
-  // new CommitteeMember(
-  //   "Organizing Committee",
-  //   "Prof. Amit Setia",
-  //   "Department of Mathematics,",
-  //   "BITS Pilani K K Birla Goa Campus"
-  // ),
-  // new CommitteeMember(
-  //   "Organizing Committee",
-  //   "Prof. Manoj Kumar Pandey",
-  //   "Department of Mathematics,",
-  //   "BITS Pilani K K Birla Goa Campus"
-  // ),
+  new CommitteeMember(
+    "Organizing Committee",
+    "Dr. Minhajul",
+    "Department of Mathematics,",
+    "BITS Pilani K K Birla Goa Campus"
+  ),
+  new CommitteeMember(
+    "Organizing Committee",
+    "Dr. Yasmeen S. Akhtar",
+    "Department of Mathematics,",
+    "BITS Pilani K K Birla Goa Campus"
+  ),
   // new CommitteeMember(
   //   "Organizing Committee",
   //   "Prof. Prasanna Kumar N.",

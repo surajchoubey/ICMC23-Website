@@ -46,6 +46,7 @@
   width: 100%;
   z-index: 10;
   max-width: 100%;
+  font-weight: 400;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -140,6 +141,7 @@ a.dropdown-item:hover {
   gap: 3.2rem;
   align-items: center;
   justify-content: center;
+  font-weight: 400;
 }
 
 .main-nav-link:link,
@@ -241,6 +243,11 @@ a.dropdown-item:hover {
   transition: 0.25s;
 }
 
+.btn-raise > a {
+  color: #333;
+  text-decoration: none;
+}
+
 .btn-raise:hover,
 .btn-raise:focus {
   border-color: black;
@@ -292,7 +299,7 @@ h2.heading-secondary {
   text-align: justify;
 }
 
-.about-img-logo{
+.about-img-logo {
   max-width: 30%;
   float: left;
   align-self: center;
@@ -317,16 +324,15 @@ h2.heading-secondary {
     margin-top: 10px;
   }
   .about-img-cnt {
-    max-width: 100%; 
+    max-width: 100%;
     align-self: flex-start;
     margin-bottom: 30px;
   }
-  .about-img-logo{
+  .about-img-logo {
     width: 50vw;
-    max-width: 50%; 
+    max-width: 50%;
     align-self: flex-start;
   }
-
 
   .about-txt-cnt {
     text-align: left;
@@ -338,4 +344,60 @@ h2.heading-secondary {
 .titleStyle2,
 .titleStyle1 {
   height: auto !important;
+}
+
+/* ************************************ */
+/* MODERN-HYPERLINKS */
+/* ************************************ */
+
+.modern-link {
+  /* line-height: 32px; */
+  text-decoration: underline;
+  /*font-size: 18px;*/
+  color: #000;
+  font-weight: 400;
+  position: relative;
+  /* background-image: linear-gradient(to right, #777 0%, #777 100%); */
+  background-repeat: repeat-x;
+  background-position: 0 100%;
+  background-size: 100% 3px;
+}
+.modern-link:hover {
+  color: #0a9dff;
+  background-image: none;
+  text-decoration: underline;
+}
+
+.connectstyle {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.connectstyle:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.connectstyle2 {
+  color: black;
+  text-decoration: none;
+  font-size: 120%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.connectstyle2:hover {
+  color: #0a9dff !important;
+}
+
+/* ************************************ */
+/* SECTION-SPONSOR CAROUSEL*/
+/* ************************************ */
+
+.section-carousel {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto 50px auto;
+  text-align: start;
 }

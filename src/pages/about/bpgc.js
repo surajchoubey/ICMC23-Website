@@ -24,9 +24,9 @@ function BPGC() {
             alt="Scenic Campus View"
             className="about-img-cnt"
           />
-          <p className="about-txt-cnt">The <a href="https://www.bits-pilani.ac.in/" target="_blank" rel="noopener noreferrer" class="text-decoration-none">Birla Institute of Technology &amp; Science, Pilani</a>{aboutText}</p>
-          <p className="about-txt-cnt">{aboutText2}</p>
-          <p className="about-txt-cnt">{aboutText3}</p>
+          <p style={{fontWeight: '400'}} className="about-txt-cnt">The <a href="https://www.bits-pilani.ac.in/" target="_blank" rel="noopener noreferrer" class="modern-link">Birla Institute of Technology &amp; Science, Pilani</a>{aboutText}</p>
+          <p style={{fontWeight: '400'}} className="about-txt-cnt">{aboutText2}</p>
+          <p style={{fontWeight: '400'}} className="about-txt-cnt">{aboutText3}</p>
         </div>
         <img
           src={aboutbottompng}
