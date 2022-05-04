@@ -407,7 +407,7 @@ export const JSONData = [
   {
    "FirstName": "Meenakshi",
    "LastName": "Wasadikar",
-   "Affiliation": "DR. B. A. M. University, Aurangabad "
+   "Affiliation": "Dr. B. A. M. University, Aurangabad "
   },
   {
    "FirstName": "Meltem Kurt",
