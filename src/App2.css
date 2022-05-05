@@ -274,7 +274,7 @@
     flex-direction: column;
     background: white;
     align-items: center;
-    overflow: auto;
+    /* overflow: auto; */
     justify-content: center;
   }
 
