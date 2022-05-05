@@ -116,7 +116,7 @@ function OrgCommittee() {
       <div class="row px-3">
         {CommitteeMember.getCards(OrganizingCommittee)}
       </div>
-      <h2 class="heading-secondary my-4">Website Team</h2>
+      <h2 class="heading-secondary my-4">Design and Web Development</h2>
       <div class="row px-3">{CommitteeMember.getCards(WebsiteTeam)}</div>
     </section>
   );

@@ -31,6 +31,12 @@ const ChiefPatron = [
     "Vice Chancellor,",
     "Birla Institute of Technology and Science, Pilani"
   ),
+  new CommitteeMember(
+    "Patron",
+    "Prof. Suman Kundu",
+    "Director,",
+    "BITS Pilani K K Birla Goa Campus"
+  ),
 ];
 const GeneralChairs = [
   new CommitteeMember(
