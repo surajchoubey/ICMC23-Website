@@ -7,7 +7,7 @@ import speaker5 from "../images/speaker5.jpg";
 import speaker6 from "../images/speaker6.jpg";
 import speaker7 from "../images/speaker7.jpg";
 import speaker8 from "../images/speaker8.jpg";
-
+import speaker9 from "../images/speaker9.jpg";
 
 
 function SpeakerLink({ link }) {
@@ -220,6 +220,19 @@ const speakerList = [
       </div>
     ),
     "https://math.iitm.ac.in/public_html/slnt/index.htm",
+    { marginTop: "40px" }
+  ),
+  new SpeakerHelper(
+    "Prof. Dieter Gollmann",
+    speaker9,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        Professor, <br />
+        Head of the Security in Distributed Applications Institute, <br />
+        Hamburg University of Technology, Hamburg, Germany <br />
+      </div>
+    ),
+    "https://www.sba-research.org/team/dieter-gollmann/",
     { marginTop: "40px" }
   ),
 ];
