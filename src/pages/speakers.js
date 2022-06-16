@@ -4,6 +4,10 @@ import speaker2 from "../images/speaker2.jpg";
 import speaker3 from "../images/speaker3.jpg";
 import speaker4 from "../images/speaker4.jpg";
 import speaker5 from "../images/speaker5.jpg";
+import speaker6 from "../images/speaker6.jpg";
+import speaker7 from "../images/speaker7.jpg";
+import speaker8 from "../images/speaker8.jpg";
+
 
 
 function SpeakerLink({ link }) {
@@ -165,7 +169,7 @@ const speakerList = [
     { marginTop: "40px" }
   ),
   new SpeakerHelper(
-    "Krzysztof Szczypiorski",
+    "Prof. Krzysztof Szczypiorski",
     speaker5,
     (
       <div className="speakerText" style={{ marginTop: "25px" }}>
@@ -177,6 +181,45 @@ const speakerList = [
       </div>
     ),
     "http://ksz.tele.pw.edu.pl/",
+    { marginTop: "40px" }
+  ),
+  new SpeakerHelper(
+    "Prof. Rakesh M. Verma",
+    speaker6,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        Professor of Computer Science, <br />
+        Director of ReDAS Lab, <br />
+        University of Houston, Houston, USA <br />
+      </div>
+    ),
+    "http://www2.cs.uh.edu/~rmverma/",
+    { marginTop: "40px" }
+  ),
+  new SpeakerHelper(
+    "Prof. R.N. Mohapatra",
+    speaker7,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        Academic Director & Professor <br />
+        Department of Mathematics <br />
+        University of Central Florida, Orlando, USA <br />
+      </div>
+    ),
+    "https://sciences.ucf.edu/math/person/ram-mohapatra/",
+    { marginTop: "40px" }
+  ),
+  new SpeakerHelper(
+    "Prof. S. Sundar",
+    speaker8,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        Professor, (Director, NIT Mizoram) <br />
+        Department of Mathematics, <br />
+        IIT Madras, Chennai, India <br />
+      </div>
+    ),
+    "https://math.iitm.ac.in/public_html/slnt/index.htm",
     { marginTop: "40px" }
   ),
 ];
