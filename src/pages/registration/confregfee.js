@@ -107,6 +107,15 @@ function ConfRegFee() {
                     <td align="center">USD 150</td>
                     <td align="center">USD 200</td>
                   </tr>
+                  <tr>
+                    <td>
+                      Only for Presentation
+                    </td>
+                    <td align="center">INR 4000</td>
+                    <td align="center">INR 4500</td>
+                    <td align="center">USD 200</td>
+                    <td align="center">USD 250</td>
+                  </tr>
                 </tbody>
               </table>
             </div>

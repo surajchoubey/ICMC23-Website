@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.alert-info {
+  margin-bottom:0;
+}
+
+.alignleft {
+  float: left;
+  width:33.33333%;
+  text-align: left;
+}
+.aligncenter {
+  float: "left";
+  width: 66.666em;
+  text-align: center;
+  justify-content:center;
+  align-items:center;
+}
+
+.alignright {
+  float: "left";
+  width: 33.33333%;
+  text-align: right;
+}
