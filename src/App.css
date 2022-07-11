@@ -401,3 +401,7 @@ h2.heading-secondary {
   margin: 0 auto 50px auto;
   text-align: start;
 }
+
+.cost-table {
+  overflow-x: auto;
+}

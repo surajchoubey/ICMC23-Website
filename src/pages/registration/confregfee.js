@@ -14,7 +14,7 @@ function ConfRegFee() {
           </div>
 
           <div class="section-header">
-            <div>
+            <div class="cost-table">
               <table class="table table-striped table-bordered">
                 <thead>
                   <tr align="center">
