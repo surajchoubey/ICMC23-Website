@@ -26,11 +26,13 @@ import ErrorPage from './pages/errorpage';
 import { Routes, Route } from "react-router-dom";
 import MyNavBar from './layouts/navbar';
 import MyFooter from './layouts/footer';
-import ScrollToTop from './layouts/scrolltotop'
+import ScrollToTop from './layouts/scrolltotop';
+import Notification from './layouts/notification';
 
 function App() {
   return (
     <div className="App" style={{"display": "flex","min-height": "100vh", "flex-direction": "column", "justify-content": "flex-start"}}>
+		<Notification />
 		<MyNavBar />
 		<ScrollToTop>
 		<Routes>

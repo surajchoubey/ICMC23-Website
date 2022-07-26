@@ -175,7 +175,7 @@
 }
 
 .speakerName {
-  height: 47px;
+  /* height: 47px; */
   margin-top: 20px;
   text-align: left;
   font-family: Roboto, sans-serif;
@@ -186,7 +186,7 @@
 }
 
 .speakerText {
-  height: 40px;
+  /* height: 40px; */
   text-align: left;
   font-family: Roboto, sans-serif;
   font-weight: 300;
@@ -204,10 +204,10 @@
   background: #FBFBFB;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
 .upperDiv{
-  width: 260px;
+  width: 35vw;
 }
 
 .lowerDiv{
@@ -249,14 +249,16 @@
   }
 
   .upperDiv{
+    width: 90vw;
     height: auto;
-  align-items: center;
-  overflow:visible;
+    align-items: center;
+    overflow:visible;
+    justify-content: center;
   }
 
   .lowerDiv{
     align-items: center;
-    width: 50vw;
+    width: 90vw;
     margin-top: 80px;
     display: none;
   }
@@ -265,14 +267,24 @@
     width: 50vw;
     height: auto;
     max-width: 222px;
-    
+    margin: 21px auto;
   }
 
   .speakerDiv {
     flex-direction: column;
     background: white;
     align-items: center;
-    overflow: auto;
-    justify-content: left;
+    /* overflow: auto; */
+    justify-content: center;
+  }
+
+  .speakerName{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .speakerText{
+    text-align: center;
+    
   }
 }

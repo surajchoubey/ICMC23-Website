@@ -6,6 +6,12 @@ import BITSAudi from '../images/bits-audi.jpeg';
 import Timer from '../layouts/timer';
 import Timeline from "./timeline";
 import icmclogo from "./about/icmc-logo.jpg"
+import crslogo from "../images/icons/CryptologyResearchSocietofIndia.png";
+import rmslogo from "../images/icons/RamanujanMathematicalSociety.png";
+import setslogo from "../images/icons/SocietyforElectronicTransactions&Security(SETS).png";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 
 const homepg_text = ", a well-known all-India Institute for higher education. In keeping with the tradition of innovation and creativity, a state-of-the-art touch is given to the infrastructure of the entire institute without diminishing, in the least, the natural beauty of Goa surrounding the campus. Spacious labs, classrooms with soundproof acoustics, modern furniture, library and computer labs with internet facility define the infrastructural counters of the institution."
 const homepg_text2 = "ICMC 2023 aims to bring together both novice and experienced scientists with developers, to meet new colleagues, collect new ideas and establish new cooperation between research groups and provide a platform for researchers from academic and industry to present their original work and exchange ideas, information, techniques and applications in the field of Computational Applied Mathematics."
@@ -44,6 +50,28 @@ function Home() {
             </div>
             
             <Timer />
+             <section className="section-carousel">
+                <h2 className="my-5 text-center">IN ASSOCIATION WITH</h2>
+        <div class="container-fluid test">
+          <OwlCarousel
+            items={3}
+            className="owl-theme px-5"
+            loop
+            nav
+            margin={15}
+          >
+            <div>
+              <img className="img px-lg-5" src={rmslogo} alt="" />
+            </div>
+            <div>
+              <img className="img px-lg-5" src={setslogo} alt="" />
+            </div>
+            <div>
+              <img className="img px-lg-5" src={crslogo} alt="" />
+            </div>
+          </OwlCarousel>
+        </div>
+      </section>
 
             <div class="container my-5 py-0">
                 <div class="row  justify-content-center align-middle">             
