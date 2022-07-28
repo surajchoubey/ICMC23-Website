@@ -1,10 +1,11 @@
 import React from "react";
 
 const hotelslink = "https://www.bits-pilani.ac.in/goa/goahotels"
+
 const accoText = "Those participants who are interested in availing of the campus hostel accommodation facility (nominal charges), please add the required information in the registration form. The hostel accommodation charges will be collected at the time of registration."
 
 function Accomodation() {
-    return(
+    return (
         <div className="container">
             <div className="titleStyle1"> Accomodation </div>
             <div className="titleStyle2"> Nearby </div>
