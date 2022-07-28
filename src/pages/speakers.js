@@ -8,7 +8,11 @@ import speaker6 from "../images/speaker6.jpg";
 import speaker7 from "../images/speaker7.jpg";
 import speaker8 from "../images/speaker8.jpg";
 import speaker9 from "../images/speaker9.jpg";
-
+import speaker01 from "../images/speaker01.jpg";
+import speaker02 from "../images/speaker02.jpg";
+import speaker03 from "../images/speaker03.jpg";
+import speaker04 from "../images/speaker04.jpg";
+import speaker05 from "../images/speaker05.jpg";
 
 function SpeakerLink({ link }) {
   return (
@@ -87,7 +91,7 @@ class SpeakerHelper {
   }
 }
 
-const speakerList = [
+const speakerList1 = [
   new SpeakerHelper(
     "Prof. Predrag S. Stanimirović",
     speaker1,
@@ -237,6 +241,69 @@ const speakerList = [
   ),
 ];
 
+const speakerList2 = [
+  new SpeakerHelper(
+    "Dr. Ratikanta Behera",
+    speaker01,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        Department of Computational and Data Science <br />
+        IISc Bangalore, India
+      </div>
+    ),
+    "http://cds.iisc.ac.in/faculty/ratikanta/people.html",
+    { marginTop: "40px" }
+  ),
+  new SpeakerHelper(
+    "Dr. Vineet Kumar Singh",
+    speaker02,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        Department of Mathematics Sciences <br />
+        IIT(BHU), Varanasi, India
+      </div>
+    ),
+    "https://www.iitbhu.ac.in/dept/mat/people/vksinghapm",
+    { marginTop: "40px" }
+  ),
+  new SpeakerHelper(
+    "Dr. Muslim Malik",
+    speaker03,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        Department of Mathematics <br />
+        IIT Mandi, India
+      </div>
+    ),
+    "http://faculty.iitmandi.ac.in/~muslim/",
+    { marginTop: "40px" }
+  ),
+  new SpeakerHelper(
+    "Dr. Sarvesh Kumar Rajput",
+    speaker04,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        Department of Mathematics <br />
+        IIST Thiruvananthapuram, India
+      </div>
+    ),
+    "https://www.iist.ac.in/mathematics/sarvesh",
+    { marginTop: "40px" }
+  ),
+  new SpeakerHelper(
+    "Dr. Kapil Kumar Sharma",
+    speaker05,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        Department of Mathematics <br />
+        South Asian University, Delhi, India
+      </div>
+    ),
+    "http://www.sau.int/faculty/faculty-profile.html?staff_id=50",
+    { marginTop: "40px" }
+  ),
+];
+
 function Speakers() {
   return (
     <div
@@ -272,8 +339,11 @@ function Speakers() {
         </div>
       </div> */}
       
-      
-      {SpeakerHelper.getSpeakerCards(speakerList)}
+      <h2 class="heading-secondary">Keynote Speakers</h2>
+      {SpeakerHelper.getSpeakerCards(speakerList1)}
+
+      <h2 class="heading-secondary" style={{ marginTop: "50px" }}>Invited Speakers</h2>
+      {SpeakerHelper.getSpeakerCards(speakerList2)}
     </div>
   );
 }
