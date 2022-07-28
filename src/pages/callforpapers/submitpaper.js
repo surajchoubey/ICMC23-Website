@@ -25,7 +25,7 @@ function SubmitPaper() {
               href={conf_link}
               target="_blank"
             >
-              link to easychair portal for icmc 2023
+              go to easychair portal for icmc 2023
             </a>
           </p>
         </div>
