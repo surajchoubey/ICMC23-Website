@@ -35,7 +35,7 @@ function SubmitPaper() {
         </div>
         <div class="text-lg-left mw-25">
           <p class="text-left mb-2" style={{ fontWeight: '400', fontSize: '130%' }} align="center">
-            <b> INSTRUCTIONS: </b>
+            <b> NOTE: </b>
           </p>
           <ol>
             <li>
