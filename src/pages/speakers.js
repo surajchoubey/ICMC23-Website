@@ -13,6 +13,8 @@ import speaker02 from "../images/speaker02.jpg";
 import speaker03 from "../images/speaker03.jpg";
 import speaker04 from "../images/speaker04.jpg";
 import speaker05 from "../images/speaker05.jpg";
+import speaker06 from "../images/speaker06.jpeg";
+import speaker07 from "../images/speaker07.jpg";
 
 function SpeakerLink({ link }) {
   return (
@@ -57,7 +59,7 @@ class SpeakerHelper {
           <img
             className="speakerImg"
             src={speaker.speakerImage}
-            alt="speakerImage"
+            alt={speaker.speakerName}
           />
           <div className="upperDiv">
             <div className="speakerName">{speaker.speakerName}</div>
@@ -300,6 +302,30 @@ const speakerList2 = [
       </div>
     ),
     "http://www.sau.int/faculty/faculty-profile.html?staff_id=50",
+    { marginTop: "40px" }
+  ),
+  new SpeakerHelper( // 6
+    "Dr. Navnit Jha",
+    speaker06,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        Department of Mathematics <br />
+        South Asian University, Delhi, India
+      </div>
+    ),
+    "http://www.sau.int/faculty/faculty-profile.html?staff_id=49",
+    { marginTop: "40px" }
+  ),
+  new SpeakerHelper( // 7
+    "Dr. S Sivananthan",
+    speaker07,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        Department of Mathematics <br />
+        IIT Delhi, India
+      </div>
+    ),
+    "https://web.iitd.ac.in/~siva/",
     { marginTop: "40px" }
   ),
 ];
