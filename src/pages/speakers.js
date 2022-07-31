@@ -109,8 +109,8 @@ const speakerList1 = [
     speaker2,
     (
       <div className="speakerText" style={{ marginTop: "25px" }}>
-        Professor, Department of Mathematics <br />
-        IIT Bombay, Mumbai, India
+        Visiting Professor, Department of Mathematics <br />
+        BITS Pilani KK Birla Goa Campus, India
         <br />
       </div>
     ),
@@ -121,7 +121,7 @@ const speakerList1 = [
     speaker3,
     (
       <div className="speakerText" style={{ marginTop: "25px" }}>
-        Professor, Department of Mathematics <br />
+        Visiting Professor, Department of Mathematics <br />
         BITS Pilani KK Birla Goa Campus, India
         <br />
       </div>
