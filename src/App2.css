@@ -207,7 +207,9 @@
 
 .speakerImg{
   height: 350px;
+  width: 270px;
   margin-right: 20px;
+  margin-left: 10vw;
 }
 
 .speakerDiv{
@@ -215,7 +217,7 @@
   background: #FBFBFB;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
 }
 .upperDiv{
   width: auto;
@@ -255,6 +257,7 @@
     height: auto;
   }
   .speakerImg{
+    margin-left: 0;
     height: 30vh;
     width: auto;
   }
