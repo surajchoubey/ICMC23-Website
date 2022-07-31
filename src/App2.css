@@ -191,7 +191,7 @@
   text-align: left;
   font-family: Roboto, sans-serif;
   font-weight: 300;
-  font-size: 120%;
+  font-size: 140%;
   line-height: 47px;
   color: #bdbdbd;
 }
@@ -218,7 +218,7 @@
   justify-content: center;
 }
 .upperDiv{
-  width: 35vw;
+  width: auto;
 }
 
 .lowerDiv{
@@ -294,12 +294,14 @@
     text-align: center;
   }
 
-  .speakerName2 {
-    text-align: center;
-  }
-
   .speakerText{
     text-align: center;
-    
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .speakerName2 {
+    text-align: center;
+    font-size: 120%;
   }
 }
