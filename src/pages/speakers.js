@@ -212,8 +212,8 @@ const speakerList2 = [
     speaker01,
     (
       <div className="speakerText" style={{ marginTop: "25px" }}>
-        Department of Computational and Data Science <br />
-        IISc Bangalore, India
+        Department of Computational and <br />
+        Data Science, IISc Bangalore, India
       </div>
     ),
     "http://cds.iisc.ac.in/faculty/ratikanta/people.html"
