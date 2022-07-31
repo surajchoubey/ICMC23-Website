@@ -261,7 +261,7 @@ h2.heading-secondary {
   color: rgb(167, 167, 167);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   h2.heading-secondary {
     font-size: max(7.5vw, 2.7rem);
   }

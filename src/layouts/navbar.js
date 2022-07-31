@@ -36,9 +36,9 @@ function MyNavbar() {
 		<nav class="navbar navbar-light px-3 navbar-expand-lg sticky-top bg-white">
 			<div class="container-fluid">
 
-				<Link class="navbar-brand my-2" to="/">
-				<img src={NavLogo} height="70" class="align-top p-1" alt="" />
-				</Link>
+				<a class="navbar-brand my-2" href="/">
+					<img src={NavLogo} height="70" class="align-top p-1" alt="" />
+				</a>
 				
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -57,15 +57,6 @@ function MyNavbar() {
 						<NavWithoutDropDown link={"/speakers"} showname={"Speakers"} />
 
 						<NavWithoutDropDown link={"/committee"} showname={"Committee"} />
-
-						{/* <NavWithoutDropDown link={"/timeline"} showname={"Timeline"} /> 
-
-						<NavWithDropDown name="Committee">
-								<DropDownItem link={"/committee/patrons/"} showname={"Patrons"} />
-								<DropDownItem link={"/committee/orgcommittee/"} showname={"Organizing Committee"} />
-								<DropDownItem link={"/committee/techprocommittee/"} showname={"Technical Program Committee"} />
-						</NavWithDropDown>
-						*/}
 
 						<NavWithDropDown name="Call for Papers">
 								<DropDownItem link={"/callforpapers/tracks/"} showname={"Contribution Tracks"} />

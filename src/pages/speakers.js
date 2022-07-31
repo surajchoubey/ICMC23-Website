@@ -35,24 +35,22 @@ class SpeakerHelper {
     speakerImage,
     speakerText,
     speakerLink,
-    // speakerDescription,
     speakerLinkStyle
   ) {
     this.speakerName = speakerName;
     this.speakerImage = speakerImage;
     this.speakerText = speakerText;
     this.SpeakerLink = speakerLink;
-    // this.speakerDescription = speakerDescription;
     this.speakerLinkStyle = speakerLinkStyle;
   }
 
   static speakerTextStyle = {
-    marginTop: "15px",
-    flexWrap: "wrap",
-    textAlign: "justify",
+    marginTop: '40px',
+    flexWrap: 'wrap',
+    textAlign: 'justify'
   };
 
-  static getSpeakerCards(speakerList) {
+  static getKeynoteSpeakerCards(speakerList) {
     return speakerList.map(function (speaker, _) {
       return (
         <div className="speakerDiv">
@@ -63,30 +61,31 @@ class SpeakerHelper {
           />
           <div className="upperDiv">
             <div className="speakerName">{speaker.speakerName}</div>
-            <div className="speakerText" style={{ marginTop: "25px" }}>
+            <div className="speakerText" style={{ marginTop: "25px", marginBottom: '40px' }}>
               {speaker.speakerText}
             </div>
             <div style={speaker.speakerLinkStyle}>
               <SpeakerLink link={speaker.SpeakerLink} />
             </div>
           </div>
-          {/* <div className="lowerDiv">
-            <div
-              style={{
-                height: "28px",
-                marginTop: "32px",
-                fontFamily: "Roboto",
-                fontWeight: "300",
-                fontSize: "21px",
-                lineHeight: "28px",
-                color: "#BDBDBD",
-                textAlign: "left",
-              }}
-            >
-              Current Research
+        </div>
+      );
+    });
+  }
+
+  static getInvitedSpeakerCards(speakerList) {
+    return speakerList.map(function (speaker, _) {
+      return (
+        <div className="speakerDiv col-md-4 col-sm-6 col-xs-12">
+          <div className="upperDiv">
+          <div className="speakerName2">{speaker.speakerName}</div>
+            <div className="speakerText" style={{marginBottom: '40px'}}>
+              {speaker.speakerText}
             </div>
-            {speaker.speakerDescription}
-          </div> */}
+            <div style={speaker.speakerLinkStyle}>
+              <SpeakerLink link={speaker.SpeakerLink} />
+            </div>
+          </div>
         </div>
       );
     });
@@ -103,22 +102,7 @@ const speakerList1 = [
         University of Niš, Serbia
       </div>
     ),
-    "https://www.pmf.ni.ac.rs/nastavnici-i-saradnici/biografija/?idz=59",
-    // (
-    //   <div className="speakerText" style={SpeakerHelper.speakerTextStyle}>
-    //     § StructNet: Constructing and Mining Structure-Rich Information Networks
-    //     for Scientific Research (NSF/IIS) <br />
-    //     § Taming Big Networks via Embedding (NSF/IIS-BIGDATA) <br />
-    //     § Mining and Leveraging Knowledge Hypercubes for Complex Applications
-    //     (NSF-IIS) <br />
-    //     § NSF AI Institute for Molecular Discovery, Synthetic Strategy, and
-    //     Manufacturing: Molecule Maker Lab Institute <br />
-    //     § DARPA/KAIROS: “RESIN: Reasoning about Event Schemas for Induction of
-    //     kNowledge” <br />§ DARPA/INCAS: “Analytics of Information Influence:
-    //     Effect Characterization”
-    //   </div>
-    // ),
-    { marginTop: "40px" }
+    "https://www.pmf.ni.ac.rs/nastavnici-i-saradnici/biografija/?idz=59"    
   ),
   new SpeakerHelper(
     "Prof. Amiya Kumar Pani",
@@ -130,21 +114,7 @@ const speakerList1 = [
         <br />
       </div>
     ),
-    "http://www.math.iitb.ac.in/~akp/",
-    // (
-    //   <div className="speakerText" style={SpeakerHelper.speakerTextStyle}>
-    //     L. Giaretta, A. Lekssays, B. Carminati, E. Ferrari, S. Girdzijauskas.
-    //     LiMNet: Early-Stage Detection of IoT Botnets with Lightweight Memory
-    //     Networks. ESORICS 2021: 605-625 <br />
-    //     <br />
-    //     Ha Xuan Son, Barbara Carminati, E. Ferrari. A Risk Assessment Mechanism
-    //     for Android Apps. SmartIoT 2021: 237-244 <br />
-    //     <br />
-    //     P. Colombo, E. Ferrari, E. D. Tümer. Regulating data sharing across MQTT
-    //     environments.J. Netw. Comput. Appl. 174: 102907 (2021)
-    //   </div>
-    // ),
-    { marginTop: "40px" }
+    "http://www.math.iitb.ac.in/~akp/"
   ),
   new SpeakerHelper(
     "Prof. M. Thamban Nair",
@@ -152,12 +122,11 @@ const speakerList1 = [
     (
       <div className="speakerText" style={{ marginTop: "25px" }}>
         Professor, Department of Mathematics <br />
-        IIT Madras, Chennai, India
+        BITS Pilani KK Birla Goa Campus, India
         <br />
       </div>
     ),
-    "https://home.iitm.ac.in/mtnair/index.html",
-    { marginTop: "40px" }
+    "https://home.iitm.ac.in/mtnair/index.html"
   ),
   new SpeakerHelper(
     "Prof. Sokratis Katsikas",
@@ -171,8 +140,7 @@ const speakerList1 = [
         Norwegian University of Science and Technology, Norway <br />
       </div>
     ),
-    "https://www.ntnu.edu/employees/sokratis.katsikas",
-    { marginTop: "40px" }
+    "https://www.ntnu.edu/employees/sokratis.katsikas"
   ),
   new SpeakerHelper(
     "Prof. Krzysztof Szczypiorski",
@@ -186,8 +154,7 @@ const speakerList1 = [
         Warsaw University of Technology, Poland <br />
       </div>
     ),
-    "http://ksz.tele.pw.edu.pl/",
-    { marginTop: "40px" }
+    "http://ksz.tele.pw.edu.pl/"
   ),
   new SpeakerHelper(
     "Prof. Rakesh M. Verma",
@@ -199,21 +166,19 @@ const speakerList1 = [
         University of Houston, Houston, USA <br />
       </div>
     ),
-    "http://www2.cs.uh.edu/~rmverma/",
-    { marginTop: "40px" }
+    "http://www2.cs.uh.edu/~rmverma/"
   ),
   new SpeakerHelper(
     "Prof. R.N. Mohapatra",
     speaker7,
     (
       <div className="speakerText" style={{ marginTop: "25px" }}>
-        Academic Director & Professor <br />
+        Academic Director &amp; Professor <br />
         Department of Mathematics <br />
         University of Central Florida, Orlando, USA <br />
       </div>
     ),
-    "https://sciences.ucf.edu/math/person/ram-mohapatra/",
-    { marginTop: "40px" }
+    "https://sciences.ucf.edu/math/person/ram-mohapatra/"
   ),
   new SpeakerHelper(
     "Prof. S. Sundar",
@@ -225,8 +190,7 @@ const speakerList1 = [
         IIT Madras, Chennai, India <br />
       </div>
     ),
-    "https://math.iitm.ac.in/public_html/slnt/index.htm",
-    { marginTop: "40px" }
+    "https://math.iitm.ac.in/public_html/slnt/index.htm"
   ),
   new SpeakerHelper(
     "Prof. Dieter Gollmann",
@@ -238,8 +202,7 @@ const speakerList1 = [
         Hamburg University of Technology, Hamburg, Germany <br />
       </div>
     ),
-    "https://www.sba-research.org/team/dieter-gollmann/",
-    { marginTop: "40px" }
+    "https://www.sba-research.org/team/dieter-gollmann/"
   ),
 ];
 
@@ -253,20 +216,18 @@ const speakerList2 = [
         IISc Bangalore, India
       </div>
     ),
-    "http://cds.iisc.ac.in/faculty/ratikanta/people.html",
-    { marginTop: "40px" }
+    "http://cds.iisc.ac.in/faculty/ratikanta/people.html"
   ),
   new SpeakerHelper(
     "Dr. Vineet Kumar Singh",
     speaker02,
     (
       <div className="speakerText" style={{ marginTop: "25px" }}>
-        Department of Mathematics Sciences <br />
+        Department of Mathematics <br />
         IIT(BHU), Varanasi, India
       </div>
     ),
-    "https://www.iitbhu.ac.in/dept/mat/people/vksinghapm",
-    { marginTop: "40px" }
+    "https://www.iitbhu.ac.in/dept/mat/people/vksinghapm"
   ),
   new SpeakerHelper(
     "Dr. Muslim Malik",
@@ -277,8 +238,7 @@ const speakerList2 = [
         IIT Mandi, India
       </div>
     ),
-    "http://faculty.iitmandi.ac.in/~muslim/",
-    { marginTop: "40px" }
+    "http://faculty.iitmandi.ac.in/~muslim/"
   ),
   new SpeakerHelper(
     "Dr. Sarvesh Kumar Rajput",
@@ -289,8 +249,7 @@ const speakerList2 = [
         IIST Thiruvananthapuram, India
       </div>
     ),
-    "https://www.iist.ac.in/mathematics/sarvesh",
-    { marginTop: "40px" }
+    "https://www.iist.ac.in/mathematics/sarvesh"
   ),
   new SpeakerHelper(
     "Dr. Kapil Kumar Sharma",
@@ -301,10 +260,9 @@ const speakerList2 = [
         South Asian University, Delhi, India
       </div>
     ),
-    "http://www.sau.int/faculty/faculty-profile.html?staff_id=50",
-    { marginTop: "40px" }
+    "http://www.sau.int/faculty/faculty-profile.html?staff_id=50"
   ),
-  new SpeakerHelper( // 6
+  new SpeakerHelper(
     "Dr. Navnit Jha",
     speaker06,
     (
@@ -313,10 +271,9 @@ const speakerList2 = [
         South Asian University, Delhi, India
       </div>
     ),
-    "http://www.sau.int/faculty/faculty-profile.html?staff_id=49",
-    { marginTop: "40px" }
+    "http://www.sau.int/faculty/faculty-profile.html?staff_id=49"
   ),
-  new SpeakerHelper( // 7
+  new SpeakerHelper(
     "Dr. S Sivananthan",
     speaker07,
     (
@@ -325,9 +282,8 @@ const speakerList2 = [
         IIT Delhi, India
       </div>
     ),
-    "https://web.iitd.ac.in/~siva/",
-    { marginTop: "40px" }
-  ),
+    "https://web.iitd.ac.in/~siva/"
+  )
 ];
 
 function Speakers() {
@@ -342,34 +298,13 @@ function Speakers() {
       <div className="titleStyle2">Speakers</div>
       <div class="divider" style={{ marginBottom: "30px" }}></div>
       
-      {/* <div class="row">
-        <div class="col-sm-6">
-          <div class="card">
-            <img class="card-img-top" src={speaker1} alt="Card image cap"/>
-            <div class="card-body">
-              <h5 class="card-title">Prof. Predrag S. Stanimirović</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">View More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="card">
-            <img class="card-img-top" src={speaker2} alt="Card image cap"/>
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">View More</a>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      
       <h2 class="heading-secondary">Keynote Speakers</h2>
-      {SpeakerHelper.getSpeakerCards(speakerList1)}
+        {SpeakerHelper.getKeynoteSpeakerCards(speakerList1)}
 
       <h2 class="heading-secondary" style={{ marginTop: "50px" }}>Invited Speakers</h2>
-      {SpeakerHelper.getSpeakerCards(speakerList2)}
+      <div class="row">
+        {SpeakerHelper.getInvitedSpeakerCards(speakerList2)}
+      </div>
     </div>
   );
 }
