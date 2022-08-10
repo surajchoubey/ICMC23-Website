@@ -1,13 +1,15 @@
 import React from "react";
+import { ExcuseCard, Excuses } from "../../layouts/excuses.js";
 
-const conf_link = "https://easychair.org/conferences/?conf=icmc2023";
+// const conf_link = "https://easychair.org/conferences/?conf=icmc2023";
 const paragraph = "The authors are pleasingly invited to submit the full paper of their original, unpublished, research contribution which is not currently under review by another conference or journal. Only the accepted and registered papers will be allowed to present at the conference.";
 const paragraph_bold_line = "The paper must be submitted using the EasyChair portal.";
 const note1 = "Accepted and registered papers will be published by a Springer series (proposal submitted).";
-const note2_1 = "Those who are interested to present their work and are not interested to publish the work, can mail the abstract to";
-const note2_email = "icmc2023@goa.bits-pilani.ac.in. ";
-const note2_2 = "Please note that they have to pay the registration fee as per the category "
-const note2_3 = "“only for presentation”.";
+// const note2_1 = "Those who are interested to present their work and are not interested to publish the work, can mail the abstract to";
+// const note2_email = "icmc2023@goa.bits-pilani.ac.in. ";
+// const note2_2 = "Please note that they have to pay the registration fee as per the category "
+// const note2_3 = "“only for presentation”.";
+
 function SubmitPaper() {
   return (
     <div>
@@ -19,7 +21,9 @@ function SubmitPaper() {
           <p style={{ fontWeight: '400', fontSize: '110%' }} align="justify"> {paragraph} <b> {paragraph_bold_line} </b> </p>
         </div>
 
-        <div class="col-lg- cta-btn-container text-center">
+        {ExcuseCard(Excuses.NoLongerSubmissions)}
+
+        {/* <div class="col-lg cta-btn-container text-center">
           <p class="cta-text " align="center">
             <br />
             <a
@@ -32,7 +36,7 @@ function SubmitPaper() {
               go to easychair portal for icmc 2023
             </a>
           </p>
-        </div>
+        </div> */}
         <div class="text-lg-left mw-25">
           <p class="text-left mb-2" style={{ fontWeight: '400', fontSize: '130%' }} align="center">
             <b> PLEASE NOTE: </b>
@@ -43,14 +47,14 @@ function SubmitPaper() {
                 {note1}
               </p>
             </li>
-            <li>
+            {/* <li>
               <p class="cta-text justify" style={{ fontWeight: '400', fontSize: '110%' }} align="justify">
                 {note2_1}
                 <b ><a style={{ color: '#444', backgroundColor: 'transparent', textDecoration: 'none' }} href="icmc2023@goa.bits-pilani.ac.in"> {note2_email} </a></b>
                 {note2_2}
                 <i>{note2_3}</i>
               </p>
-            </li>
+            </li> */}
           </ol>
         </div>
         {/* ExcuseCard(Excuses.TBU) */}
