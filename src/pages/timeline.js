@@ -26,8 +26,8 @@ class timelineEvent {
 
 const eventList = [
   new timelineEvent("August 10, 2022", "Paper Submission Deadline"),
-  new timelineEvent("September 15, 2022", "Final Acceptance Notification"),
-  new timelineEvent("September 30, 2022", "Camera Ready Submission"),
+  new timelineEvent("October 15, 2022", "Final Acceptance Notification"),
+  new timelineEvent("October 31, 2022", "Camera Ready Submission"),
   new timelineEvent("January 06-08, 2023", "Conference Dates"),
 ];
 
