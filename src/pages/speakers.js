@@ -283,6 +283,39 @@ const speakerList2 = [
       </div>
     ),
     "https://web.iitd.ac.in/~siva/"
+  ),
+  new SpeakerHelper(
+    "Dr. Jagdish Chand Bansal",
+    speaker07,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        Department of Mathematics <br />
+        South Asian University, Delhi, India
+      </div>
+    ),
+    "http://www.sau.int/faculty/faculty-profile.html?staff_id=57"
+  ),
+  new SpeakerHelper(
+    "Dr. Shivi Agarwal",
+    speaker07,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        Department of Mathematics <br />
+        Birla Institute of Technology and Science, Pilani, India
+      </div>
+    ),
+    "https://universe.bits-pilani.ac.in/pilani/shivi/profile"
+  ),
+  new SpeakerHelper(
+    "Dr. Trilok Mathur",
+    speaker07,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        Department of Mathematics <br />
+        Birla Institute of Technology and Science, Pilani, India
+      </div>
+    ),
+    "https://universe.bits-pilani.ac.in/pilani/tmathur/profile"
   )
 ];
 
