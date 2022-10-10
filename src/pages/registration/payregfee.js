@@ -43,7 +43,7 @@ function PayRegFee() {
                   <li> <b> ICMC 23-Student </b> </li>
                 </ul>
               </li>
-              <li> Enter the required details as asked.  </li>
+              <li> Enter the required details as asked and make the payment. </li>
             </ul>
           </NumberPoints>
           <NumberPoints> After successful payment, upload your payment receipt and provide conference registration details on <b> UPLOAD PAYMENT RECEIPT </b> link below to successfully complete the registration process. </NumberPoints>
