@@ -5,6 +5,9 @@ import React from "react";
 // import "bootstrap/dist/css/bootstrap.min.css";
 // import { Link } from "react-router-dom";
 
+const SBICOLLECT_LINK = "https://www.onlinesbi.sbi/sbicollect/icollecthome.htm"
+const UPLOADRECEIPT_LINK = "https://forms.gle/K1fB1b4vqwyq6Sf78"
+
 const NumberPoints = (props) => {
   return (
     <li> 
@@ -47,8 +50,8 @@ function PayRegFee() {
         </ol>
 
           <div className="d-flex flex-wrap justify-content-around">
-            <a rel="nopener noreferrer" target="_blank" href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm" class="black-button m-2"> PAY CONFERENCE FEES </a>
-            <a rel="nopener noreferrer" target="_blank" href="https://forms.gle/K1fB1b4vqwyq6Sf78" class="black-button m-2"> UPLOAD PAYMENT RECEIPT </a>
+            <a rel="nopener noreferrer" target="_blank" href={SBICOLLECT_LINK} class="black-button m-2"> PAY CONFERENCE FEES </a>
+            <a rel="nopener noreferrer" target="_blank" href={UPLOADRECEIPT_LINK} class="black-button m-2"> UPLOAD PAYMENT RECEIPT </a>
           </div>
 
       </div>
