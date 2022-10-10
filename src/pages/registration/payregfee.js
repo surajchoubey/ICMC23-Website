@@ -46,7 +46,7 @@ function PayRegFee() {
               <li> Enter the required details as asked.  </li>
             </ul>
           </NumberPoints>
-          <NumberPoints> After successful payment, upload your receipt along with some other details on <b> UPLOAD PAYMENT RECEIPT </b> link below. </NumberPoints>
+          <NumberPoints> After successful payment, upload your payment receipt and provide conference registration details on <b> UPLOAD PAYMENT RECEIPT </b> link below to successfully complete the registration process. </NumberPoints>
         </ol>
 
           <div className="d-flex flex-wrap justify-content-around">
