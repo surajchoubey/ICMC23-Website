@@ -1,6 +1,6 @@
 import React from "react";
 // import JSONdata from "./employee.json";
-import JSONData from "./acceptedpapers";
+import JSONData from "./acceptedpapers.json";
 // import { ExcuseCard, Excuses } from "../../layouts/excuses.js";
 import BTable from "react-bootstrap/Table";
 
