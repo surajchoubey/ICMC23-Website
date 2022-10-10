@@ -1,6 +1,6 @@
 import React from "react";
 // import JSONdata from "./employee.json";
-import JSONData from "./acceptedpapers.json";
+import { acceptedList} from "./acceptedpapers";
 // import { ExcuseCard, Excuses } from "../../layouts/excuses.js";
 import BTable from "react-bootstrap/Table";
 
@@ -11,7 +11,7 @@ function sentenceCapitalize(s) {
 };
 
 function AcceptedPapers() {
-  const DisplayData = JSONData.map((info) => {
+  const DisplayData = acceptedList.map((info) => {
     return (
       <tr>
         <td style={{ textAlign: 'left' }}> { sentenceCapitalize(info.AUTHORS) } </td>
