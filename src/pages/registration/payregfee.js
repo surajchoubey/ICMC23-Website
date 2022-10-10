@@ -29,7 +29,7 @@ function PayRegFee() {
           <h3 style={{ textAlign: 'left' }} > INSTRUCTIONS </h3>
         </div>
         <ol>
-          <NumberPoints> For making payment, click on below <b> PAY CONFERENCE FEES </b> link. It will direct you to SBI Collect Page. </NumberPoints>
+          <NumberPoints> For making payment, click below on <b> PAY CONFERENCE FEES </b> link. It will direct you to SBI Collect Page. </NumberPoints>
           <NumberPoints> After accepting terms and conditions, choose the following options: 
             <ul>
               <li> State of Corporate/Institution:  <b> Goa  </b> </li>
@@ -46,7 +46,7 @@ function PayRegFee() {
               <li> Enter the required details as asked.  </li>
             </ul>
           </NumberPoints>
-          <NumberPoints> After successful payment, upload your receipt along with some other details <b> UPLOAD PAYMENT RECEIPT </b> link. </NumberPoints>
+          <NumberPoints> After successful payment, upload your receipt along with some other details on <b> UPLOAD PAYMENT RECEIPT </b> link below. </NumberPoints>
         </ol>
 
           <div className="d-flex flex-wrap justify-content-around">
