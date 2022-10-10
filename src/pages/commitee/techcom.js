@@ -222,7 +222,7 @@ export const JSONData = [
   {
    "FirstName": "Fu-Hsing",
    "LastName": "Wang",
-   "Affiliation": "Chinese Culture University, China"
+   "Affiliation": "Chinese Culture University, Taiwan"
   },
   {
    "FirstName": "Girraj Kumar",
