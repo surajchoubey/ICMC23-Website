@@ -46,9 +46,9 @@ function PayRegFee() {
           <NumberPoints> After successful payment, upload your receipt along with some other details <b> UPLOAD PAYMENT RECEIPT </b> link. </NumberPoints>
         </ol>
 
-          <div className="d-flex justify-content-around">
-            <a rel="nopener noreferrer" target="_blank" href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm" class="black-button"> PAY CONFERENCE FEES </a>
-            <a rel="nopener noreferrer" target="_blank" href="https://forms.gle/K1fB1b4vqwyq6Sf78" class="black-button"> UPLOAD PAYMENT RECEIPT </a>
+          <div className="d-flex flex-wrap justify-content-around">
+            <a rel="nopener noreferrer" target="_blank" href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm" class="black-button m-2"> PAY CONFERENCE FEES </a>
+            <a rel="nopener noreferrer" target="_blank" href="https://forms.gle/K1fB1b4vqwyq6Sf78" class="black-button m-2"> UPLOAD PAYMENT RECEIPT </a>
           </div>
 
       </div>
