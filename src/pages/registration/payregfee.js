@@ -46,12 +46,12 @@ function PayRegFee() {
               <li> Enter the required details as asked and make the payment. </li>
             </ul>
           </NumberPoints>
-          <NumberPoints> After successful payment, upload your payment receipt and provide conference registration details on <b> REGISTERATION </b> link below to successfully complete the registration process. </NumberPoints>
+          <NumberPoints> After successful payment, upload your payment receipt and provide conference registration details on <b> REGISTRATION </b> link below to successfully complete the registration process. </NumberPoints>
         </ol>
 
           <div className="d-flex flex-wrap justify-content-around">
             <a rel="nopener noreferrer" target="_blank" href={SBICOLLECT_LINK} class="black-button m-2"> PAY CONFERENCE FEES </a>
-            <a rel="nopener noreferrer" target="_blank" href={UPLOADRECEIPT_LINK} class="black-button m-2"> REGISTERATION </a>
+            <a rel="nopener noreferrer" target="_blank" href={UPLOADRECEIPT_LINK} class="black-button m-2"> REGISTRATION </a>
           </div>
 
       </div>
