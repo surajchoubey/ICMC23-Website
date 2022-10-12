@@ -1,7 +1,7 @@
 import React from "react";
 // import JSONdata from "./employee.json";
 // import { acceptedList } from "./acceptedpapers";
-import { ExcuseCard, Excuses } from "./excuses.js";
+import { ExcuseCard, Excuses } from "../../layouts/excuses.js";
 import BTable from "react-bootstrap/Table";
 // import "./styles.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
