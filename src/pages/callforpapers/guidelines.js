@@ -1,5 +1,5 @@
 import React from "react";
-import springer from '../../images/springer.jpeg'
+// import springer from '../../images/springer.jpeg'
 
 const springer_link = "https://link.springer.com/";
 

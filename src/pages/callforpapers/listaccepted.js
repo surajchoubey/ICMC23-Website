@@ -6,21 +6,25 @@ import { ExcuseCard, Excuses } from "../../layouts/excuses.js";
 // import "./styles.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
-{/*function sentenceCapitalize(s) {
+/*
+function sentenceCapitalize(s) {
   return s.toLowerCase().replace( /\b./g, (word) => {
     return word.toUpperCase();
   });
-};*/}
+};
+*/
 
 function AcceptedPapers() {
-  {/*const DisplayData = acceptedList.map((info) => {
+  /*
+  const DisplayData = acceptedList.map((info) => {
     return (
       <tr>
         <td style={{ textAlign: 'left' }}> { sentenceCapitalize(info.AUTHORS) } </td>
         <td style={{ textAlign: 'left' }}> { sentenceCapitalize(info.TITLE) } </td>
       </tr>
     );
-  });*/}
+  });
+  */
 
   return (
     <div className="container">
