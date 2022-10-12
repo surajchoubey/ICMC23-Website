@@ -67,7 +67,7 @@ function MyNavbar() {
 
 						<NavWithDropDown name="Registration">
 								<DropDownItem link={"/registration/confregfee/"} showname={"Conference Fees"} />
-								<DropDownItem link={"/registration/payregfee/"} showname={"Payment"} />
+								<DropDownItem link={"/registration/payregfee/"} showname={"Payment and Registration"} />
 						</NavWithDropDown>
 
 						<NavWithoutDropDown link={"/pasteditions"} showname={"Past Editions"} />
