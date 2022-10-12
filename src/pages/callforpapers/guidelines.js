@@ -37,7 +37,7 @@ function Guidelines() {
             <br/>
                 <p style={{fontWeight: '400', fontSize: '200%'}}>HOW TO <b>PROCEED?</b></p>
                     {/* <a href={springer_link} target="_blank" rel="nopener noreferrer" style={{focus: 'cursor'}}><img src={springer} class="img-fluid" alt="springer logo"/></a> */}
-                <p style={{fontWeight: '400'}}>All accepted papers are expected to be published in <a class="modern-link" href={springer_link} target="_blank" rel="nopener noreferrer">Springer(Waiting for approval)</a>.</p>
+                <p style={{fontWeight: '400'}}>All accepted papers are expected to be published in <a class="modern-link" href={springer_link} target="_blank" rel="nopener noreferrer">Springer - Waiting for approval</a>.</p>
         </div>
     );
 }
