@@ -16,6 +16,11 @@ const Excuses = {
     description: "Please come back later!",
     helperClass: "alert alert-danger alert-dismissible fade show",
   },
+  NoLongerSubmissions: {
+    message: "PAPER SUBMISSION WINDOW CLOSED",
+    description: "No longer accepting submissions!",
+    helperClass: "alert alert-danger alert-dismissible fade show",
+  },
 };
 
 const ExcuseCard = (excuseType) => {

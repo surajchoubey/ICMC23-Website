@@ -19,8 +19,8 @@ function ConfRegFee() {
                 <thead>
                   <tr align="center">
                     <th></th>
-                    <th colspan="2">Indian Participant</th>
-                    <th colspan="2">Foreign Participant</th>
+                    <th colspan="1">Indian Participant</th>
+                    <th colspan="1">Foreign Participant</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -32,30 +32,18 @@ function ConfRegFee() {
                       <b>
                         On or Before
                         <br />
-                        October 10, 2022
+                        November 10, 2022
                       </b>
                     </td>
-                    <td align="center">
-                      <b>
-                        After October 10
-                        <br />
-                        Before November 10, 2022
-                      </b>
-                    </td>
+                    
                     <td align="center">
                       <b>
                         On or Before
                         <br />
-                        October 10, 2022
+                        November 10, 2022
                       </b>
                     </td>
-                    <td align="center">
-                      <b>
-                        After October 10
-                        <br />
-                        Before November 10, 2022
-                      </b>
-                    </td>
+                    
                   </tr>
                   <tr>
                     <td>
@@ -66,9 +54,9 @@ function ConfRegFee() {
                       </font> */}
                     </td>
                     <td align="center">INR 6000</td>
-                    <td align="center">INR 6500</td>
+                    {/* <td align="center">INR 6500</td> */}
                     <td align="center">USD 250</td>
-                    <td align="center">USD 300</td>
+                    {/* <td align="center">USD 300</td> */}
                   </tr>
                   <tr>
                     <td>
@@ -79,9 +67,9 @@ function ConfRegFee() {
                       </font> */}
                     </td>
                     <td align="center">INR 8000</td>
-                    <td align="center">INR 9000</td>
+                    {/* <td align="center">INR 9000</td> */}
                     <td align="center">USD 350</td>
-                    <td align="center">USD 450</td>
+                    {/* <td align="center">USD 450</td> */}
                   </tr>
                   <tr>
                     <td>
@@ -92,9 +80,9 @@ function ConfRegFee() {
                       </font> */}
                     </td>
                     <td align="center">INR 12000</td>
-                    <td align="center">INR 14000</td>
+                    {/* <td align="center">INR 14000</td> */}
                     <td align="center">USD 400</td>
-                    <td align="center">USD 500</td>
+                    {/* <td align="center">USD 500</td> */}
                   </tr>
                   <tr>
                     <td>
@@ -102,19 +90,17 @@ function ConfRegFee() {
                       {/* <br /> */}
                       {/* <font size="3px">(as a participant)</font> */}
                     </td>
-                    <td align="center">INR 3000</td>
-                    <td align="center">INR 4000</td>
-                    <td align="center">USD 150</td>
-                    <td align="center">USD 200</td>
+                    <td align="center" colspan = "2">ON SPOT</td>
+                    {/* <td align="center">INR 4000</td> */}
+                    {/* <td align="center">USD 150</td> */}
+                    {/* <td align="center">USD 200</td> */}
                   </tr>
                   <tr>
-                    <td>
-                      Only for Presentation
-                    </td>
+                    <td>Only for Presentation</td>
                     <td align="center">INR 4000</td>
-                    <td align="center">INR 4500</td>
+                    {/* <td align="center">INR 4500</td> */}
+                    {/* <td align="center">USD 200</td> */}
                     <td align="center">USD 200</td>
-                    <td align="center">USD 250</td>
                   </tr>
                 </tbody>
               </table>

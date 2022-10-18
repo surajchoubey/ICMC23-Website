@@ -1,44 +1,49 @@
 import React from "react";
 // import JSONdata from "./employee.json";
+// import { acceptedList } from "./acceptedpapers";
 import { ExcuseCard, Excuses } from "../../layouts/excuses.js";
+// import BTable from "react-bootstrap/Table";
+// import "./styles.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
-function ListAccepted() {
-  // const DisplayData = JSONdata.map((info) => {
-  //   return (
-  //     <tr>
-  //       <td>{info.S_No}</td>
-  //       <td>{info.ID}</td>
-  //       <td>{info.Title}</td>
-  //       <td>{info.Authors}</td>
-  //       <td>{info.Affiliation}</td>
-  //       <td>{info.Country}</td>
-  //     </tr>
-  //   );
-  // },
-  // );
+/*
+function sentenceCapitalize(s) {
+  return s.toLowerCase().replace( /\b./g, (word) => {
+    return word.toUpperCase();
+  });
+};
+*/
+
+function AcceptedPapers() {
+  /*
+  const DisplayData = acceptedList.map((info) => {
+    return (
+      <tr>
+        <td style={{ textAlign: 'left' }}> { sentenceCapitalize(info.AUTHORS) } </td>
+        <td style={{ textAlign: 'left' }}> { sentenceCapitalize(info.TITLE) } </td>
+      </tr>
+    );
+  });
+  */
 
   return (
-    <div class="container">
-      <div className="titleStyle1"> List Of </div>
+    <div className="container">
+      <div className="titleStyle1"> List of </div>
       <div className="titleStyle2"> Accepted Papers </div>
       <div class="divider" style={{ marginBottom: "30px" }}></div>
-      {/* <table className="table table-striped">
-            <thead>
-                <tr>
-                <th>S No.</th>
-                <th>ID</th>
-                <th>Title</th>
-                <th>Authors</th>
-                <th>Affiliation</th>
-                <th>Country</th>
-                </tr>
-            </thead>
-            <tbody>
-                {DisplayData}
-            </tbody>
-        </table> */}
+      {/* <h3 style={{ textAlign: 'left' }} > ACCEPTED ABSTRACT PAPERS FOR ORAL PRESENTATION </h3>
+      <BTable striped bordered hover responsive>
+        <thead>
+          <tr>
+            <th>Authors</th>
+            <th>Title</th>
+          </tr>
+        </thead>
+        <tbody>{DisplayData}</tbody>
+      </BTable> */}
+      {/* <br /> */}
       {ExcuseCard(Excuses.TBA)}
     </div>
   );
 }
-export default ListAccepted;
+export default AcceptedPapers;
