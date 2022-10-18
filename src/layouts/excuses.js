@@ -16,17 +16,17 @@ const Excuses = {
     description: "Please come back later!",
     helperClass: "alert alert-danger alert-dismissible fade show",
   },
-  NoLongerSubmissions: {
-    message: "PAPER SUBMISSION WINDOW CLOSED",
-    description: "No longer accepting submissions!",
-    helperClass: "alert alert-danger alert-dismissible fade show",
+  Delay: {
+    message: "Sorry for the delay",
+    description: "Please wait for a couple of days. We will update it soon.",
+    helperClass: "alert alert-info alert-dismissible fade show",
   },
 };
 
 const ExcuseCard = (excuseType) => {
   return (
     <div class={excuseType.helperClass} role="alert">
-      <strong>{excuseType.message}</strong>
+      <strong>{excuseType.message.toUpperCase()}</strong>
       <br />
       &nbsp; {excuseType.description} &nbsp;
     </div>
