@@ -22,8 +22,8 @@ const Excuses = {
     helperClass: "alert alert-danger alert-dismissible fade show",
   },
   Delay: {
-    message: "Sorry for the delay",
-    description: "Please wait for a couple of days. We will update it soon.",
+    message: "Accepted Papers may be notified in a week",
+    description: "Please note that we will give you an option for presenting your paper even if it gets rejected for publication in the conference proceeding. So kindly, plan accordingly.",
     helperClass: "alert alert-info alert-dismissible fade show",
   },
 };
