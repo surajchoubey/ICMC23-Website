@@ -20,6 +20,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
+    "build:prod": "PUBLIC_URL='.' npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
