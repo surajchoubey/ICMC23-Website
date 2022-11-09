@@ -14,9 +14,8 @@ function sentenceCapitalize(s) {
 */
 const upload_source_link = 'https://docs.google.com/forms/d/1usckkagyrU7L-bhV_TkiFXzWC8-6LmeSXwhixMdDT50/viewform?edit_requested=true';
 
-//TODO: add these links 
-const word_template_link = '';
-const latext_template_link = '';
+const word_template_link = 'https://docs.google.com/document/d/1h-FaUN7iXfvoIUrzdZAFID8WHGJNiE7X/edit?usp=sharing&ouid=108636257006657033217&rtpof=true&sd=true';
+const latext_template_link = 'https://drive.google.com/file/d/1f4uGdVsl1p-P4W3GIJq8zk6_BV2pGXwj/view?usp=sharing';
 
 function AcceptedPapers() {
   /*
