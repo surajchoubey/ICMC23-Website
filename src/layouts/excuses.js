@@ -21,12 +21,17 @@ const Excuses = {
     description: "No longer accepting submissions!",
     helperClass: "alert alert-danger alert-dismissible fade show",
   },
+  Delay: {
+    message: "Accepted Papers may be notified in a week",
+    description: "Please note that we will give you an option for presenting your paper even if it gets rejected for publication in the conference proceeding. So kindly, plan accordingly.",
+    helperClass: "alert alert-info alert-dismissible fade show",
+  },
 };
 
 const ExcuseCard = (excuseType) => {
   return (
     <div class={excuseType.helperClass} role="alert">
-      <strong>{excuseType.message}</strong>
+      <strong>{excuseType.message.toUpperCase()}</strong>
       <br />
       &nbsp; {excuseType.description} &nbsp;
     </div>

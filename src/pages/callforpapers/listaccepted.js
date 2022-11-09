@@ -42,7 +42,7 @@ function AcceptedPapers() {
         <tbody>{DisplayData}</tbody>
       </BTable> */}
       {/* <br /> */}
-      {ExcuseCard(Excuses.TBA)}
+      {ExcuseCard(Excuses.Delay)}
     </div>
   );
 }

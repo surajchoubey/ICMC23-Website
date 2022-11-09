@@ -10,7 +10,7 @@ const UPLOADRECEIPT_LINK = "https://forms.gle/K1fB1b4vqwyq6Sf78"
 
 const NumberPoints = (props) => {
   return (
-    <li> 
+    <li>
       <p class="cta-text mb-2" style={{ fontWeight: '400', fontSize: '110%' }} align="justify"> {props.children} </p>
     </li>
   )
@@ -30,7 +30,7 @@ function PayRegFee() {
         </div>
         <ol>
           <NumberPoints> For making payment, click below on <b> PAY CONFERENCE FEES </b> link. It will direct you to SBI Collect Page. </NumberPoints>
-          <NumberPoints> After accepting terms and conditions, choose the following options: 
+          <NumberPoints> After accepting terms and conditions, choose the following options:
             <ul>
               <li> State of Corporate/Institution:  <b> Goa  </b> </li>
               <li> Type of Corporate/Institution: <b> Educational Institutions </b> </li>
@@ -47,12 +47,13 @@ function PayRegFee() {
             </ul>
           </NumberPoints>
           <NumberPoints> After successful payment, upload your payment receipt and provide conference registration details on <b> REGISTRATION </b> link below to successfully complete the registration process. </NumberPoints>
+          <NumberPoints> <p className="text-danger"><b>The registration link will remain open till November 10, 2022. </b></p></NumberPoints>
         </ol>
 
-          <div className="d-flex flex-wrap justify-content-around">
-            <a rel="nopener noreferrer" target="_blank" href={SBICOLLECT_LINK} class="black-button m-2"> PAY CONFERENCE FEES </a>
-            <a rel="nopener noreferrer" target="_blank" href={UPLOADRECEIPT_LINK} class="black-button m-2"> REGISTRATION </a>
-          </div>
+        <div className="d-flex flex-wrap justify-content-around">
+          <a rel="nopener noreferrer" target="_blank" href={SBICOLLECT_LINK} class="black-button m-2"> PAY CONFERENCE FEES </a>
+          <a rel="nopener noreferrer" target="_blank" href={UPLOADRECEIPT_LINK} class="black-button m-2"> REGISTRATION </a>
+        </div>
 
       </div>
       <div class="box" style={{ minHeight: "40px" }}></div>
