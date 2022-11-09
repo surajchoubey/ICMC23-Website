@@ -13,9 +13,14 @@ function sentenceCapitalize(s) {
 };
 */
 const upload_source_link = 'https://docs.google.com/forms/d/1usckkagyrU7L-bhV_TkiFXzWC8-6LmeSXwhixMdDT50/viewform?edit_requested=true';
+// const word_template_link_pdf = "documents/ICMC_LNNS_Word_Template.pdf";
+const word_template_link = "documents/ICMC_LNNS_Word_Template.docx";
+const latext_template_link = "documents/ICMC_LNNS_LaTex_Template.zip"
 
-const word_template_link = 'https://docs.google.com/document/d/1h-FaUN7iXfvoIUrzdZAFID8WHGJNiE7X/edit?usp=sharing&ouid=108636257006657033217&rtpof=true&sd=true';
-const latext_template_link = 'https://drive.google.com/file/d/1f4uGdVsl1p-P4W3GIJq8zk6_BV2pGXwj/view?usp=sharing';
+const series_link = 'https://www.springer.com/series/15179';
+
+// const word_template_link = 'https://docs.google.com/document/d/1h-FaUN7iXfvoIUrzdZAFID8WHGJNiE7X/edit?usp=sharing&ouid=108636257006657033217&rtpof=true&sd=true';
+// const latext_template_link = 'https://drive.google.com/file/d/1f4uGdVsl1p-P4W3GIJq8zk6_BV2pGXwj/view?usp=sharing';
 
 function AcceptedPapers() {
   /*
@@ -51,12 +56,13 @@ function AcceptedPapers() {
           <a class="black-button" href={upload_source_link} target="_blank" rel="noopener noreferrer">
             Upload Source file
           </a>
-        </div><br />Kindly note that the manuscript should be made according to the Springer Lecture Note in Networks and Systems (LNNNS) format (LaTeX template, Word template).
+        </div><br />
+        Kindly note that the manuscript should be made according to the Springer series: <a class="modern-link" href={series_link} target="_blank" rel="nopener noreferrer">Lecture notes in Networks and Systems</a> (LNNNS) format (LaTeX template, Word template).
       </p>
       <p>
 
-        <a class="modern-link" href={word_template_link} target="_blank" rel="nopener noreferrer"> <strong>Click Here</strong></a> For Sample Springer Paper Format (Word Template).<br /><p></p>
-        <a class="modern-link" href={latext_template_link} target="_blank" rel="nopener noreferrer"> <strong>Click Here</strong></a> For Sample Springer Paper Format (LaTex Template).
+        <a class="modern-link" href={word_template_link} target="_blank" rel="nopener noreferrer"> <strong> Click here for Sample Springer Paper Format (Word Template) </strong></a><br /><p></p>
+        <a class="modern-link" href={latext_template_link} target="_blank" rel="nopener noreferrer"> <strong> Click here For Sample Springer Paper Format (LaTex Template) </strong></a>.
       </p>
     </div>
   );
