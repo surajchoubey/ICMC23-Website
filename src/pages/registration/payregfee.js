@@ -47,7 +47,7 @@ function PayRegFee() {
             </ul>
           </NumberPoints>
           <NumberPoints> After successful payment, upload your payment receipt and provide conference registration details on <b> REGISTRATION </b> link below to successfully complete the registration process. </NumberPoints>
-          <NumberPoints> <p className="text-danger"><b>The registration link will remain open till November 10, 2022. </b></p></NumberPoints>
+          <NumberPoints> <p className="text-danger"><b>The registration link will remain open till November 15, 2022. </b></p></NumberPoints>
         </ol>
 
         <div className="d-flex flex-wrap justify-content-around">
