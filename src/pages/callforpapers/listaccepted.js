@@ -1,7 +1,6 @@
 import React from "react";
 // import JSONdata from "./employee.json";
 // import { acceptedList } from "./acceptedpapers";
-import { ExcuseCard, Excuses } from "../../layouts/excuses.js";
 // import BTable from "react-bootstrap/Table";
 // import "./styles.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
@@ -13,6 +12,10 @@ function sentenceCapitalize(s) {
   });
 };
 */
+const upload_source_link = 'https://docs.google.com/forms/d/1usckkagyrU7L-bhV_TkiFXzWC8-6LmeSXwhixMdDT50/viewform?edit_requested=true';
+
+const word_template_link = 'https://docs.google.com/document/d/1h-FaUN7iXfvoIUrzdZAFID8WHGJNiE7X/edit?usp=sharing&ouid=108636257006657033217&rtpof=true&sd=true';
+const latext_template_link = 'https://drive.google.com/file/d/1f4uGdVsl1p-P4W3GIJq8zk6_BV2pGXwj/view?usp=sharing';
 
 function AcceptedPapers() {
   /*
@@ -42,7 +45,19 @@ function AcceptedPapers() {
         <tbody>{DisplayData}</tbody>
       </BTable> */}
       {/* <br /> */}
-      {ExcuseCard(Excuses.Delay)}
+      {/*{ExcuseCard(Excuses.Delay)}*/}
+      <p style={{ textAlign: "justify" }}>
+        The authors of the accepted papers are requested to make corrections in accordance with the suggestions of the reviewers and upload the final camera-ready papers, within the deadline, in the link below:<br /><p></p><div className="d-flex justify-content-center">
+          <a class="black-button" href={upload_source_link} target="_blank" rel="noopener noreferrer">
+            Upload Source file
+          </a>
+        </div><br />Kindly note that the manuscript should be made according to the Springer Lecture Note in Networks and Systems (LNNNS) format (LaTeX template, Word template).
+      </p>
+      <p>
+
+        <a class="modern-link" href={word_template_link} target="_blank" rel="nopener noreferrer"> <strong>Click Here</strong></a> For Sample Springer Paper Format (Word Template).<br /><p></p>
+        <a class="modern-link" href={latext_template_link} target="_blank" rel="nopener noreferrer"> <strong>Click Here</strong></a> For Sample Springer Paper Format (LaTex Template).
+      </p>
     </div>
   );
 }
