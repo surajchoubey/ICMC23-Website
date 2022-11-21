@@ -223,11 +223,11 @@ const speakerList2 = [
     speaker02,
     (
       <div className="speakerText" style={{ marginTop: "25px" }}>
-        Department of Mathematics <br />
+        Department of Mathematical Sciences <br />
         IIT(BHU), Varanasi, India
       </div>
     ),
-    "https://www.iitbhu.ac.in/dept/mat/people/vksinghapm"
+    "https://www.iitbhu.ac.in/dept/mat/people/vksinghmat"
   ),
   new SpeakerHelper(
     "Dr. Muslim Malik",
@@ -316,6 +316,28 @@ const speakerList2 = [
       </div>
     ),
     "https://universe.bits-pilani.ac.in/pilani/tmathur/profile"
+  ),
+  new SpeakerHelper(
+    "Prof. Subir Das",
+    speaker07,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        Department of Mathematical Sciences, <br />
+        IIT(BHU), Varanasi, India
+      </div>
+    ),
+    "https://www.iitbhu.ac.in/dept/mat/people/sdasapm"
+  ),
+  new SpeakerHelper(
+    "Prof. Abhay Kumar Singh",
+    speaker07,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        Department of Mathematics & Computing, <br />
+        IIT(ISM) Dhanbad, India
+      </div>
+    ),
+    "https://people.iitism.ac.in/~abhay/"
   )
 ];
 
