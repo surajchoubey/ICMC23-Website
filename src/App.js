@@ -14,8 +14,9 @@ import Tracks from './pages/callforpapers/tracks';
 import Guidelines from './pages/callforpapers/guidelines';
 import SubmitPaper from './pages/callforpapers/submitpaper';
 import ListAccepted from './pages/callforpapers/listaccepted';
-import ConfRegFee from './pages/registration/confregfee';
-import PayRegFee from './pages/registration/payregfee';
+// import ConfRegFee from './pages/registration/confregfee';
+// import PayRegFee from './pages/registration/payregfee';
+import RegistrationNew from './pages/registration/registration-new'
 import PastEditions from './pages/pasteditions';
 import BPGCGoa from './pages/venue/bpgcgoa';
 import HowToReach from './pages/venue/howtoreach';
@@ -52,8 +53,9 @@ function App() {
 			<Route exact path='/callforpapers/guidelines' element = {<Guidelines />} />
 			<Route exact path='/callforpapers/submitpaper' element = {<SubmitPaper />} />
 			<Route exact path='/callforpapers/listaccepted' element = {<ListAccepted />} />
-			<Route exact path='/registration/confregfee' element = {<ConfRegFee />} />
-			<Route exact path='/registration/payregfee' element = {<PayRegFee />} />
+			<Route exact path='/registration' element = {<RegistrationNew />} />
+			{/* <Route exact path='/registration/confregfee' element = {<ConfRegFee />} /> */}
+			{/* <Route exact path='/registration/payregfee' element = {<PayRegFee />} /> */}
 			<Route exact path='/pasteditions' element = {<PastEditions />} />
 			<Route exact path='/venue/bpgc-goa' element = {<BPGCGoa />} />
 			<Route exact path='/venue/howtoreach' element = {<HowToReach />} />

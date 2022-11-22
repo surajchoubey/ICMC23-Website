@@ -64,11 +64,13 @@ function MyNavbar() {
 								<DropDownItem link={"/callforpapers/submitpaper/"} showname={"Submit your Paper"} />
 								<DropDownItem link={"/callforpapers/listaccepted/"} showname={"Accepted Papers"} />
 						</NavWithDropDown>
-
+{/* 
 						<NavWithDropDown name="Registration">
 								<DropDownItem link={"/registration/confregfee/"} showname={"Conference Fees"} />
 								<DropDownItem link={"/registration/payregfee/"} showname={"Payment and Registration"} />
-						</NavWithDropDown>
+						</NavWithDropDown> */}
+
+						<NavWithoutDropDown link={"/registration"} showname={"Registration"} />
 
 						<NavWithoutDropDown link={"/pasteditions"} showname={"Past Editions"} />
 
