@@ -26,6 +26,11 @@ const Excuses = {
     description: "Please note that we will give you an option for presenting your paper even if it gets rejected for publication in the conference proceeding. So kindly, plan accordingly.",
     helperClass: "alert alert-info alert-dismissible fade show",
   },
+  RegistrationsClosed: {
+    message: "REGISTRATIONS ARE CLOSED",
+    description: "No refund of the registration fee after November 22, 2022.",
+    helperClass: "alert alert-danger alert-dismissible fade show",
+  },
 };
 
 const ExcuseCard = (excuseType) => {

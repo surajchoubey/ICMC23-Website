@@ -39,7 +39,7 @@ function AcceptedPapers() {
       <div className="titleStyle1"> List of </div>
       <div className="titleStyle2"> Accepted Papers </div>
       <div class="divider" style={{ marginBottom: "30px" }}></div>
-      <h3 style={{ textAlign: 'left' }} > ACCEPTED ABSTRACT PAPERS FOR ORAL PRESENTATION </h3>
+      {/* <h3 style={{ textAlign: 'left' }} > ACCEPTED ABSTRACT PAPERS FOR ORAL PRESENTATION </h3> */}
       <BTable striped bordered hover responsive>
         <thead>
           <tr>
