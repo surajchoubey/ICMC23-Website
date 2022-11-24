@@ -34,7 +34,7 @@ function Home() {
                                 </h1>
                             </div>
                             <div class="d-flex" style={{textAlign: 'start'}}>
-                                <Link to="/registration/confregfee/" class="black-button" >Registration</Link>
+                                <Link to="/registration/" class="black-button" >Registration</Link>
                             </div>                                           
                             <div class="d-flex" style={{textAlign: 'start'}}>
                                 <h3 style={{fontWeight: '300'}}>JANUARY 6-8 | 2023</h3>
