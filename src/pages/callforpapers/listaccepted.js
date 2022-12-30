@@ -1,13 +1,13 @@
 import React from "react";
 // import JSONdata from "./employee.json";
- import { acceptedList } from "./acceptedpapers";
- import BTable from "react-bootstrap/Table";
+import { acceptedList } from "./acceptedpapers";
+import BTable from "react-bootstrap/Table";
 // import "./styles.css";
- import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 
 function sentenceCapitalize(s) {
-  return s.toLowerCase().replace( /\b./g, (word) => {
+  return String(s).toLowerCase().replace(/\b./g, (word) => {
     return word.toUpperCase();
   });
 };
@@ -23,21 +23,32 @@ const series_link = 'https://www.springer.com/series/15179';
 // const latext_template_link = 'https://drive.google.com/file/d/1f4uGdVsl1p-P4W3GIJq8zk6_BV2pGXwj/view?usp=sharing';
 
 function AcceptedPapers() {
-  const DisplayData = acceptedList.map((info) => {
-    return (
-      <tr>
-        <td style={{ textAlign: 'left' }}> { sentenceCapitalize(info["SR NO"]) } </td>
-        <td style={{ textAlign: 'left' }}> { sentenceCapitalize(info.AUTHORS) } </td>
-        <td style={{ textAlign: 'left' }}> { sentenceCapitalize(info.TITLE) } </td>
-        <td style={{ textAlign: 'left' }}> { sentenceCapitalize(info["Paper ID"]) } </td>
-      </tr>
-    );
-  });
+  // === DEPRECIATED THIS AND USED SIMPLE ARRAYS INSTEAD FOR EASIER & FASTER IMPLEMENTATION ===
+  //const DisplayData = acceptedList.map((info) => {
+  //  return (
+  //    <tr>
+  //      <td style={{ textAlign: 'left' }}> {sentenceCapitalize(info["SR NO"])} </td>
+  //      <td style={{ textAlign: 'left' }}> {sentenceCapitalize(info.AUTHORS)} </td>
+  //      <td style={{ textAlign: 'left' }}> {sentenceCapitalize(info.TITLE)} </td>
+  //      <td style={{ textAlign: 'left' }}> {sentenceCapitalize(info["Paper ID"])} </td>
+  //    </tr>
+  //  );
+  //});
+
+  const DisplayData = acceptedList.map((info) =>
+    <tr>
+      {
+        info.map((_, i) =>
+          <td style={{ textAlign: 'left' }}> {sentenceCapitalize(info[i])} </td>
+        )
+      }
+    </tr>
+  );
 
   return (
     <div className="container">
       <div className="titleStyle1"> List of </div>
-      <div className="titleStyle2"> Accepted Papers </div>
+      <div className="titleStyle2"> Registered Accepted Papers </div>
       <div class="divider" style={{ marginBottom: "30px" }}></div>
       {/* <h3 style={{ textAlign: 'left' }} > ACCEPTED ABSTRACT PAPERS FOR ORAL PRESENTATION </h3> */}
       <BTable striped bordered hover responsive>
