@@ -33,8 +33,9 @@ function Home() {
                                     ICMC 2023
                                 </h1>
                             </div>
-                            <div class="d-flex" style={{textAlign: 'start'}}>
+                            <div class="d-flex-inline" style={{textAlign: 'start'}}>
                                 <Link to="/registration/" class="black-button" >Registration</Link>
+                                <a download href="documents/ICMC2023_Programme Schedule.pdf" class="black-button m-2" >Schedule <i class="fa fa-download" aria-hidden="true"></i></a>
                             </div>                                           
                             <div class="d-flex" style={{textAlign: 'start'}}>
                                 <h3 style={{fontWeight: '300'}}>JANUARY 6-8 | 2023</h3>
