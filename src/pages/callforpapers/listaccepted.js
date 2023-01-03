@@ -74,8 +74,8 @@ function AcceptedPapers() {
       </p>
       <p>
 
-        <a class="modern-link" href={word_template_link} target="_blank" rel="nopener noreferrer"> <strong> Click here for Sample Springer Paper Format (Word Template) </strong></a><br /><p></p>
-        <a class="modern-link" href={latext_template_link} target="_blank" rel="nopener noreferrer"> <strong> Click here For Sample Springer Paper Format (LaTex Template) </strong></a>.
+        <a class="modern-link" href={word_template_link} download> <strong> Click here for Sample Springer Paper Format (Word Template) </strong></a><br /><p></p>
+        <a class="modern-link" href={latext_template_link} download> <strong> Click here For Sample Springer Paper Format (LaTex Template) </strong></a>.
       </p>
     </div>
   );
