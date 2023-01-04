@@ -9,6 +9,9 @@ import icmclogo from "./about/icmc-logo.jpg"
 import crslogo from "../images/icons/CryptologyResearchSocietofIndia.png";
 import rmslogo from "../images/icons/RamanujanMathematicalSociety.png";
 import setslogo from "../images/icons/SocietyforElectronicTransactions&Security(SETS).png";
+import drdo from '../images/icons/drdo.png';
+import nserb from '../images/icons/nserb.png';
+import gormint from '../images/icons/gormint.png';
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
@@ -53,26 +56,49 @@ function Home() {
             <Timer />
              <section className="section-carousel">
                 <h2 className="my-5 text-center">IN ASSOCIATION WITH</h2>
-        <div class="container-fluid test">
-          <OwlCarousel
-            items={3}
-            className="owl-theme px-5"
-            loop
-            nav
-            margin={15}
-          >
-            <div>
-              <img className="img px-lg-5" src={rmslogo} alt="" />
-            </div>
-            <div>
-              <img className="img px-lg-5" src={setslogo} alt="" />
-            </div>
-            <div>
-              <img className="img px-lg-5" src={crslogo} alt="" />
-            </div>
-          </OwlCarousel>
-        </div>
-      </section>
+                <div class="container-fluid test">
+                <OwlCarousel
+                    items={3}
+                    className="owl-theme px-5"
+                    loop
+                    nav
+                    margin={15}
+                >
+                    <div>
+                    <img className="img px-lg-5" src={rmslogo} alt="" />
+                    </div>
+                    <div>
+                    <img className="img px-lg-5" src={setslogo} alt="" />
+                    </div>
+                    <div>
+                    <img className="img px-lg-5" src={crslogo} alt="" />
+                    </div>
+                </OwlCarousel>
+                </div>
+            </section>
+
+            <section className="section-carousel">
+                <h2 className="my-5 text-center">SPONSORED BY</h2>
+                <div class="container-fluid test">
+                <OwlCarousel
+                    items={3}
+                    className="owl-theme px-5"
+                    loop
+                    nav
+                    margin={15}
+                >
+                    <div>
+                    <img className="img px-lg-5" src={gormint} alt="" />
+                    </div>
+                    <div>
+                    <img className="img px-lg-5" src={drdo} alt="" />
+                    </div>
+                    <div>
+                    <img className="img px-lg-5" src={nserb} alt="" />
+                    </div>
+                </OwlCarousel>
+                </div>
+            </section>
 
             <div class="container my-5 py-0">
                 <div class="row  justify-content-center align-middle">             
