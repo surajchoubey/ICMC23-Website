@@ -1,10 +1,11 @@
 import React from 'react'
-import {useState, useEffect} from 'react';
+// import {useState, useEffect} from 'react';
 
 // Change date from here and NOT from Timer function
-const date = new Date("01/05/2023 09:00:00");
+// const date = new Date("01/05/2023 09:00:00");
 
 const Timer = () => {
+    /*
     var endDate = new Date(date);
     const curTime = new Date();
     var secs = (endDate.getTime() - curTime.getTime()) / 1000;
@@ -49,6 +50,8 @@ const Timer = () => {
         };
     });
 
+    */
+
     let TimerCard = ({count,word}) => {
         return (
             <div className="card col-lg-2 col-md-3 col-sm-3 px-0 py-lg-5 col" >
@@ -66,10 +69,10 @@ const Timer = () => {
                 <h2 className="my-3">CONFERENCE BEGINS IN</h2>
                 <div className="container mb-5">
                     <div className="row justify-content-center px-2">
-                        <TimerCard count={days} word="DAYS" />
-                        <TimerCard count={hours} word="HRS" />
-                        <TimerCard count={minutes} word="MINS" />
-                        <TimerCard count={seconds} word="SECS" />
+                        <TimerCard count={0} word="DAYS" />
+                        <TimerCard count={0} word="HRS" />
+                        <TimerCard count={0} word="MINS" />
+                        <TimerCard count={0} word="SECS" />
                     </div>
                 </div>
             </div>

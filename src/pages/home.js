@@ -19,12 +19,14 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 const homepg_text = ", a well-known all-India Institute for higher education. In keeping with the tradition of innovation and creativity, a state-of-the-art touch is given to the infrastructure of the entire institute without diminishing, in the least, the natural beauty of Goa surrounding the campus. Spacious labs, classrooms with soundproof acoustics, modern furniture, library and computer labs with internet facility define the infrastructural counters of the institution."
 const homepg_text2 = "ICMC 2023 aims to bring together both novice and experienced scientists with developers, to meet new colleagues, collect new ideas and establish new cooperation between research groups and provide a platform for researchers from academic and industry to present their original work and exchange ideas, information, techniques and applications in the field of Computational Applied Mathematics."
 
+const accepted_papers = "https://link.springer.com/book/10.1007/978-981-99-3080-7"
+
 function Home() {
     return (
         <div>
             <div class="container">
                 <div class="row align-items-around">
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-md-7">
                         <div class="p-4" style={{minHeight: '500px', display: 'flex', flexDirection:'column', justifyContent: 'space-around', alignSelf: 'center'}}>
                             <div class="d-flex">
                                 <h1 style={{textAlign: 'start', fontWeight:'300', color: 'grey'}}>
@@ -37,7 +39,7 @@ function Home() {
                                 </h1>
                             </div>
                             <div class="d-flex-inline" style={{textAlign: 'start'}}>
-                                <Link to="/registration/" class="black-button m-1" >Registration</Link>
+                                <a href={accepted_papers} target="_blank" rel="noopener noreferrer" class="black-button m-1" > Accepted Papers </a>
                                 <a download href="documents/ICMC2023_Programme Schedule.pdf" class="black-button m-1" >Schedule <i class="fa fa-download" aria-hidden="true"></i></a>
                             </div>                                           
                             <div class="d-flex" style={{textAlign: 'start'}}>
@@ -45,7 +47,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 d-flex justify-content-center">
+                    <div class="col-sm-12 col-md-5 d-flex justify-content-center">
                         <div class="d-flex align-items-center" style={{display: 'flex', flexDirection:'row', alignSelf: 'center'}}>
                             <img src={BITSDome} alt="" class="img-fluid"/>
                         </div>
