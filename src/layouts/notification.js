@@ -12,15 +12,15 @@ const Style = {
 };
 
 const Notification = () => {
-  const Text1 = "The conference will be in hybrid mode";
-  const Text2 = "but more preferable for offline mode.";
+  const Text1 = "The accepted papers have been published! They can be accessed by clicking on";
+  const Text2 = "ACCEPTED PAPERS";
 
   return (
     <>
-        <div class="alert alert-info d-flex" role="alert">
+        <div class="alert alert-success d-flex" role="alert">
         <div class="alignleft"></div>
-        <div class="aligncenter"> <strong> {Text1} </strong> &nbsp;{Text2} </div>
-        <div class="alignright"> <button style={Style} type="button" class="close" data-dismiss="alert"> {""}&times;{""} </button> </div>
+        <div class="aligncenter">{Text1} <strong> {Text2}</strong>. </div>
+        <div class="alignright"> <button style={Style} type="button" class="close" data-dismiss="alert">{""}{""}</button> </div>
         </div>
     </>
   );
