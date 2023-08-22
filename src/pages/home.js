@@ -39,7 +39,7 @@ function Home() {
                                 </h1>
                             </div>
                             <div class="d-flex-inline" style={{textAlign: 'start'}}>
-                                <a href={accepted_papers} target="_blank" rel="noopener noreferrer" class="black-button m-1" > Accepted Papers </a>
+                                <a href={accepted_papers} target="_blank" rel="noopener" class="black-button m-1" > Accepted Papers </a>
                                 <a download href="documents/ICMC2023_Programme Schedule.pdf" class="black-button m-1" >Schedule <i class="fa fa-download" aria-hidden="true"></i></a>
                             </div>                                           
                             <div class="d-flex" style={{textAlign: 'start'}}>
